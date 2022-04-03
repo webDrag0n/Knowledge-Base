@@ -8,8 +8,9 @@
 	- ==https://cn.logseq.com/==
 	-
 - 入门
+	- [Official Tutorial](https://docs.logseq.com/#/page/tutorial)
+	- [markdown-cheat-sheet](markdown-cheat-sheet)
 	- https://zhuanlan.zhihu.com/p/441457813
 	- https://pwa.sspai.com/post/69503
 	- [markdown-cheat-sheet](https://cn.logseq.com/t/topic/91)
-	- [markdown-cheat-sheet](markdown-cheat-sheet)
-	- [Of]
+	-
