@@ -2,6 +2,7 @@
 	- https://github.com/logseq/logseq
 	-
 - Markdown 文档
+  id:: 6249ba5b-b3e7-4878-8cb1-7d7dc1209932
 	- ==https://www.markdownguide.org/tools/logseq/==、
 	-
 - 中文社区
