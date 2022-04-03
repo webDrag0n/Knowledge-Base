@@ -1,5 +1,8 @@
 - Markdown 文档
 	- ==https://www.markdownguide.org/tools/logseq/==
 - 中文社区
-- ==https://cn.logseq.com/==
--
+	- ==https://cn.logseq.com/==
+- 入门
+	- https://zhuanlan.zhihu.com/p/441457813
+	- https://pwa.sspai.com/post/69503
+	-
