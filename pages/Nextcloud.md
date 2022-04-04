@@ -1,2 +1,5 @@
 - Configuration Parameters
 	- Documentation link: https://docs.nextcloud.com/server/19/admin_manual/configuration_server/config_sample_php_parameters.html?highlight=overwrite%20cli%20url
+- 如何增加信任域名
+	- https://help.nextcloud.com/t/howto-add-a-new-trusted-domain/26
+- 几个重要的配置文件位置
