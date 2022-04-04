@@ -1,5 +1,4 @@
 - [我的个人网页](webdrag0n.github.io)
-- {{embed ((abc))}}
 - ---
 - [[Logseq 相关]]
 - [[Nextcloud]]

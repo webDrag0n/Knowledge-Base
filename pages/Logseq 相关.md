@@ -9,6 +9,7 @@
 	- ==https://cn.logseq.com/==
 	-
 - 入门
+  id:: 6249ba8f-d84b-4164-8a3d-9949f2fb3758
 	- [Official Tutorial](https://docs.logseq.com/#/page/tutorial)
 	- [markdown-cheat-sheet](markdown-cheat-sheet)
 	- https://zhuanlan.zhihu.com/p/441457813
