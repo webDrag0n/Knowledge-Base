@@ -1,15 +1,6 @@
-[{:block/name "a",
-  :block/created-at 1649002343067,
-  :block/updated-at 1649002343067}
- {:block/name "apr 4th, 2022",
+[{:block/name "apr 4th, 2022",
   :block/created-at 1649030400000,
   :block/updated-at 1649030400000}
- {:block/name "b",
-  :block/created-at 1649002343067,
-  :block/updated-at 1649002343067}
- {:block/name "c",
-  :block/created-at 1649002343067,
-  :block/updated-at 1649002343067}
  {:block/name "card",
   :block/created-at 1649054142907,
   :block/updated-at 1649054142907}
