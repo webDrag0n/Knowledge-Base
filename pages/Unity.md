@@ -4,4 +4,5 @@
 	- [What is the proper way to handle data between scenes?](https://gamedev.stackexchange.com/questions/110958/what-is-the-proper-way-to-handle-data-between-scenes)
 - Scriptable Object
 	- https://www.youtube.com/watch?v=WLDgtRNK2VE demo
+	- https://youtu.be/7jxS8HIny3Q detail
 -
