@@ -7,4 +7,4 @@
 	- apache2配置文件
 		- /etc/apache2/sites-available/nextcloud.conf
 		- /etc/apache2/sites-enabled/nextcloud.conf
-		- 以上两个文件内容相同，在available文件夹中
+		- 以上两个文件内容相同，在available文件夹中为可选未启动，放入enabled文件夹中以后并执行sudo service apache2 restart重启apache2服务后，该配置文件对应的设置生效
