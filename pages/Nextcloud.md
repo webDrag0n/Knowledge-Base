@@ -7,10 +7,8 @@
 	- apache2配置文件
 		- /etc/apache2/sites-available/nextcloud.conf
 		- /etc/apache2/sites-enabled/nextcloud.conf
-		- 以上两个文件内容相同，在available文件夹中为可选未启动，放入enabled文件夹中以后并执行
+		- 以上两个文件内容相同，ssl证书，在available文件夹中为可选未启动，放入enabled文件夹中以后并执行
 			- ```bash
 			  sudo service apache2 restart
 			  ```
-		- 完成配置
--
--
+			- 完成配置
