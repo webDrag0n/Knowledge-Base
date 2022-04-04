@@ -6,4 +6,5 @@
 	- nextcloud自身配置文件
 	- apache2配置文件
 		- /etc/apache2/sites-available/nextcloud.conf
-		- /etc/apache2/sites-
+		- /etc/apache2/sites-enabled/nextcloud.conf
+		- 以上两个文件内容相同，在available文件夹中
