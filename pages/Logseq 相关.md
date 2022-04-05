@@ -19,4 +19,4 @@
   shift + enter
   直接enter会添加新的块（block）
 - ### 导出Github Pages后的网页链接
-  "[https://webdrag0n.github.io/](https://webdrag0n.github.io/)"
+  "[https://webdrag0n.github.io/](https://webdrag0n.github.io/)" 和 "[[https://webdrag0n.github.io/]]" 的形式都只会创建一个以该网址为
