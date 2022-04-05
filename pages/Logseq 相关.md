@@ -17,4 +17,5 @@
 	- [markdown-cheat-sheet](https://cn.logseq.com/t/topic/91)
 - 块内换行
   shift + enter
+  直接enter会添加新的块（block）
 -
