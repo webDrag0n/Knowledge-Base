@@ -18,5 +18,5 @@
 - ### 块内换行
   shift + enter
   直接enter会添加新的块（block）
-- ### 导出Github Pages后的网页链接
-  [https://webdrag0n.github.io/](https://webdrag0n.github.io/) 和 [[https://webdrag0n.github.io/]] 的形式都只会创建一个以该网址为名的页面，应该直接粘贴带https://协议标识的网页链接
+	- ### 导出Github Pages后的网页链接
+	  直接写[webdrag0n.github.io](https://webdrag0n.github.io/)的形式都只会创建一个以该网址为名的页面，应该直接粘贴带https://协议标识的网页链接
