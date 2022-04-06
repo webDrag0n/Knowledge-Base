@@ -3,6 +3,7 @@
 - [[Logseq 相关]]
 - [[Nextcloud]]
 - [[Unity]]
+- [[Python]]
 -
 - ### 项目开发日志
 	- [[FUNCTION开发日志]]
