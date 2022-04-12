@@ -6,7 +6,7 @@
 	- [https://www.youtube.com/watch?v=WLDgtRNK2VE](https://youtu.be/WLDgtRNK2VE) demo
 	- https://youtu.be/7jxS8HIny3Q detailed explained
 - ### 多线程
--
+- Unity中可以编写c#脚本实现多线程，但是不支持线程安全
 -
 -
 - Unity相关项目
