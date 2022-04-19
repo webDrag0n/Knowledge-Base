@@ -1,7 +1,12 @@
 - Long-Short Term Memory
+- https://zhuanlan.zhihu.com/p/42717426
+- https://zhuanlan.zhihu.com/p/32085405
+-
 - https://medium.com/swlh/a-simple-overview-of-rnn-lstm-and-attention-mechanism-9e844763d07b
 - ### Attention
 	- https://zhuanlan.zhihu.com/p/47282410
 	- #### Attention is all you need
 		- https://arxiv.org/abs/1706.03762
-		-
+		- https://paperswithcode.com/paper/attention-is-all-you-need
+	- https://towardsdatascience.com/illustrated-self-attention-2d627e33b20a
+	-
