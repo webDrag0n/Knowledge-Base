@@ -5,6 +5,8 @@
 - [[Unity]]
 - [[Python]]
 -
+- ### 算法
+- [[Knight's Tour]]
 -
 -
 - ### 项目开发相关
