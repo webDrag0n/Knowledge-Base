@@ -1,7 +1,9 @@
-- ZeroTier官方服务器
+- 使用ZeroTier官方服务器
+	- https://www.zerotier.com/pricing/
 	-
 - Linux搭建ZeroTier的Moon服务器
 	- https://www.itblogcn.com/article/1815.html
+	- https://docs.zerotier.com/self-hosting/network-controllers/?utm_source=ztp
 - Docker安装ZeroTier
 	- https://www.itblogcn.com/article/1818.html
 	-
