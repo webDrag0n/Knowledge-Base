@@ -6,4 +6,6 @@
 	- https://docs.zerotier.com/self-hosting/network-controllers/?utm_source=ztp
 - Docker安装ZeroTier
 	- https://www.itblogcn.com/article/1818.html
-	-
+-
+- Parsec + ZeroTier
+-
