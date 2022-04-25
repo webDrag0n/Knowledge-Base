@@ -12,3 +12,5 @@
 			  sudo service apache2 restart
 			  ```
 			- 完成配置
+- ### 数据目录权限
+- {{embed ((c0a1706b-a747-4d5b-9d9e-c2fbf387665a))}}
