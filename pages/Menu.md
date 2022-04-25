@@ -3,6 +3,7 @@
 - [[Logseq 相关]]
 - [[Nextcloud]]
 - [[Python]]
+- [[Linux]]
 -
 - ### 算法
 - [[Knight's Tour]]

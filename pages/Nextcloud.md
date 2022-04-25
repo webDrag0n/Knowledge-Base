@@ -12,6 +12,3 @@
 			  sudo service apache2 restart
 			  ```
 			- 完成配置
-- drwxr-xr-x权限：
-	- 目录所有者可
-	- sudo chmod -755 directory
