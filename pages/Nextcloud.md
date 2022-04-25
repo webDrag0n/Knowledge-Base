@@ -12,3 +12,4 @@
 			  sudo service apache2 restart
 			  ```
 			- 完成配置
+- drwxr-xr-x
