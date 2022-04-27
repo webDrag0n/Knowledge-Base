@@ -4,6 +4,7 @@
 - [[Nextcloud]]
 - [[Python]]
 - [[Linux]]
+- [[Keras]]
 -
 - ### 算法
 - [[Knight's Tour]]
