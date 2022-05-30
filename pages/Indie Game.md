@@ -1,4 +1,6 @@
 - TIPS：
+	- First game should be tiny
+	- Don't make anything from scratch
 	-
 - ► Get the ULTIMATE GAME ARTIST bundle for 50% off: [https://www.fulltimegamedev.com/ultim...](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbEptWTNBSzlZaWkyM3FRcnE5TXYyNG5WN1RxUXxBQ3Jtc0trc2g4dzdQOFFtZUswemFJYzZ5ZEFqOTQyVXQxTmJ6cXpNbGgzcDNBZWVZdGRRd09BYnl5Rk5admRENnlLa1Z2UFIzbjNOTGtvOXJsWm1PbzRQdldUd1BwQkNQTUFUYU5TYUlLeTQ2QzU0YkFIaWcwNA&q=https%3A%2F%2Fwww.fulltimegamedev.com%2Fultimate-game-art-bundle&v=-FIu9SGvQZc)
   ► Learn Game Dev (Get 25% off with code LETSGAMEDEV): https://www.fulltimegamedev.com/
