@@ -4,6 +4,7 @@
 - [[Nextcloud]]
 - [[Python]]
 - [[Linux]]
+- [[Windows]]
 - [[Keras]]
 -
 - ### 算法
@@ -20,6 +21,9 @@
 -
 - ### 学术相关
 	- [[学术论文写作]]
+-
+- ### Chess
+	-
 -
 - [[LSTM]]
 - [[ZeroTier]]
