@@ -77,8 +77,8 @@
 		-
 	-
 	- 底层世界
-		- ![image.png](../assets/image_1655285054816_0.png)
 		- 看到小偷在父亲的尸体旁边拿东西的慢动作
+		- ![image.png](../assets/image_1655285054816_0.png)
 		- ![image.png](../assets/image_1655285072779_0.png)
 		- ![image.png](../assets/image_1655285105314_0.png)
 		- ![image.png](../assets/image_1655286547085_0.png)
