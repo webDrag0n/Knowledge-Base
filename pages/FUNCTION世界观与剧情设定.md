@@ -84,6 +84,7 @@
 		- ![image.png](../assets/image_1655286547085_0.png)
 		- 主角回忆发生了什么
 			- 测试操作
+				- 睁眼
 				- 前后左右移动
 				- 转视角
 				- ![image.png](../assets/image_1655382269325_0.png)
