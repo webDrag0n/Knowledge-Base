@@ -6,7 +6,7 @@
 - [[Linux]]
 - [[Windows]]
 - [[Keras]]
--
+- [[Kubernetes]]
 -
 - ### 算法
 - [[Knight's Tour]]
