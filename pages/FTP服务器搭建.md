@@ -1,1 +1,5 @@
-- # 下载
+- # 下载vsftpd
+	- ```bash
+	  sudo apt install vsftpd
+	  ```
+	-
