@@ -14,6 +14,7 @@
 	  ```
 - ### passive与active模式
 - # ftp客户端
-	- [Filezilla](https://filezilla-project.org/)
-	-
+	- [Filezilla](https://filezilla-project.org/)（注意安装时不要安装捆绑浏览器！！！）
+	- WinSCP（在passive模式下有奇怪的bug会导致无法与目录和文件交互）
+	- 总结，
 -
