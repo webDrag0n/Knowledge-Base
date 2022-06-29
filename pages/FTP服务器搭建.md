@@ -1,8 +1,8 @@
 - # 安装vsftpd
-- ```bash
-  sudo apt update
-  sudo apt install vsftpd
-  ```
+	- ```bash
+	  sudo apt update
+	  sudo apt install vsftpd
+	  ```
 - # 建立ftp专用用户和用户组
 -
 - # 配置vsftpd.conf
