@@ -1,3 +1,4 @@
+- 参考腾讯云[Linux云服务器搭建FTP服务-最佳实践](https://cloud.tencent.com/document/product/213/10912)
 - # 安装vsftpd
 	- ```bash
 	  sudo apt update
