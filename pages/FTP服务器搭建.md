@@ -42,8 +42,6 @@
 	- 3，配置文件conf中几个常用配置
 	- allow_writeable_chroot=YES  ； 添加写权限
 	- local_root=/var/ftp  ；  出初始登录目录
-	- ```bash
-	  ```
 - ## 启动vsftpd服务
 	- ```bash
 	  systemctl service vsftpd enable
