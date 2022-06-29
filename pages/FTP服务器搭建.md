@@ -4,7 +4,9 @@
 	  sudo apt install vsftpd
 	  ```
 - # 建立ftp专用用户和用户组
--
+	- ```bash
+	  sudo useradd 
+	  ```
 - # 配置vsftpd.conf
 	- ```bash
 	  sudo vim /etc/vsftpd.conf
