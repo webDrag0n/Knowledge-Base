@@ -46,8 +46,8 @@
 	  chroot_list_file=/etc/vsftpd/chroot_list
 	  listen=YES
 	  ```
-	- ii. 在行首添加 #，注释 listen_ipv6=YES 配置参数，关闭监听 IPv6 sockets。
-	  #listen_ipv6=YES
+	- ii. 在行首添加 “#”，注释 #，listen_ipv6=YES 配置参数，关闭监听 IPv6 sockets。
+	  listen_ipv6=YES
 	- iii. 添加以下配置参数，开启被动模式，设置本地用户登录后所在目录，以及云服务器建立数据传输可使用的端口范围值。
 	  ```bash
 	  local_root=/var/ftp/test
