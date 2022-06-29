@@ -30,10 +30,11 @@
 	  ```
 	- 扩展请参考chown 命令，更改文件夹的拥有者，注意和chmod命令的差别
 - ## 配置vsftpd.conf
-	- 执行以下命令，打开 vsftpd.conf 文件。
-	  ```vim /etc/vsftpd/vsftpd.conf```
-	  按 i 切换至编辑模式，根据实际需求选择 FTP 模式，修改配置文件 vsftpd.conf：
+- 执行以下命令，打开 vsftpd.conf 文件。
+  ```vim /etc/vsftpd/vsftpd.conf```
+  按 i 切换至编辑模式，根据实际需求选择 FTP 模式，修改配置文件 vsftpd.conf：
 	- 注意:
+	  background-color:: #978626
 	  FTP 可通过主动模式和被动模式与客户端机器进行连接并传输数据。由于大多数客户端机器的防火墙设置及无法获取真实 IP 等原因，建议您选择被动模式搭建 FTP 服务。如下修改以设置被动模式为例，您如需选择主动模式，请前往 设置 FTP 主动模式。
 - i. 修改以下配置参数，设置匿名用户和本地用户的登录权限，设置指定例外用户列表文件的路径，并开启监听 IPv4 sockets。
   ```bash
