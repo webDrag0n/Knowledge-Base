@@ -24,11 +24,25 @@
 	  passwd ftpuser
 	  ```
 	- 按照提示输入对应的密码
-	- 3，权限：chown ftpuser /home/ftpuser/
+	- 3，权限：
+	- ```bash
+	  chown ftpuser /home/ftpuser/
+	  ```
 	- 扩展请参考chown 命令，更改文件夹的拥有者，注意和chmod命令的差别
 - ## 配置vsftpd.conf
+	- 1，ftp的配置文件在为：/etc/vsftpd/vsftpd.conf
+	- 2，配置文件
+	- anonymous_enable=NO   ；禁止匿名登录
+	- chroot_list_enable=YES   ； 使用chroot方式配置权限
+	- chroot_list_file=/etc/vsftpd/chroot_list   ； 指定chroot文件的位置
+	- vim /etc/vsftpd/chroot_list   ;  打开chroot文件
+	- 加入一行，ftpuser
+	- 即刚才创建的用户名，在这个文件里面的用户可以登录FTP，并访问其他目录
+	- 重启FTP，查看文章第一模块的重启命令
+	- 3，配置文件conf中几个常用配置
+	- allow_writeable_chroot=YES  ； 添加写权限
+	- local_root=/var/ftp  ；  出初始登录目录
 	- ```bash
-	  vim /etc/vsftpd.conf
 	  ```
 - ## 启动vsftpd服务
 	- ```bash
