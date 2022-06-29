@@ -7,6 +7,7 @@
 - [[Windows]]
 - [[Keras]]
 - [[Kubernetes]]
+- [[FTP服务器搭建]]
 -
 - ### 算法
 - [[Knight's Tour]]
