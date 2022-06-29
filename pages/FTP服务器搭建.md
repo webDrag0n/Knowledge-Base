@@ -8,9 +8,8 @@
 	- 1，创建：
 	- -d 指定用户根目录
 	- -s 用户登录方式，nologin禁用ssh，使用ftp登录
-	- 扩展，查看存在的用户 cat /etc/passwd
-	- 扩展，修改，
 	- ```bash
+	  - useradd -d /home/ftpuser -s /sbin/nologin ftpuser
 	  ```
 	- ```bash
 	  
