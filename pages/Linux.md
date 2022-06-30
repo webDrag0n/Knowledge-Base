@@ -6,17 +6,21 @@
 -
 - ## Linux安装Windows应用
 	- ### 微信
-		- echo "install wine"
-		  sudo apt install wine
-		- echo "install winetricks"
-		  sudo apt install winetricks
-		  winetricks riched20
-		  winetricks fakechinese
-		- echo "change to win10"
-		  winecfg
+		- ```bash
+		  - echo "install wine"
+		    sudo apt install wine
+		  - echo "install winetricks"
+		    sudo apt install winetricks
+		    winetricks riched20
+		    winetricks fakechinese
+		  - echo "change to win10"
+		    winecfg
+		  ```
 		- 下载微信Windows安装包并在下载目录打开终端
-		- echo "install weichart"
-		  env LANG="zh_CN.UTF-8" wine WeChatSetup.exe
-		- echo "install front"
-		  echo "LANG=zh_CN.UTF-8" >> ~/.local/share/applications/wine/Programs/微信/微信.desktop
-		- echo "restart system"
+		- ```bash
+		  - echo "install weichart"
+		    env LANG="zh_CN.UTF-8" wine WeChatSetup.exe
+		  - echo "install front"
+		    echo "LANG=zh_CN.UTF-8" >> ~/.local/share/applications/wine/Programs/微信/微信.desktop
+		  - echo "restart system"
+		  ```
