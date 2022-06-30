@@ -14,7 +14,7 @@
 		  winetricks fakechinese
 		- echo "change to win10"
 		  winecfg
-		- 此处下载微信Windows安装包并
+		- 下载微信Windows安装包并在下载目录打开终端
 		- echo "install weichart"
 		  env LANG="zh_CN.UTF-8" wine WeChatSetup.exe
 		- echo "install front"
