@@ -37,6 +37,9 @@
  {:block/name "favorites",
   :block/created-at 1649002343067,
   :block/updated-at 1649002343067}
+ {:block/name "ftp服务器搭建",
+  :block/created-at 1656489342322,
+  :block/updated-at 1656491122027}
  {:block/name "function世界观与剧情设定",
   :block/created-at 1655282752202,
   :block/updated-at 1655561089262}
@@ -78,7 +81,7 @@
   :block/updated-at 1649002343067}
  {:block/name "linux",
   :block/created-at 1655388088055,
-  :block/updated-at 1655388088055}
+  :block/updated-at 1656554427080}
  {:block/name "logseq 相关",
   :block/created-at 1648998829677,
   :block/updated-at 1649137553731}
@@ -90,7 +93,7 @@
   :block/updated-at 1648999562097}
  {:block/name "menu",
   :block/created-at 1649057368722,
-  :block/updated-at 1655801188642}
+  :block/updated-at 1656489342323}
  {:block/name "nextcloud",
   :block/created-at 1648998179559,
   :block/updated-at 1653845444947}
