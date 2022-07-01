@@ -3,7 +3,8 @@
 	  id:: c0a1706b-a747-4d5b-9d9e-c2fbf387665a
 		- 目录所有者可读写执行，其他用户只能读写不能执行
 		- sudo chmod -755 directory
--
+- ## 服务搭建
+	- [[FTP服务器搭建]]
 - ## Linux安装Windows应用
 	- ### 微信
 		- ```bash
