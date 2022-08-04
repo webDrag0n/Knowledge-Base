@@ -1,4 +1,6 @@
--
+- ## 一些重要文件的名字，位置与功能
+	- /etc/bash.bashrc
+		-
 - ## 安全
 	- ### 分用户日志
 		- 参考 [Linux下记录所有用户的登录和操作日志](https://blog.51cto.com/xuaijun/2821502)
