@@ -1,14 +1,15 @@
 - ## 一些重要文件的名字，位置与功能
 	- etc
 		- bash.bashrc
-			- 当交互式终端打开时被执行，默认会引用并执行((62eb948c-87d4-4004-8131-6dcd549c8e0a))
+		  id:: 62eb946d-a94f-4486-880a-06594b75aec2
+			- 当交互式终端打开时被执行，默认会引用并执行 ((62eb948c-87d4-4004-8131-6dcd549c8e0a))
 		- profile
 		  id:: 62eb948c-87d4-4004-8131-6dcd549c8e0a
 			- 当ssh登录发生时被执行
 - ## 安全
 	- ### 分用户日志
 		- 参考 [Linux下记录所有用户的登录和操作日志](https://blog.51cto.com/xuaijun/2821502)
-		- 在/etc/bash.bashrc中加入
+		- 在 ((62eb946d-a94f-4486-880a-06594b75aec2)) 中加入
 		- ```bash
 		  history
 		  USER=`whoami`
