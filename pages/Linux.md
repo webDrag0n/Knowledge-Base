@@ -1,11 +1,14 @@
-- ### 权限
-	- drwxr-xr-x权限：
-	  id:: c0a1706b-a747-4d5b-9d9e-c2fbf387665a
-		- 目录所有者可读写执行，其他用户只能读写不能执行
-		- sudo chmod -755 directory
+- ## 用户与
+	- ### 权限管理
+		- drwxr-xr-x权限：
+		  id:: c0a1706b-a747-4d5b-9d9e-c2fbf387665a
+			- 目录所有者可读写执行，其他用户只能读写不能执行
+			- sudo chmod -755 directory
 - ## 服务搭建
+  collapsed:: true
 	- [[FTP服务器搭建]]
 - ## Linux安装Windows应用
+  collapsed:: true
 	- ### 微信
 		- ```bash
 		  # "install wine"
