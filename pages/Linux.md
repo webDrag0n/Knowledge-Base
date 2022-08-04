@@ -30,7 +30,9 @@
 		  export HISTFILE="/var/log/history/${LOGNAME}/${USER}@${USER_IP}_$DT"
 		  chmod 600 /var/log/history/${LOGNAME}/*history* 2>/dev/null
 		  ```
-		- 为每个用户建立``/var/log/history/{Username}``目录，并按需设置
+		- 为每个用户建立``/var/log/history/{Username}``目录，并按需设置每个文件夹的访问权限，建议设置如下：
+		- ```bash
+		  ```
 	- ### 权限管理
 		- drwxr-xr-x权限：
 		  id:: c0a1706b-a747-4d5b-9d9e-c2fbf387665a
