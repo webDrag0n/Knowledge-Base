@@ -32,9 +32,10 @@
 		  ```
 		- 为每个用户建立``/var/log/history/{Username}``目录，并按需设置每个文件夹的访问权限，建议设置如下：
 		- ```bash
-		  history drwxrrwxrwx
-		  history/
+		  /var/log/history            root     root   drwxrwxrwx
+		  /var/log/history/{Username} Username nosudo d-wx------
 		  ```
+		-
 	- ### 权限管理
 		- drwxr-xr-x权限：
 		  id:: c0a1706b-a747-4d5b-9d9e-c2fbf387665a
