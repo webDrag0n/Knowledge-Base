@@ -32,6 +32,8 @@
 		  ```
 		- 为每个用户建立``/var/log/history/{Username}``目录，并按需设置每个文件夹的访问权限，建议设置如下：
 		- ```bash
+		  history drwxrrwxrwx
+		  history/
 		  ```
 	- ### 权限管理
 		- drwxr-xr-x权限：
