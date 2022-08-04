@@ -35,8 +35,10 @@
 		  /var/log/history            root     root   drwxrwxrwx
 		  /var/log/history/{Username} Username nosudo d-wx------
 		  ```
-		-
+		- 注意此处的nosudo为用户所在组，此处取nosudo是将该组下用户全部移除了sudo权限
 	- ### 权限管理
+		- 移除sudo权限：
+			-
 		- drwxr-xr-x权限：
 		  id:: c0a1706b-a747-4d5b-9d9e-c2fbf387665a
 			- 目录所有者可读写执行，其他用户只能读写不能执行
