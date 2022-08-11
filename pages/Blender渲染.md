@@ -1,1 +1,1 @@
-- Cycles引擎使用GPU渲染
+- Cycles引擎使用GPU渲染需要在Preference>System中选择Cuda作为Cycles渲染方式
