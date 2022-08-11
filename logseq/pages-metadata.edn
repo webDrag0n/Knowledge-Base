@@ -18,7 +18,10 @@
   :block/updated-at 1649137595768}
  {:block/name "blender",
   :block/created-at 1660183702684,
-  :block/updated-at 1660184055536}
+  :block/updated-at 1660204418858}
+ {:block/name "blender渲染",
+  :block/created-at 1660204407139,
+  :block/updated-at 1660204463982}
  {:block/name "blender输入中文",
   :block/created-at 1660184025198,
   :block/updated-at 1660184027592}
@@ -157,9 +160,6 @@
  {:block/name "学术论文写作",
   :block/created-at 1649088540480,
   :block/updated-at 1649089005057}
- {:block/name "建模",
-  :block/created-at 1655388088055,
-  :block/updated-at 1655388088055}
  {:block/name "游戏架构设计",
   :block/created-at 1659939098935,
   :block/updated-at 1659939123731}
