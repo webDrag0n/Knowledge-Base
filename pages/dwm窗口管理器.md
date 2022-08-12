@@ -1,2 +1,3 @@
 - ### 安装
+	- https://hackeradam.com/post/install-dwm-ubuntu-20.10/
 	-
