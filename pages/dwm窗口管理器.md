@@ -16,7 +16,7 @@
 	  sudo apt-get purge dwm
 	  sudo mv /usr/share/xsessions/dwm.desktop{.bak,}
 	  ```
-	- 安装完成后登出当前窗口管理器
+	- 安装完成后登出当前窗口管理器或重启，在登录界面选择dwm登入即可
 - ### 基本用法
 	- Alt + Shift + Enter: Launch Terminal
 	  Alt + Shift + C: Kill current Client
