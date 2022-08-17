@@ -2,4 +2,41 @@
 - ---
 - [[Logseq 相关]]
 - [[Nextcloud]]
+- [[Python]]
+- [[Linux]]
+- [[Windows]]
+- [[Keras]]
+- [[Kubernetes]]
+- [[FTP服务器搭建]]
+- [[C++]]
 -
+- ### 项目
+	- [[大图书馆计划]]
+-
+- ### 算法
+	- [[Knight's Tour]]
+-
+- ### 游戏开发
+	- [[游戏架构设计]]
+	- [[游戏系统]]
+	- [[Indie Game]]
+	- [[Unity]]
+- ### 项目开发相关
+	- [[FUNCTION开发文档]]
+	- [[FUNCTION世界观与剧情设定]]
+	- [[FUNCTION开发日志]]
+-
+- ### 学术相关
+	- [[学术论文写作]]
+-
+- ### 建模
+	- [[Blender]]
+	- [[照片扫描]]
+	-
+-
+- ### Chess
+	- [[国际象棋网站]]
+	-
+-
+- [[LSTM]]
+- [[ZeroTier]]
