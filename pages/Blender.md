@@ -1,2 +1,3 @@
 - ### [[Blender输入中文]]
+- [[Blender输入视频]]
 - ### [[Blender渲染]]
