@@ -1,12 +1,6 @@
-[{:block/name "6249ba8f-d84b-4164-8a3d-9949f2fb3758",
-  :block/created-at 1649082628333,
-  :block/updated-at 1649082628333}
- {:block/name "a",
+[{:block/name "a",
   :block/created-at 1649137595768,
   :block/updated-at 1649137595768}
- {:block/name "apr 4th, 2022",
-  :block/created-at 1649030400000,
-  :block/updated-at 1649030400000}
  {:block/name "apr 6th, 2022",
   :block/created-at 1649258026793,
   :block/updated-at 1649258026793}
@@ -19,9 +13,6 @@
  {:block/name "aug 17th, 2022",
   :block/created-at 1660714576842,
   :block/updated-at 1660714818002}
- {:block/name "aug 18th, 2022",
-  :block/created-at 1660714495225,
-  :block/updated-at 1660714495225}
  {:block/name "b",
   :block/created-at 1649137595768,
   :block/updated-at 1649137595768}
@@ -79,10 +70,6 @@
   :block/created-at 1660721879630,
   :block/updated-at 1660721879630}
  {:block/name
-  "c:/users/webdra~1/appdata/local/temp/enhtmlclip/640(3).png",
-  :block/created-at 1660722018111,
-  :block/updated-at 1660722018111}
- {:block/name
   "c:/users/webdra~1/appdata/local/temp/enhtmlclip/640.jpg",
   :block/created-at 1660721804564,
   :block/updated-at 1660721804564}
@@ -97,7 +84,7 @@
   :block/updated-at 1649054142907}
  {:block/name "contents",
   :block/created-at 1649002343067,
-  :block/updated-at 1649002343067}
+  :block/updated-at 1660722380820}
  {:block/name "doing",
   :block/created-at 1649002343067,
   :block/updated-at 1649002343067}
@@ -128,24 +115,12 @@
  {:block/name "function游戏架构",
   :block/created-at 1656642621487,
   :block/updated-at 1656642704197}
- {:block/name "https_//webdrag0n.github.io",
-  :block/created-at 1649137048178,
-  :block/updated-at 1649137048178}
  {:block/name "in-progress",
   :block/created-at 1649002343067,
   :block/updated-at 1649002343067}
  {:block/name "indie game",
   :block/created-at 1655388088055,
   :block/updated-at 1655388088055}
- {:block/name "jun 2nd, 2022",
-  :block/created-at 1660714735556,
-  :block/updated-at 1660714735556}
- {:block/name "jun 5th, 2022",
-  :block/created-at 1654489885839,
-  :block/updated-at 1654489885839}
- {:block/name "jun 6th, 2022",
-  :block/created-at 1654489887877,
-  :block/updated-at 1654489887877}
  {:block/name "keras",
   :block/created-at 1655388088055,
   :block/updated-at 1655388088055}
@@ -179,9 +154,6 @@
  {:block/name "markdown-cheat-sheet",
   :block/created-at 1648999263616,
   :block/updated-at 1648999562097}
- {:block/name "menu",
-  :block/created-at 1649057368722,
-  :block/updated-at 1660719102709}
  {:block/name "nextcloud",
   :block/created-at 1648998179559,
   :block/updated-at 1653845444947}
@@ -206,12 +178,6 @@
  {:block/name "waiting",
   :block/created-at 1649002343067,
   :block/updated-at 1649002343067}
- {:block/name "webdrag0n.github.io",
-  :block/created-at 1649087452060,
-  :block/updated-at 1649087452060}
- {:block/name "webdrag0n.github.io/knowledge-base",
-  :block/created-at 1649087452059,
-  :block/updated-at 1649087452059}
  {:block/name "windows",
   :block/created-at 1651564149596,
   :block/updated-at 1651564441184}
@@ -223,10 +189,10 @@
   :block/updated-at 1655388088055}
  {:block/name "人工智能",
   :block/created-at 1660721286217,
-  :block/updated-at 1660721392314}
+  :block/updated-at 1660722393585}
  {:block/name "人工智能学习路线",
   :block/created-at 1660721286216,
-  :block/updated-at 1660722259660}
+  :block/updated-at 1660722695528}
  {:block/name "人工智能研究课题",
   :block/created-at 1660721392314,
   :block/updated-at 1660721413128}
