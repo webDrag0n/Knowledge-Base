@@ -165,7 +165,7 @@
  :ref/default-open-blocks-level 2
 
  :ref/linked-references-collapsed-threshold 50
- :graph/settings {:journal? false, :orphan-pages? true, :builtin-pages? true}
+ :graph/settings {:journal? true, :orphan-pages? true, :builtin-pages? true}
  :favorites ["Logseq 相关" "markdown-cheat-sheet"]
  :feature/enable-journals? false
  :default-home {:page "Menu"}
