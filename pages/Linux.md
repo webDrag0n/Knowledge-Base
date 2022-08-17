@@ -15,5 +15,5 @@
 	- [[Linux安装微信]]
 - ## 桌面环境
 	- [[dwm窗口管理器]]
-- ## Windows Subs
+- ## Windows Subsystem for Linux
 	- [[WSL]]
