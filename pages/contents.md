@@ -22,9 +22,7 @@
 	- [[Indie Game]]
 	- [[Unity]]
 - ### 项目开发相关
-	- [[FUNCTION开发文档]]
-	- [[FUNCTION世界观与剧情设定]]
-	- [[FUNCTION开发日志]]
+	- [[FUNCTION]]
 -
 - ### 学术相关
 	- [[学术论文写作]]
