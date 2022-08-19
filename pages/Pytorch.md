@@ -1,5 +1,5 @@
 - ## 简介
-	- Pytorch是一个基于 [[Python]]的深度学习框架
+	- Pytorch是一个基于 [[Python]]的 [[机器学习]] 框架
 - ## Transformer
 	- ### 官方文档
 		- https://pytorch.org/docs/stable/generated/torch.nn.Transformer.html
