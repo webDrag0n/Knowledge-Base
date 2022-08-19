@@ -1,3 +1,4 @@
+-
 - ### 部署教程
 	- https://jimmysong.io/kubernetes-handbook/practice/install-kubernetes-on-centos.html
 	- https://github.com/opsnull/follow-me-install-kubernetes-cluster/

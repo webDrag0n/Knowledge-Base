@@ -5,7 +5,6 @@
 - [[Python]]
 - [[Linux]]
 - [[Windows]]
-- [[Keras]]
 - [[Kubernetes]]
 - [[FTP服务器搭建]]
 - [[C++]]
