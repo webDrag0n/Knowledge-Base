@@ -1,4 +1,4 @@
-- Keras是基于
+- Keras是基于 [[Tensorflow]]框架编写的更高级的框架，包含更多预制函数和模型
 - Keras Mnisit
 - https://cloud.tencent.com/developer/article/1829972
 -
