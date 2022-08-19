@@ -1,3 +1,4 @@
+- Git是一种
 - ## 相关错误与修复方法
 	- ### Git Filename too long
 		- 克隆时遇到过长文件名时在bash中执行下列命令
