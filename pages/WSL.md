@@ -1,3 +1,4 @@
+- 在 [[Windows10]]与 [[Windows11]]版本上可以开启Windows Subsystem for Linux功能
 - 如何启用wsl2：
 	- https://segmentfault.com/a/1190000040143442
 	- 想要在Windows 10上启用WLS2，需要满足以下条件：
