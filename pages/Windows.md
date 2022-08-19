@@ -1,3 +1,6 @@
+- ## 发行版本
+	- [[Windows10]]
+	- [[Windows11]]
 - ## Windows Subsystem for Linux
 	- [[WSL]]
 - ## 蓝屏修复
