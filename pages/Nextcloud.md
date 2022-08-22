@@ -21,5 +21,6 @@
 	- 设置启动时自动挂载
 		- /etc/fstab
 	- 重启
-	- cp -r /original/* /new
+	- 复制
+		- cp -r /original/* /new
 	-
