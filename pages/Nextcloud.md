@@ -28,6 +28,9 @@
 	- 复制文件
 		- ```bash
 		  cp -r /original/* /new
+		  
+		  # 确认复制隐藏文件
+		  cp /original/.htaccess /original/.ocdata /CloudStorage/
 		  ```
 	- 更改文件夹与子文件夹所有权
 		- ```bash
