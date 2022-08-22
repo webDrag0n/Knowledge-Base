@@ -56,6 +56,7 @@
 - ### Nextcloud + Raidrive DAV客户端
 	- ![image.png](../assets/image_1653845444421_0.png)
 - ### 数据硬盘迁移
+  collapsed:: true
 	- 挂载新硬盘
 	- 设置启动时自动挂载
 		- ```bash
@@ -77,3 +78,4 @@
 		  ```
 	- 修改 nextcloud 配置文件中的数据存储目录位置，配置文件路径为 */data/wwwroot/nextcloud/config* （部分旧版镜像的配置文件路径为：*/data/wwwroot/default/nextcloud/config*）
 		- `'datadirectory' => '/CloudStorage'`
+-
