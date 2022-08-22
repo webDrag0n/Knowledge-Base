@@ -20,4 +20,6 @@
 	- 挂载新硬盘
 	- 设置启动时自动挂载
 		- /etc/fstab
+	- 重启
+	- cp -r /original/* /new
 	-
