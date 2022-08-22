@@ -22,6 +22,7 @@
 		- ```bash
 		  vim /etc/fstab
 		  
+		  + /dev/sdb1 /new ext4 defaults 0 0
 		  ```
 	- 重启
 	- 复制文件
