@@ -8,8 +8,15 @@
 		- ```bash
 		  sudo apt install redis redis-server
 		  ```
+		- 设置Redis密码【必须】
+		- ```bash
+		  redis-cli
+		  > 
+		  ```
 		- 更改配置文件
 		- ```bash
+		  sudo vim /var/www/html/nextcloud/config/config.php
+		  
 		  ```
 - ### 增加信任域名
 	- https://help.nextcloud.com/t/howto-add-a-new-trusted-domain/26
