@@ -23,4 +23,4 @@
 	- 重启
 	- 复制文件
 		- cp -r /original/* /new
-	-
+	- 修改 nextcloud 配置文件中的数据存储目录位置，配置文件路径为 */data/wwwroot/nextcloud/config* （部分旧版镜像的配置文件路径为：*/data/wwwroot/default/nextcloud/config*）
