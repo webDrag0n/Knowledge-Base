@@ -7,6 +7,7 @@
 		- 参考
 			- https://www.jianshu.com/p/b9daf981ebba
 			- https://zhuanlan.zhihu.com/p/50322342
+			- [](https://www.fencatn.com/197/)
 		- #### 安装Redis
 		- ```bash
 		  sudo apt install redis redis-server
