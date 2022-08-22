@@ -4,6 +4,11 @@
 	- Configuration Parameters
 		- Documentation link: https://docs.nextcloud.com/server/19/admin_manual/configuration_server/config_sample_php_parameters.html?highlight=overwrite%20cli%20url
 	- 配置Redis加速
+		- 安装Redis
+		- ```bash
+		  sudo apt install redis redis-server
+		  ```
+		- 更改配置文件
 		- ```bash
 		  ```
 - ### 增加信任域名
