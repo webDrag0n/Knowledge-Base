@@ -13,6 +13,8 @@
 			  ```
 			- 完成配置
 - ### 数据目录权限
-- [[Linux权限管理]]
+- {{embed ((62fc9ef9-95bb-4877-ae90-50aaf730c887))}}
 - ### Nextcloud + Raidrive DAV客户端
 	- ![image.png](../assets/image_1653845444421_0.png)
+- ### 数据硬盘迁移
+	- 挂载新
