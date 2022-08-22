@@ -9,9 +9,10 @@
 		  sudo apt install redis redis-server
 		  ```
 		- 设置Redis密码【必须】
+		- 参考 https://www.jianshu.com/p/b9daf981ebba
 		- ```bash
 		  redis-cli
-		  > 
+		  > CONFIG set requirepass xxx
 		  ```
 		- 更改配置文件
 		- ```bash
