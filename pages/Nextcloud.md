@@ -1,4 +1,5 @@
 - ### 安装与配置
+  collapsed:: true
 	- 配置文件
 		- `/var/www/html/nextcloud/config/config.php`
 	- Configuration Parameters
@@ -40,6 +41,7 @@
 		  ),
 		  ```
 - ### 增加信任域名
+  collapsed:: true
 	- https://help.nextcloud.com/t/howto-add-a-new-trusted-domain/26
 	- #### 在apache2版本中几个重要的配置文件位置
 		- nextcloud自身配置文件
@@ -52,8 +54,10 @@
 				  ```
 				- 完成配置
 - ### 数据目录权限
-- {{embed ((62fc9ef9-95bb-4877-ae90-50aaf730c887))}}
+  collapsed:: true
+	- {{embed ((62fc9ef9-95bb-4877-ae90-50aaf730c887))}}
 - ### Nextcloud + Raidrive DAV客户端
+  collapsed:: true
 	- ![image.png](../assets/image_1653845444421_0.png)
 - ### 数据硬盘迁移
   collapsed:: true
@@ -78,4 +82,6 @@
 		  ```
 	- 修改 nextcloud 配置文件中的数据存储目录位置，配置文件路径为 */data/wwwroot/nextcloud/config* （部分旧版镜像的配置文件路径为：*/data/wwwroot/default/nextcloud/config*）
 		- `'datadirectory' => '/CloudStorage'`
--
+- ### 挂载外部硬盘
+  collapsed:: true
+	- https://www.zywvvd.com/notes/environment/nas/nextcloud/nextcloud-add-disk/
