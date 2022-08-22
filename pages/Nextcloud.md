@@ -12,12 +12,14 @@
 		- 参考 https://www.jianshu.com/p/b9daf981ebba
 		- ```bash
 		  redis-cli
-		  > CONFIG set requirepass xxx
+		  
+		  127.0.0.1:6379> CONFIG set requirepass xxx
 		  ```
 		- 更改配置文件
 		- ```bash
 		  sudo vim /var/www/html/nextcloud/config/config.php
 		  
+		  + 
 		  ```
 - ### 增加信任域名
 	- https://help.nextcloud.com/t/howto-add-a-new-trusted-domain/26
