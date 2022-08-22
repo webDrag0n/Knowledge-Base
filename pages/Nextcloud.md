@@ -4,12 +4,14 @@
 	- Configuration Parameters
 		- Documentation link: https://docs.nextcloud.com/server/19/admin_manual/configuration_server/config_sample_php_parameters.html?highlight=overwrite%20cli%20url
 	- 配置Redis加速
-		- 安装Redis
+		- 参考
+			- https://www.jianshu.com/p/b9daf981ebba
+			- https://zhuanlan.zhihu.com/p/50322342
+		- #### 安装Redis
 		- ```bash
 		  sudo apt install redis redis-server
 		  ```
-		- 设置Redis密码【必须】
-		- 参考 https://www.jianshu.com/p/b9daf981ebba
+		- #### 设置Redis密码【必须】
 		- ```bash
 		  redis-cli
 		  
