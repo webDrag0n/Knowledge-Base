@@ -17,4 +17,5 @@
 - ### Nextcloud + Raidrive DAV客户端
 	- ![image.png](../assets/image_1653845444421_0.png)
 - ### 数据硬盘迁移
-	- 挂载新
+	- 挂载新硬盘
+	- 建立分区
