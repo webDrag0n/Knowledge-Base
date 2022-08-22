@@ -21,7 +21,22 @@
 		- ```bash
 		  sudo vim /var/www/html/nextcloud/config/config.php
 		  
-		  + 
+		  +
+		  #'memcache.distributed' => '\\OC\\Memcache\\Redis',
+		  'memcache.locking' => '\\OC\\Memcache\\Redis',
+		  'filelocking.enabled' => 'true',
+		  #'redis' => array(
+		  #  'host' => 'localhost',
+		  #  'port' => 6379,
+		  #  'password' => 'Lzx3778.redis',
+		  #),
+		  'redis' => array(
+		    'host' => '/var/run/redis/redis.sock',
+		    'port' => 0,
+		    'dbindex' => 0,
+		    'password' => 'Lzx3778.redis',
+		    'timeout' => 1.5,
+		  ),
 		  ```
 - ### 增加信任域名
 	- https://help.nextcloud.com/t/howto-add-a-new-trusted-domain/26
