@@ -6,8 +6,8 @@
 	- 配置Redis加速
 		- 参考
 			- https://www.jianshu.com/p/b9daf981ebba
-			- https://zhuanlan.zhihu.com/p/50322342
-			- [](https://www.fencatn.com/197/)
+			- [Nextcloud私有云盘配置和优化技巧](https://zhuanlan.zhihu.com/p/50322342)
+			- [NextCloud的调优及安全配置](https://www.fencatn.com/197/)
 		- #### 安装Redis
 		- ```bash
 		  sudo apt install redis redis-server
