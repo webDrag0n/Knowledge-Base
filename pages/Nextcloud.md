@@ -49,7 +49,8 @@
 			- `/etc/apache2/sites-available/nextcloud.conf`
 			- `/etc/apache2/sites-enabled/nextcloud.conf`
 			- 以上两个文件内容相同，ssl证书位置和允许通过什么域名访问的设置都在里面，在available文件夹中为可选未启动，~~放入enabled文件夹中以后并执行~~
-			-
+			- 请勿直接修改`sites-enable/nextcloud.conf`，使用一下命令：
+			  background-color:: #793e3e
 				- ```bash
 				  sudo service apache2 restart
 				  ```
