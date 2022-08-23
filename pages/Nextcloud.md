@@ -90,8 +90,9 @@
 	- https://www.zywvvd.com/notes/environment/nas/nextcloud/nextcloud-add-disk/
 - Memcache \OC\Memcache\APCu not available for local cache
 - ### 进入维护模式
-	- 如报错`Could not open input file: occ`，请确认是否nextcloud目录与子目录，子文件皆可被www-data用户读写
 	- ```bash
 	  sudo -u www-data php occ maintenance:mode --on
 	  ```
+	- 如报错`Could not open input file: occ`，请确认是否nextcloud目录与子目录，子文件皆可被www-data用户读写
+	-
 -
