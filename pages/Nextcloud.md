@@ -54,7 +54,7 @@
 				  ```
 				- 完成配置
 		- apache2配置文件
-			- `/etc/apache2`
+			- `/etc/apache2/apache2.conf`
 - ### 数据目录权限
   collapsed:: true
 	- {{embed ((62fc9ef9-95bb-4877-ae90-50aaf730c887))}}
