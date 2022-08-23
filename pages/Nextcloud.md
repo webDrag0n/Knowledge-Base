@@ -94,5 +94,6 @@
 	  sudo -u www-data php occ maintenance:mode --on
 	  ```
 	- 如报错`Could not open input file: occ`，请确认occ是否在nextcloud安装目录下且是否nextcloud目录与子目录，子文件皆可被www-data用户读写
+	- 遇到报错`OC\HintException: [0]: Memcache \OC\Memcache\APCu not available for local cache (Is the matching PHP module installed and enabled?)`
 	-
 -
