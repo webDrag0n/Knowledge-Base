@@ -1,4 +1,4 @@
-- [Linus Torvalds Wikiwand](https://www.wikiwand.com/en/Linus_Torvalds/)
-  title:: Linus Torvalds
--
+- [#[[linus torvalds]] Wikiwand](https://www.wikiwand.com/en/Linus_Torvalds/)
+  title:: #[[linus torvalds]]
+- **Linus Benedict Torvalds** ([/ˈliːnəs ˈtɔːrvɔːldz/](https://www.wikiwand.com/en/Help:IPA/English) [_LEE-nəs TOR-vawldz_](https://www.wikiwand.com/en/Help:Pronunciation_respelling_key),[[3]](https://www.wikiwand.com/en/Linus_Torvalds#citenote3) Finland Swedish: [[ˈliːnʉs ˈtuːrvɑlds]](https://www.wikiwand.com/en/Help:IPA/Swedish) (![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/11px-Loudspeaker.svg.png)[listen](https://upload.wikimedia.org/wikipedia/commons/3/3c/Sv-Linus_Torvalds2.ogg "Sv-Linus Torvalds2.ogg")); born 28 December 1969) is a Finnish software engineer who is the creator and, historically, the main developer of the [#Linux kernel](https://www.wikiwand.com/en/Linux_kernel), used by [#Linux distributions](https://www.wikiwand.com/en/Linux_distribution "#Linux distribution") and other operating systems such as [Android](https://www.wikiwand.com/en/Android_(operating_system)). He also created the [distributed version control](https://www.wikiwand.com/en/Distributed_version_control "Distributed version control") system [#Git](https://www.wikiwand.com/en/Git "#Git").
 -
