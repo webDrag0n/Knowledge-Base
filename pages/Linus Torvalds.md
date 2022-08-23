@@ -1,0 +1,3 @@
+- [Linus_Torvalds](https://www.wikiwand.com/en/Linus_Torvalds)
+-
+-
