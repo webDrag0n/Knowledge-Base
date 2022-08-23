@@ -19,18 +19,6 @@
  {:block/name "aug 17th, 2022",
   :block/created-at 1660714576842,
   :block/updated-at 1660714818002}
- {:block/name "aug 18th, 2022",
-  :block/created-at 1660789011552,
-  :block/updated-at 1660789011552}
- {:block/name "aug 19th, 2022",
-  :block/created-at 1660900167890,
-  :block/updated-at 1660900167890}
- {:block/name "aug 21st, 2022",
-  :block/created-at 1661085882852,
-  :block/updated-at 1661085882852}
- {:block/name "aug 22nd, 2022",
-  :block/created-at 1661097635326,
-  :block/updated-at 1661097635326}
  {:block/name "aug 23rd, 2022",
   :block/created-at 1661184026744,
   :block/updated-at 1661184026744}
@@ -58,24 +46,6 @@
  {:block/name "c++ style guide",
   :block/created-at 1659938994516,
   :block/updated-at 1659938994516}
- {:block/name "c0a1706b-a747-4d5b-9d9e-c2fbf387665a",
-  :block/created-at 1655388088055,
-  :block/updated-at 1655388088055}
- {:block/name "c:/users/webdra~1/appdata",
-  :block/created-at 1660721804567,
-  :block/updated-at 1660721804567}
- {:block/name
-  "c:/users/webdra~1/appdata/local/temp/enhtmlclip/640(1).jpg",
-  :block/created-at 1660721879627,
-  :block/updated-at 1660721879627}
- {:block/name
-  "c:/users/webdra~1/appdata/local/temp/enhtmlclip/640(2).jpg",
-  :block/created-at 1660721879630,
-  :block/updated-at 1660721879630}
- {:block/name
-  "c:/users/webdra~1/appdata/local/temp/enhtmlclip/640.jpg",
-  :block/created-at 1660721804564,
-  :block/updated-at 1660721804564}
  {:block/name "canceled",
   :block/created-at 1660722291690,
   :block/updated-at 1660722291690}
@@ -145,6 +115,9 @@
  {:block/name "later",
   :block/created-at 1649002343067,
   :block/updated-at 1649002343067}
+ {:block/name "linus torvalds",
+  :block/created-at 1661237989323,
+  :block/updated-at 1661237989323}
  {:block/name "linux",
   :block/created-at 1655388088055,
   :block/updated-at 1660274579129}
@@ -262,6 +235,12 @@
  {:block/name "深度学习",
   :block/created-at 1660900852148,
   :block/updated-at 1660900852148}
+ {:block/name "港中深",
+  :block/created-at 1661237990139,
+  :block/updated-at 1661237990139}
+ {:block/name "港中深各部门学院联系方式",
+  :block/created-at 1661237990138,
+  :block/updated-at 1661237990138}
  {:block/name "游戏架构设计",
   :block/created-at 1659939098935,
   :block/updated-at 1659939123731}
