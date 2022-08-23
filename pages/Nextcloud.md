@@ -88,3 +88,5 @@
 - ### 挂载外部硬盘
   collapsed:: true
 	- https://www.zywvvd.com/notes/environment/nas/nextcloud/nextcloud-add-disk/
+- Memcache \OC\Memcache\APCu not available for local cache
+- 进入维护模式
