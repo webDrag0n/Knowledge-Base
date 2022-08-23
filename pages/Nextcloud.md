@@ -108,4 +108,7 @@
 	- ```bash
 	  sudo -u www-data php --define apc.enable_cli=1 /var/www/nextcloud/occ maintenance:repair
 	  ```
--
+- ### 重新扫描更改
+	- ```bash
+	  sudo -u www-data php console.php files:scan --all
+	  ```
