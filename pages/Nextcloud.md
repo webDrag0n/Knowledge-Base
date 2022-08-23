@@ -49,7 +49,7 @@
 			- `/etc/apache2/sites-available/nextcloud.conf`
 			- `/etc/apache2/sites-enabled/nextcloud.conf`
 			- 以上两个文件内容相同，ssl证书位置和允许通过什么域名访问的设置都在里面，在available文件夹中为可选未启动，~~放入enabled文件夹中以后并执行~~
-			- 请勿直接修改`sites-enable/nextcloud.conf`，使用以下命令：
+			- 请勿直接修改`sites-enable/nextcloud.conf`，应使用以下命令：
 			  background-color:: #793e3e
 			- ```bash
 			  a2ensite nextcloud.conf
@@ -96,5 +96,8 @@
 	- 如报错`Could not open input file: occ`，请确认occ是否在nextcloud安装目录下且是否nextcloud目录与子目录，子文件皆可被www-data用户读写
 	- 遇到报错`OC\HintException: [0]: Memcache \OC\Memcache\APCu not available for local cache (Is the matching PHP module installed and enabled?)`
 	- ```bash
+	  sudo vim /etc/php/7.4/mods-available/apcu.ini
+	  
+	  + apc.enable_cli=1
 	  ```
 -
