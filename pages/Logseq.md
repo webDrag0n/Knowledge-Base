@@ -15,6 +15,10 @@
 	- https://zhuanlan.zhihu.com/p/441457813
 	- https://pwa.sspai.com/post/69503
 	- [markdown-cheat-sheet](https://cn.logseq.com/t/topic/91)
+	-
+	- https://zhuanlan.zhihu.com/p/450086994
+	- https://pengx17.github.io/knowledge-garden/
+	-
 - ### 块内换行
   shift + enter
   直接enter会添加新的块（block）
