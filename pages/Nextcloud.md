@@ -1,5 +1,7 @@
 - ### 安装与配置
-  collapsed:: true
+	- #### 安装
+		- [Use Apache2 Server](https://docs.nextcloud.com/server/stable/admin_manual/installation/source_installation.html#apache-web-server-configuration)
+		-
 	- 配置文件
 		- `/var/www/html/nextcloud/config/config.php`
 	- Configuration Parameters
