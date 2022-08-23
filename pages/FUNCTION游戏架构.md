@@ -1,8 +1,6 @@
-- flowchart TB
-  s <--> a
-  r --> m
-  m -- z --> s
-  r <--> o
+- ```Mermaid
+  
+  ```
 - 参考资料
 	- [[游戏架构设计]]
 -
