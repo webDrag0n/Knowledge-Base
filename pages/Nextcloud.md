@@ -46,7 +46,6 @@
 	- https://help.nextcloud.com/t/howto-add-a-new-trusted-domain/26
 	- #### 在 [[apache2]] 中几个重要的配置文件位置
 		- nextcloud自身配置文件
-		- apache2配置文件
 			- `/etc/apache2/sites-available/nextcloud.conf`
 			- `/etc/apache2/sites-enabled/nextcloud.conf`
 			- 以上两个文件内容相同，ssl证书位置和允许通过什么域名访问的设置都在里面，在available文件夹中为可选未启动，放入enabled文件夹中以后并执行
@@ -54,6 +53,8 @@
 				  sudo service apache2 restart
 				  ```
 				- 完成配置
+		- apache2配置文件
+			- `/etc/apache2`
 - ### 数据目录权限
   collapsed:: true
 	- {{embed ((62fc9ef9-95bb-4877-ae90-50aaf730c887))}}
