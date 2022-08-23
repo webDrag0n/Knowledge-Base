@@ -100,4 +100,6 @@
 	  
 	  + apc.enable_cli=1
 	  ```
--
+	- ```bash
+	  sudo -u www-data php occ maintenance:mode --off
+	  ```
