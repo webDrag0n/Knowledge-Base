@@ -26,4 +26,4 @@
 	- 或在插件市场安装插件【推荐】
 -
 - ### 导出样式
-	-
+	- 导出样式为`C:\Users\webDrag0n\Documents\WORKSPACE_LOGSEQ\logseq\export.css`，复制custom.css内容至export.css可统一编辑器与导出样式
