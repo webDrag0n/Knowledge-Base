@@ -43,9 +43,8 @@
 		  ),
 		  ```
 - ### 增加信任域名
-  collapsed:: true
 	- https://help.nextcloud.com/t/howto-add-a-new-trusted-domain/26
-	- #### 在apache2版本中几个重要的配置文件位置
+	- #### 在 [[apache2]] 中几个重要的配置文件位置
 		- nextcloud自身配置文件
 		- apache2配置文件
 			- `/etc/apache2/sites-available/nextcloud.conf`
