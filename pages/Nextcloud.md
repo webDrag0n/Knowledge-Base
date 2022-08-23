@@ -13,7 +13,7 @@
 			- [NextCloud的调优及安全配置](https://www.fencatn.com/197/)
 		- #### 安装Redis
 		- ```bash
-		  sudo apt install redis redis-server
+		  sudo apt install redis redis-servere
 		  ```
 		- #### 设置Redis密码【必须】
 		- ```bash
