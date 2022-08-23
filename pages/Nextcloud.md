@@ -103,4 +103,9 @@
 	- ```bash
 	  sudo -u www-data php occ maintenance:mode --off
 	  ```
+- ### 自动修复命令
+	- 在维护模式内执行
+	- ```bash
+	  sudo -u www-data php --define apc.enable_cli=1 /var/www/nextcloud/occ maintenance:repair
+	  ```
 -
