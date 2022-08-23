@@ -22,4 +22,4 @@
   直接写``[webdrag0n.github.io](webdrag0n.github.io)``会创建一个以该网址为名的页面，应该直接粘贴带https://协议标识的网页链接，如 https://webdrag0n.github.io/
 -
 - ### 编辑器皮肤
-	-
+	- 编辑器内皮肤可通过更改`C:\Users\webDrag0n\Documents\WORKSPACE_LOGSEQ\logseq\custom.css`来
