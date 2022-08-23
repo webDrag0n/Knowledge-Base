@@ -166,7 +166,7 @@
 
  :ref/linked-references-collapsed-threshold 50
  :graph/settings {:journal? false, :orphan-pages? false, :builtin-pages? true}
- :favorites ["Logseq 相关" "markdown-cheat-sheet"]
+ :favorites ["Nextcloud" "Logseq 相关" "markdown-cheat-sheet"]
  :feature/enable-journals? true
  :default-home {:page "Contents"}
  :feature/enable-flashcards? false

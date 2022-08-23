@@ -89,6 +89,7 @@
   collapsed:: true
 	- https://www.zywvvd.com/notes/environment/nas/nextcloud/nextcloud-add-disk/
 - ### 进入维护模式
+  collapsed:: true
 	- ```bash
 	  sudo -u www-data php occ maintenance:mode --on
 	  ```
@@ -102,3 +103,4 @@
 	- ```bash
 	  sudo -u www-data php occ maintenance:mode --off
 	  ```
+-
