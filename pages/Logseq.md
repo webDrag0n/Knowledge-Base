@@ -4,7 +4,7 @@
 - ### Markdown 文档
   id:: 6249ba5b-b3e7-4878-8cb1-7d7dc1209932
 	- ==https://www.markdownguide.org/tools/logseq/==
-	-
+- ### 制作Notion风格的
 - ### 中文社区
 	- ==https://cn.logseq.com/==
 	-
