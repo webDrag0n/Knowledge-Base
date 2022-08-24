@@ -1,2 +1,2 @@
-- #Anaconda是一个#Python包管理器
+- #Anaconda 是一个 #Python 包管理器
 -
