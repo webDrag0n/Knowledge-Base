@@ -1,4 +1,5 @@
--
+banner:: ../assets/image_1655285054816_0.png
+
 - 我的个人网页: https://webdrag0n.github.io/
 - ---
 - [[Logseq]]
