@@ -1,4 +1,6 @@
+- banner::../assets/Logseq_1661336081701_0.png
 - ### Github开发页面
+  collapsed:: true
 	- https://github.com/logseq/logseq
 	-
 - ### Markdown 文档
