@@ -1,4 +1,4 @@
-banner:: ../assets/image_1655285054816_0.png
+banner:: ../assets/banners/gradienta-gwE9vXSi7Xw-unsplash.jpg
 
 - 我的个人网页: https://webdrag0n.github.io/
 - ---
