@@ -18,6 +18,9 @@
 		- 进入安装界面后选择下一步，然后`现在安装`
 		  ![image.png](../assets/image_1661407816029_0.png)
 		  ![image.png](../assets/image_1661407822418_0.png)
-		  ![image.png](../assets/image_1661407834266_0.png)
+		- ![image.png](../assets/image_1661407834266_0.png)
+		  在操作系统选择界面选择`家庭版`
+		  ![image.png](../assets/image_1661407885348_0.png)
+		  ![image.png](../assets/image_1661407899923_0.png)
 		-
 	-
