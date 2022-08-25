@@ -1,3 +1,4 @@
+- #FUNCTION #开发 #游戏
 - [[FUNCTION开发文档]]
 - [[FUNCTION世界观与剧情设定]]
 - [[FUNCTION开发日志]]
