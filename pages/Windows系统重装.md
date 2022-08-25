@@ -3,6 +3,6 @@
 	- 参考资料：[手把手教你如何重装win10系统···](https://zhuanlan.zhihu.com/p/108156241)
 	- ![image.png](../assets/image_1661407179371_0.png)
 	- #### 制作安装U盘
-		- 前往[](https://www.microsoft.com/zh-cn/software-download/windows10
+		- 前往[Windows10 官方下载页面](https://www.microsoft.com/zh-cn/software-download/windows10)下载Windows10安装工具
 		-
 	-
