@@ -96,7 +96,7 @@
   :block/updated-at 1656491122027}
  {:block/name "function",
   :block/created-at 1660901718307,
-  :block/updated-at 1660901752133}
+  :block/updated-at 1661409165917}
  {:block/name "function世界观与剧情设定",
   :block/created-at 1655282752202,
   :block/updated-at 1655561089262}
@@ -105,7 +105,7 @@
   :block/updated-at 1655388088055}
  {:block/name "function开发文档",
   :block/created-at 1655388088055,
-  :block/updated-at 1656642623037}
+  :block/updated-at 1661409044407}
  {:block/name "function开发日志",
   :block/created-at 1649258002887,
   :block/updated-at 1649347383298}
@@ -114,7 +114,7 @@
   :block/updated-at 1655388088055}
  {:block/name "function游戏架构",
   :block/created-at 1656642621487,
-  :block/updated-at 1661085953982}
+  :block/updated-at 1661408955493}
  {:block/name "git",
   :block/created-at 1660900180893,
   :block/updated-at 1660901468636}
@@ -181,6 +181,9 @@
  {:block/name "overleaf",
   :block/created-at 1661408177620,
   :block/updated-at 1661408277829}
+ {:block/name "parsec",
+  :block/created-at 1661408757249,
+  :block/updated-at 1661408757249}
  {:block/name "python",
   :block/created-at 1649228840537,
   :block/updated-at 1660901235240}
@@ -219,10 +222,10 @@
   :block/updated-at 1649002343067}
  {:block/name "windows",
   :block/created-at 1651564149596,
-  :block/updated-at 1660902471948}
+  :block/updated-at 1661408899303}
  {:block/name "windows10",
   :block/created-at 1660902344569,
-  :block/updated-at 1660902344569}
+  :block/updated-at 1661408838937}
  {:block/name "windows11",
   :block/created-at 1660902335460,
   :block/updated-at 1660902335460}
@@ -231,7 +234,7 @@
   :block/updated-at 1660902683506}
  {:block/name "windows系统重装",
   :block/created-at 1661406309645,
-  :block/updated-at 1661408039088}
+  :block/updated-at 1661408776332}
  {:block/name "wsl",
   :block/created-at 1651307067415,
   :block/updated-at 1660902574502}
@@ -265,6 +268,9 @@
  {:block/name "大图书馆计划",
   :block/created-at 1660553453719,
   :block/updated-at 1660553506352}
+ {:block/name "大学",
+  :block/created-at 1661409118712,
+  :block/updated-at 1661409118712}
  {:block/name "学术论文写作",
   :block/created-at 1649088540480,
   :block/updated-at 1661408177620}
@@ -289,15 +295,21 @@
  {:block/name "机器学习",
   :block/created-at 1660900827788,
   :block/updated-at 1660900827788}
+ {:block/name "架构",
+  :block/created-at 1661408955490,
+  :block/updated-at 1661408955490}
  {:block/name "深度学习",
   :block/created-at 1660900852148,
   :block/updated-at 1660900852148}
  {:block/name "港中深",
   :block/created-at 1661237990139,
-  :block/updated-at 1661237990139}
+  :block/updated-at 1661409118713}
  {:block/name "港中深各部门学院联系方式",
   :block/created-at 1661237990138,
   :block/updated-at 1661237990138}
+ {:block/name "游戏",
+  :block/created-at 1661409058338,
+  :block/updated-at 1661409058338}
  {:block/name "游戏架构设计",
   :block/created-at 1659939098935,
   :block/updated-at 1659939123731}
@@ -317,5 +329,8 @@
   :block/created-at 1660900840973,
   :block/updated-at 1660900840973}
  {:block/name "自然语言处理",
-  :block/created-at 1660900693492, 
-  :block/updated-at 1660900714176}]
+  :block/created-at 1660900693492,
+  :block/updated-at 1660900714176}
+ {:block/name "重装windows10系统",
+  :block/created-at 1661408775785, 
+  :block/updated-at 1661408830792}]
