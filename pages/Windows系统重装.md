@@ -1,3 +1,4 @@
 - #Windows
 - ### 重装Windows10系统
+	- 参考资料：`[手把手教你如何重装win10系统···](https://zhuanlan.zhihu.com/p/108156241`
 	-
