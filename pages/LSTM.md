@@ -1,4 +1,5 @@
-- Long-Short Term Memory
+- #Transformer 
+  Long-Short Term Memory
 	- https://zhuanlan.zhihu.com/p/42717426
 	- https://zhuanlan.zhihu.com/p/32085405
 	- https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21
