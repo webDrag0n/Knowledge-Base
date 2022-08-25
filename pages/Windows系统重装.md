@@ -22,5 +22,5 @@
 		  在操作系统选择界面选择`家庭版`
 		  ![image.png](../assets/image_1661407885348_0.png)
 		  ![image.png](../assets/image_1661407899923_0.png)
-		-
+		- 接下来
 	-
