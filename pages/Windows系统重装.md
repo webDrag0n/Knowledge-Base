@@ -6,5 +6,8 @@
 		- 前往[Windows10 官方下载页面](https://www.microsoft.com/zh-cn/software-download/windows10)下载Windows10安装工具
 		- ![image.png](../assets/image_1661407337863_0.png)
 		- 接受许可条款
+		- ![image.png](../assets/image_1661407398762_0.png)
+		- ![image.png](../assets/image_1661407437775_0.png)
+		-
 		-
 	-
