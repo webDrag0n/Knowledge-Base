@@ -1,5 +1,4 @@
-title:: 重装Windows10系统
-
+- #Windows10
 - 参考资料：[手把手教你如何重装win10系统···](https://zhuanlan.zhihu.com/p/108156241)
 - ![image.png](../assets/image_1661407179371_0.png)
 - #### 制作安装U盘
