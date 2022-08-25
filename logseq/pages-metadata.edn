@@ -28,15 +28,6 @@
  {:block/name "aug 17th, 2022",
   :block/created-at 1660714576842,
   :block/updated-at 1661330194890}
- {:block/name "aug 22nd, 2022",
-  :block/created-at 1661329721256,
-  :block/updated-at 1661329721256}
- {:block/name "aug 23rd, 2022",
-  :block/created-at 1661184026744,
-  :block/updated-at 1661184026744}
- {:block/name "aug 24th, 2022",
-  :block/created-at 1661324008405,
-  :block/updated-at 1661324008405}
  {:block/name "aug 25th, 2022",
   :block/created-at 1661406271546,
   :block/updated-at 1661406271546}
@@ -127,9 +118,6 @@
  {:block/name "indie game",
   :block/created-at 1655388088055,
   :block/updated-at 1655388088055}
- {:block/name "jul 20th, 2022",
-  :block/created-at 1661329725744,
-  :block/updated-at 1661329725744}
  {:block/name "keras",
   :block/created-at 1655388088055,
   :block/updated-at 1660901323372}
@@ -190,9 +178,6 @@
  {:block/name "pytorch",
   :block/created-at 1660900406027,
   :block/updated-at 1660901387003}
- {:block/name "quote::https://www.understandingwar.org",
-  :block/created-at 1661333721847,
-  :block/updated-at 1661333721847}
  {:block/name "readme",
   :block/created-at 1649087452062,
   :block/updated-at 1649087452062}
@@ -202,9 +187,6 @@
  {:block/name "tensorflow",
   :block/created-at 1660901173560,
   :block/updated-at 1660901360839}
- {:block/name "title",
-  :block/created-at 1661238333356,
-  :block/updated-at 1661238333356}
  {:block/name "todo",
   :block/created-at 1649002343067,
   :block/updated-at 1649002343067}
