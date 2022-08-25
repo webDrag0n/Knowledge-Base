@@ -1,3 +1,4 @@
+- #FUNCTION #开发 #游戏
 - ### [[FUNCTION开发日志]]
 - ### [[FUNCTION游戏机制]]
 - ### [[FUNCTION游戏架构]]
