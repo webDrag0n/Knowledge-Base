@@ -7,4 +7,5 @@
 		- ```bash
 		  sudo dpkg -i gitlab-ce-...x86_64.deb
 		  ```
-		- 编辑/etc/gitlab/gitlab.rb，更改GitLab URL下的external_url属性为服务器ip或
+		- 编辑/etc/gitlab/gitlab.rb，更改GitLab URL下的external_url属性为服务器ip或域名，并设置端口，例：
+		  ``
