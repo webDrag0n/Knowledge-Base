@@ -31,6 +31,9 @@
  {:block/name "aug 25th, 2022",
   :block/created-at 1661406271546,
   :block/updated-at 1661406271546}
+ {:block/name "aug 30th, 2022",
+  :block/created-at 1661826270258,
+  :block/updated-at 1661826270258}
  {:block/name "b",
   :block/created-at 1649137595768,
   :block/updated-at 1649137595768}
@@ -109,6 +112,9 @@
  {:block/name "git",
   :block/created-at 1660900180893,
   :block/updated-at 1660901468636}
+ {:block/name "gitlab",
+  :block/created-at 1661827022109,
+  :block/updated-at 1661828142845}
  {:block/name "google",
   :block/created-at 1660901339714,
   :block/updated-at 1660901339714}
@@ -213,7 +219,7 @@
   :block/updated-at 1660902335460}
  {:block/name "windows安卓子系统",
   :block/created-at 1660902635717,
-  :block/updated-at 1660902683506}
+  :block/updated-at 1661828223284}
  {:block/name "windows系统重装",
   :block/created-at 1661406309645,
   :block/updated-at 1661408776332}
@@ -256,6 +262,12 @@
  {:block/name "学术论文写作",
   :block/created-at 1649088540480,
   :block/updated-at 1661408177620}
+ {:block/name "安卓",
+  :block/created-at 1661828208626,
+  :block/updated-at 1661828277154}
+ {:block/name "安卓手机获取root权限",
+  :block/created-at 1661828251451,
+  :block/updated-at 1661828256856}
  {:block/name "寻路算法",
   :block/created-at 1660900936896,
   :block/updated-at 1660900943964}
