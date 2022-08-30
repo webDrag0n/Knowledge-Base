@@ -1,5 +1,5 @@
 - #Git
-- ### Gitlab服务器搭建
+- ### GitLab服务器搭建
 	- 参考：[手把手教你搭建gitlab服务器](https://zhuanlan.zhihu.com/p/62042884)
 	- 镜像链接：https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce
 	- ubuntu: /ubuntu/pool/focal/main/g/gitlab-ce
@@ -13,4 +13,4 @@
 		  gitlab-ctl reconfigure
 		  gitlab-ctl restart
 		  ```
-		- 安装完成后会提示初始密码文件路径，复制密码并在
+		- 安装完成后会提示初始密码文件路径，复制密码并在刚刚配置的域名/ip访问gitlab，默认用户为root
