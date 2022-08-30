@@ -5,5 +5,6 @@
 	- ubuntu: /ubuntu/pool/focal/main/g/gitlab-ce
 		- 下载后在文件路径下执行
 		- ```bash
-		  sudo dpkg -i gitlab-ce
+		  sudo dpkg -i gitlab-ce-...x86_64.deb
 		  ```
+		- 编辑/etc/gitlab/gitlab.rb
