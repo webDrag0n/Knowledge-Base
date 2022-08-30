@@ -13,4 +13,4 @@
 		  gitlab-ctl reconfigure
 		  gitlab-ctl restart
 		  ```
-		- 访问
+		- 安装完成后会提示初始密码文件路径，复制密码并在
