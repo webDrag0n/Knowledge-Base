@@ -1,4 +1,5 @@
 - #Android #ADB
 - [下载SDK平台工具](https://developer.android.com/studio/releases/platform-tools)
--
--
+- [安卓ADB命令行调试配置方法](https://www.jianeryi.com/1346.html)
+- ![image.png](../assets/image_1661937276704_0.png)
+- ![image.png](../assets/image_1661937286277_0.png)
