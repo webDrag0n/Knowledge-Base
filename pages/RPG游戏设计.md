@@ -1,2 +1,4 @@
 - #RPG游戏
-- []
+- [RPG Game Design Patterns](https://www.reddit.com/r/RPGdesign/comments/6jhb14/design_patterns_of_successful_roleplaying_games/)
+- [RPG Game Resources](https://www.reddit.com/r/RPGdesign/wiki/resources)
+-
