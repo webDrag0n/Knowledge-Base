@@ -104,4 +104,4 @@
 			  ```bash
 			  ruby license.rb
 			  ```
-			-
+			- 替换默认
