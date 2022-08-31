@@ -15,5 +15,7 @@
 			  gitlab-ctl restart
 			  ```
 			- 安装完成后会提示初始密码文件路径，复制密码并在刚刚配置的域名/ip访问gitlab，默认用户为root
-	- 企业版（EE）
-		- 参考：[安装并破解Gitlab EE](https://blog.17lai.site/posts/29a820b3)，[Gitlab EE安装与破解](https://conf.top/post/50)
+	- #### 企业版（EE）
+		- 参考：[安装并破解Gitlab EE](https://blog.17lai.site/posts/29a820b3)，[Gitlab EE安装与破解](https://conf.top/post/506)
+		- #### 安装GitLab
+			-
