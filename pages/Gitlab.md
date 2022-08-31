@@ -110,5 +110,9 @@
 			  ```
 			- 修改`/opt/gitlab/embedded/service/gitlab-rails/ee/app/models/license.rb`
 			  ```ruby
-			  --- /opt/gitlab/embedded/service/gitlab-rails/ee/app/models/license.rb +++ /opt/gitlab/embedded/service/gitlab-rails/ee/app/models/license.rb @@ -367,7 +367,7 @@ end def plan - restricted_attr(:plan).presence || STARTER_PLAN + restricted_attr(:plan).presence || ULTIMATE_PLAN end def edition
+			  --- /opt/gitlab/embedded/service/gitlab-rails/ee/app/models/license.rb
+			  +++ /opt/gitlab/embedded/service/gitlab-rails/ee/app/models/license.rb
+			  @@ -367,7 +367,7 @@
+			  end
+			      def plan - restricted_attr(:plan).presence || STARTER_PLAN + restricted_attr(:plan).presence || ULTIMATE_PLAN end def edition
 			  ```
