@@ -108,7 +108,7 @@
 		  ```bash
 		  cp -f license_key.pub /opt/gitlab/embedded/service/gitlab-rails/.license_encryption_key.pub
 		  ```
-		- 修改`/opt/gitlab/embedded/service/gitlab-rails/ee/app/models/license.rb`
+		- 修改`/opt/gitlab/embedded/service/gitlab-rails/ee/app/models/license.rb`，替换`STARTER_PLAN`为`ULTIMATE_PLAN`
 		  ```ruby
 		  --- /opt/gitlab/embedded/service/gitlab-rails/ee/app/models/license.rb
 		  +++ /opt/gitlab/embedded/service/gitlab-rails/ee/app/models/license.rb
