@@ -9,5 +9,5 @@
   ```
 - Docker:
   ```bash
-  docker exec -t 
+  docker exec -t <container name> [Command above]
   ```
