@@ -1,3 +1,3 @@
-- #安卓 #WSL
+- #Android #WSL
 - [[Windows11]]上可以启用，模拟安卓系统的子系统
 - [[安装Windows安卓子系统]]
