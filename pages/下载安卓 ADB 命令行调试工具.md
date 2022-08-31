@@ -1,3 +1,4 @@
 - #Android #ADB
-- ##
+- [下载SDK平台工具](https://developer.android.com/studio/releases/platform-tools)
+-
 -
