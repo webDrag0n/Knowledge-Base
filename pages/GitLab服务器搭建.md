@@ -1,3 +1,4 @@
+- 本文的两个教程皆建立在 #Linux 系统基础上
 - #### GitLab社区版（CE）安装
 	- 参考：[手把手教你搭建gitlab服务器](https://zhuanlan.zhihu.com/p/62042884)
 	- 镜像链接：https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce
