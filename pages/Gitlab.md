@@ -23,4 +23,9 @@
 			  curl gitlab-ee_VERSION.deb
 			  dpkg -i gitlab-ee_VERSION.deb
 			  ```
-			-
+			- ```bash
+			  sudo apt install ruby
+			  gem install gitlab-license
+			  vim license.rb
+			  ```
+			- license.rb
