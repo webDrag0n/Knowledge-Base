@@ -1,1 +1,2 @@
-- 参考[使用Linux Deploy在手机上部署Linux系统]
+- 参考[使用Linux Deploy在手机上部署Linux系统](https://www.jianshu.com/p/732c741cf5f4)
+- [# 安卓linux deploy 启动ssh失败解决方案]
