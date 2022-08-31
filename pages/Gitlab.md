@@ -18,4 +18,4 @@
 	- #### 企业版（EE）
 		- 参考：[安装并破解Gitlab EE](https://blog.17lai.site/posts/29a820b3)，[Gitlab EE安装与破解](https://conf.top/post/506)
 		- #### 安装GitLab
-			-
+			- []
