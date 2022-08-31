@@ -1,1 +1,3 @@
-- https://github.com/googlesamples/mlkit/tree/master/android/codescanner
+- [Google Code Scanner API Quickstart](https://github.com/googlesamples/mlkit/tree/master/android/codescanner)
+- https://developers.google.com/ml-kit/code-scanner#4_handle_the_resulting_barcode
+-
