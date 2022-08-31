@@ -114,5 +114,9 @@
 			  +++ /opt/gitlab/embedded/service/gitlab-rails/ee/app/models/license.rb
 			  @@ -367,7 +367,7 @@
 			  end
-			      def plan - restricted_attr(:plan).presence || STARTER_PLAN + restricted_attr(:plan).presence || ULTIMATE_PLAN end def edition
+			      def plan
+			      - restricted_attr(:plan).presence || STARTER_PLAN
+			      + restricted_attr(:plan).presence || ULTIMATE_PLAN
+			      end
+			      def edition
 			  ```
