@@ -1,3 +1,4 @@
+- #Windows #Windows安卓子系统
 - 参考： https://zhuanlan.zhihu.com/p/424959704
 - ### 一、安装 Windows 虚拟化支持
 	- 进入设置 → 应用 → 可选功能 → 更多 Windows 功能，找到并勾选开启**「Hyper-V」**和**「虚拟机平台」**两个选项，安装完成后会提示重启系统。
