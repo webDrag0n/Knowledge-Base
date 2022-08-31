@@ -16,6 +16,7 @@
 			  ```
 			- 安装完成后会提示初始密码文件路径，复制密码并在刚刚配置的域名/ip访问gitlab，默认用户为root
 	- #### 企业版（EE）
+	  id:: 630f148d-ea85-4142-9920-4b42bfdd49f3
 		- 参考：[安装并破解Gitlab EE](https://blog.17lai.site/posts/29a820b3)，[Gitlab EE安装与破解](https://conf.top/post/506)
 		- #### 安装GitLab
 			- [gitlab官方镜像站](https://packages.gitlab.com/gitlab/gitlab-ee)
@@ -113,10 +114,16 @@
 			  --- /opt/gitlab/embedded/service/gitlab-rails/ee/app/models/license.rb
 			  +++ /opt/gitlab/embedded/service/gitlab-rails/ee/app/models/license.rb
 			  @@ -367,7 +367,7 @@
-			  end
+			      end
 			      def plan
 			      - restricted_attr(:plan).presence || STARTER_PLAN
 			      + restricted_attr(:plan).presence || ULTIMATE_PLAN
 			      end
 			      def edition
 			  ```
+			- 重新配置gitlab
+			  ```bash
+			  gitlab-ctl reconfigure
+			  gitlab-ctl restart
+			  ```
+			-
