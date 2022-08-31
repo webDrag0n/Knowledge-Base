@@ -1,4 +1,4 @@
-- #### 社区版（CE）
+- #### GitLab社区版（CE）安装
 	- 参考：[手把手教你搭建gitlab服务器](https://zhuanlan.zhihu.com/p/62042884)
 	- 镜像链接：https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce
 	- ubuntu: /ubuntu/pool/focal/main/g/gitlab-ce
@@ -13,7 +13,7 @@
 		  gitlab-ctl restart
 		  ```
 		- 安装完成后会提示初始密码文件路径，复制密码并在刚刚配置的域名/ip访问gitlab，默认用户为root
-- #### 企业版（EE）
+- #### GitLab企业版（EE）安装
   id:: 630f148d-ea85-4142-9920-4b42bfdd49f3
 	- 参考：[安装并破解Gitlab EE](https://blog.17lai.site/posts/29a820b3)，[Gitlab EE安装与破解](https://conf.top/post/506)
 	- #### 安装GitLab
