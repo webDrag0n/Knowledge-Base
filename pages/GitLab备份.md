@@ -13,4 +13,6 @@
 	  docker exec -t <container name> [Command above]
 	  ```
 - ### 敏感文件手动备份（必要！）
+	- `/etc/gitlab/gitlab-secrets.json`
+	  `/etc/gitlab/gitlab.rb`
 	-
