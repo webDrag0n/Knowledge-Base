@@ -5,5 +5,9 @@
   ```
   v12.1 or earlier:
   ```bash
-  gitlab-rake gitlab
+  gitlab-rake gitlab:backup:create
+  ```
+- Docker:
+  ```bash
+  docker exec -t 
   ```
