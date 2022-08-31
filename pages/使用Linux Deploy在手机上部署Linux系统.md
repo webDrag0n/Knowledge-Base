@@ -1,1 +1,1 @@
-- 参考[# 使用 Linux Deploy 在手机上部署 Linux 系统]
+- 参考[使用Linux Deploy在手机上部署Linux系统]
