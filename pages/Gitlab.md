@@ -100,4 +100,8 @@
 				    puts "The license will never expire."
 				  end
 				  ```
+			- 生成`GitLabBV.gitlab.license` `license_key` `license_key.pub`
+			  ```bash
+			  ruby license.rb
+			  ```
 			-
