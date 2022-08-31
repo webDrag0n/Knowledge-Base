@@ -1,1 +1,4 @@
-- Android 调试桥 (adb)
+- ## 全称
+	- Android 调试桥 (adb)
+- ## 官方文档
+	- https://developer.android.com/studio/command-line/adb
