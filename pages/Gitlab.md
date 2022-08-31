@@ -104,4 +104,11 @@
 			  ```bash
 			  ruby license.rb
 			  ```
-			- 替换默认
+			- 替换默认公钥
+			  ```bash
+			  cp -f license_key.pub /opt/gitlab/embedded/service/gitlab-rails/.license_encryption_key.pub
+			  ```
+			- 修改`/opt/gitlab/embedded/service/gitlab-rails/ee/app/models/license.rb`
+			  ```ruby
+			  --- /opt/gitlab/embedded/service/gitlab-rails/ee/app/models/license.rb +++ /opt/gitlab/embedded/service/gitlab-rails/ee/app/models/license.rb @@ -367,7 +367,7 @@ end def plan - restricted_attr(:plan).presence || STARTER_PLAN + restricted_attr(:plan).presence || ULTIMATE_PLAN end def edition
+			  ```
