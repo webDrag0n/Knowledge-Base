@@ -23,3 +23,4 @@
 			  curl gitlab-ee_VERSION.deb
 			  dpkg -i gitlab-ee_VERSION.deb
 			  ```
+			-
