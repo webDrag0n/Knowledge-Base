@@ -20,5 +20,6 @@
 		- #### 安装GitLab
 			- [gitlab官方镜像站](https://packages.gitlab.com/gitlab/gitlab-ee)
 			- ```bash
-			  curl gitlab-ee
+			  curl gitlab-ee_VERSION.deb
+			  dpkg -i gitlab-ee_VERSION.deb
 			  ```
