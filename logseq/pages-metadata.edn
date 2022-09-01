@@ -123,7 +123,7 @@
   :block/updated-at 1655388088055}
  {:block/name "function游戏架构",
   :block/created-at 1656642621487,
-  :block/updated-at 1661408955493}
+  :block/updated-at 1662006587038}
  {:block/name "genetic-programming",
   :block/created-at 1661940180042,
   :block/updated-at 1661940180042}
@@ -139,9 +139,9 @@
  {:block/name "gitlab备份",
   :block/created-at 1661942322823,
   :block/updated-at 1661942609294}
- {:block/name "gitlab服务器搭建",
+ {:block/name "gitlab安装",
   :block/created-at 1661934795841,
-  :block/updated-at 1661942686717}
+  :block/updated-at 1661995568827}
  {:block/name "google",
   :block/created-at 1660901339714,
   :block/updated-at 1660901339714}
@@ -232,6 +232,9 @@
  {:block/name "rpg游戏设计",
   :block/created-at 1661939677763,
   :block/updated-at 1661939743360}
+ {:block/name "sep 1st, 2022",
+  :block/created-at 1661995463643,
+  :block/updated-at 1661995463643}
  {:block/name "study of war",
   :block/created-at 1661333560485,
   :block/updated-at 1661335129539}
