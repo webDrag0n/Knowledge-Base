@@ -3,6 +3,7 @@
 	- [[游戏架构设计]]
 - {{renderer code_diagram,mermaid}}
 	- ```mermaid
+	  stroke #eeeeee
 	  erDiagram
 	      CAR ||--o{ NAMED-DRIVER : allows
 	      CAR {
