@@ -3,7 +3,7 @@
 	- [[游戏架构设计]]
 - {{renderer code_diagram,mermaid}}
 	- ```mermaid
-	  erDiagram
+	  erDiagram stroke:#eeeeee
 	      CAR ||--o{ NAMED-DRIVER : allows
 	      CAR {
 	          string allowedDriver FK "The license of the allowed driver"
