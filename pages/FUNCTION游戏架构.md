@@ -1,7 +1,7 @@
 - #架构
 - 参考资料
 	- [[游戏架构设计]]
-- {{renderer code_diagram,mermaid, contentStyle=background: #}}
+- {{renderer code_diagram,mermaid, contentStyle=background: #445566}}
 	- ```mermaid
 	  erDiagram
 	      CAR ||--o{ NAMED-DRIVER : allows
