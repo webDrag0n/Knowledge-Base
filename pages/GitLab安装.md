@@ -18,6 +18,7 @@
   id:: 630f148d-ea85-4142-9920-4b42bfdd49f3
 	- 参考：[安装并破解Gitlab EE](https://blog.17lai.site/posts/29a820b3)，[Gitlab EE安装与破解](https://conf.top/post/506)
 	- #### 安装GitLab
+		- [Installation methods](https://docs.gitlab.com/ee/install/install_methods.html)
 		- [gitlab官方镜像站](https://packages.gitlab.com/gitlab/gitlab-ee)
 		- ```bash
 		  curl gitlab-ee_VERSION.deb
