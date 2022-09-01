@@ -14,7 +14,7 @@
 	      PERSON ||--o{ NAMED-DRIVER : is
 	      PERSON {
 	          string driversLicense PK "The license #"
-	          string firstName
+	          string firstNam
 	          string lastName
 	          int age
 	      }
