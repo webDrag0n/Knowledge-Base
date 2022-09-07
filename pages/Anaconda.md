@@ -6,4 +6,4 @@
 	  
 	  conda install -c anaconda setuptools
 	  ```
--
+- Anaconda 新建 ip
