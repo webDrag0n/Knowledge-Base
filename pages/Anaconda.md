@@ -13,3 +13,10 @@
 	  ```
 - Anaconda conda-forge 安装
 	- 例：
+	  ```bash
+	  conda install -c conda-forge pytorch-tabnet
+	  ```
+- Anaconda 安装于某一环境 myenv 中
+	- ```bash
+	  conda install -
+	  ```
