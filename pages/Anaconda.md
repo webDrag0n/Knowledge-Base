@@ -11,4 +11,5 @@
 	  pip install ipykernel
 	  python -m ipykernel install --user --name torch --display-name "Python (torch)"
 	  ```
-	-
+- Anaconda conda-forge 安装
+	- 例：
