@@ -6,4 +6,8 @@
 	  
 	  conda install -c anaconda setuptools
 	  ```
-- Anaconda 新建 ip
+- Anaconda 新建 Jupyter Notebook kernel
+	- ```bash
+	  pip install ipykernel
+	  
+	  ```
