@@ -241,9 +241,18 @@
  {:block/name "sep 7th, 2022",
   :block/created-at 1662535459754,
   :block/updated-at 1662535459754}
+ {:block/name "sep 9th, 2022",
+  :block/created-at 1662713533331,
+  :block/updated-at 1662713533331}
  {:block/name "study of war",
   :block/created-at 1661333560485,
   :block/updated-at 1661335129539}
+ {:block/name "tcp",
+  :block/created-at 1662713563142,
+  :block/updated-at 1662713563142}
+ {:block/name "tcp/ip",
+  :block/created-at 1662713563143,
+  :block/updated-at 1662713616517}
  {:block/name "tensorflow",
   :block/created-at 1660901173560,
   :block/updated-at 1660901360839}
@@ -361,6 +370,9 @@
  {:block/name "数据分析",
   :block/created-at 1660900836082,
   :block/updated-at 1660900836082}
+ {:block/name "时间序列分析",
+  :block/created-at 1662713985796,
+  :block/updated-at 1662714113894}
  {:block/name "机器学习",
   :block/created-at 1660900827788,
   :block/updated-at 1660900827788}
@@ -403,6 +415,9 @@
  {:block/name "编程",
   :block/created-at 1660900840973,
   :block/updated-at 1660900840973}
+ {:block/name "网络",
+  :block/created-at 1662713616516,
+  :block/updated-at 1662713616516}
  {:block/name "自然语言处理",
   :block/created-at 1660900693492,
   :block/updated-at 1660900714176}
@@ -413,5 +428,8 @@
   :block/created-at 1661408775785,
   :block/updated-at 1661408830792}
  {:block/name "量化交易",
-  :block/created-at 1661937842681, 
-  :block/updated-at 1661938565341}]
+  :block/created-at 1661937842681,
+  :block/updated-at 1661938565341}
+ {:block/name "马尔可夫链",
+  :block/created-at 1662714060418, 
+  :block/updated-at 1662714060418}]
