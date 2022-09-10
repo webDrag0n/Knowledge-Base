@@ -7,7 +7,7 @@
 	  conda install -c anaconda setuptools
 	  ```
 - Anaconda 新建 Jupyter Notebook kernel
-	-
+	- 以添加`Torch`环境并命名为`Python (torch)`为例
 	- ```bash
 	  conda activate Torch
 	  
