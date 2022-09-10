@@ -17,7 +17,7 @@
 	  conda install -c conda-forge pytorch-tabnet
 	  ```
 - Anaconda创建环境：
-- //下面是创建python=3.6版本的环境，取名叫py36
+	- 下面是创建python=3.6版本的环境，取名叫py36
 	- ```bash
 	  conda create -n py36 python=3.6
 	  ```
