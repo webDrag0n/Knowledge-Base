@@ -1,4 +1,4 @@
 - ## 安装
 	- ```bash
-	  pip install 
+	  pip install --upgrade tensorflow-probability
 	  ```
