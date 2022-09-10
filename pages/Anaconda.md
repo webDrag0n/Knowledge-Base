@@ -9,7 +9,7 @@
 - Anaconda 新建 Jupyter Notebook kernel
 	- ```bash
 	  pip install ipykernel
-	  python -m ipykernel install --user --name torch --display-name "Python (torch)"
+	  python -m ipykernel install --user --name Torch --display-name "Python (torch)"
 	  ```
 - Anaconda conda-forge 安装
 	- 例：
