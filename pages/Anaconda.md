@@ -7,7 +7,10 @@
 	  conda install -c anaconda setuptools
 	  ```
 - Anaconda 新建 Jupyter Notebook kernel
+	-
 	- ```bash
+	  conda activate Torch
+	  
 	  pip install ipykernel
 	  python -m ipykernel install --user --name Torch --display-name "Python (torch)"
 	  ```
