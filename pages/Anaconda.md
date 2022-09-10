@@ -11,6 +11,11 @@
 	  pip install ipykernel
 	  python -m ipykernel install --user --name Torch --display-name "Python (torch)"
 	  ```
+- Jupyter Notebook kernel 删除
+	- 当不需要这个kernel虚拟环境，或者搭建的这个环境不能工作的时候我们需要删除这个虚拟环境。我们需要这样操作：
+	- 打开Anaconda Prompt
+	- 输入jupyter kernelspec list查看安装的kernel和位置
+	- 根据显示的路径进入其中把文件夹删除，重启jupyter notebook即可
 - Anaconda conda-forge 安装
 	- 例：
 	  ```bash
