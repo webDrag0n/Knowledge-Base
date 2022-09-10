@@ -16,7 +16,10 @@
 	  ```bash
 	  conda install -c conda-forge pytorch-tabnet
 	  ```
-- Anaconda
+- Anaconda 新建环境
+	- ```bash
+	  
+	  ```
 - Anaconda 安装于某一环境 myenv 中
 	- ```bash
 	  conda install -n myenv package_name
