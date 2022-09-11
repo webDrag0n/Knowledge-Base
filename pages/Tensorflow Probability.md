@@ -9,3 +9,5 @@
 	  ```
 	- ### 安装后报错处理
 		- [TensorFlow libdevice not found](https://stackoverflow.com/questions/68614547/tensorflow-libdevice-not-found-why-is-it-not-found-in-the-searched-path)
+		  `InternalError: libdevice not found at ./libdevice.10.bc`
+			-
