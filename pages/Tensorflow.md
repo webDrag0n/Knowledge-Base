@@ -1,5 +1,6 @@
 - Tensorflow是 [[Google]]设计的一种 [[机器学习]]框架
 - ## 安装
+	- 默认使用tensorflow将会安装tensorflow2，如需其他版本请标明如`tensorflow`
 	- [[pip]]
 		- 建议使用pip安装，成功率较高
 		- ```bash
