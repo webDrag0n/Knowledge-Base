@@ -30,10 +30,9 @@
 				- go to environmental variables
 				- System variables >New
 				- variable name:
-			- >
-			- XLA_FLAGS
-			- variable value:
-			- >
-			- --xla_gpu_cuda_data_dir=C:\ProgramData\Anaconda3\Library\bin
-			- (edit above as per your directory)
-			- **Step-6** restart the cmd/virtual env
+					- > XLA_FLAGS
+				- variable value:
+					- > --xla_gpu_cuda_data_dir=C:\ProgramData\Anaconda3\Library\bin
+				- (edit above as per your directory)
+			- **Step-6**
+				- restart the cmd/virtual env
