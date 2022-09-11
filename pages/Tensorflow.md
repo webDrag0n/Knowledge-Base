@@ -2,7 +2,7 @@
 - ## 安装
   id:: 631c2feb-bc55-4582-a044-4b7cc592ac49
 	- 默认使用tensorflow将会安装tensorflow2，如需其他版本请标明如`tensorflow==1.15`
-	  参考
+	  参考：[官方安装文档](https://www.tensorflow.org/install)
 	- [[pip]]
 		- 建议使用pip安装，成功率较高
 		- ```bash
