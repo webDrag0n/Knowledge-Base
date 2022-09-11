@@ -3,6 +3,13 @@
   id:: 631c2feb-bc55-4582-a044-4b7cc592ac49
 	- 默认使用tensorflow将会安装tensorflow2，如需其他版本请标明如`tensorflow==1.15`
 	  参考：[官方安装文档](https://www.tensorflow.org/install)
+	- 前置要求：
+		- 必须在系统中安装以下 NVIDIA® 软件：
+		- [NVIDIA® GPU 驱动程序](https://www.nvidia.com/drivers) - CUDA® 11.2 要求 450.80.02 或更高版本。
+		- [CUDA® 工具包](https://developer.nvidia.com/cuda-toolkit-archive)：TensorFlow 支持 CUDA® 11.2（TensorFlow 2.5.0 及更高版本）
+		- CUDA® 工具包附带的 [CUPTI](http://docs.nvidia.com/cuda/cupti/)。
+		- [cuDNN SDK 8.1.0](https://developer.nvidia.com/cudnn) [cuDNN 版本](https://developer.nvidia.com/rdp/cudnn-archive)。
+		- （可选）[TensorRT 6.0](https://docs.nvidia.com/deeplearning/tensorrt/archives/index.html#trt_6)，可缩短用某些模型进行推断的延迟时间并提高吞吐量。
 	- [[pip]]
 		- 建议使用pip安装，成功率较高
 		- ```bash
