@@ -8,6 +8,7 @@
 	  ```
 - Anaconda 新建 Jupyter Notebook kernel
 	- 以添加`Torch`环境并命名为`Python (torch)`为例
+	  注：需要在每个环境中都执行`pip install ipykernel`，否则tensorflow
 	- ```bash
 	  conda activate Torch
 	  
