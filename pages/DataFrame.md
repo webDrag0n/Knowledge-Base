@@ -1,0 +1,6 @@
+- loc
+- iloc
+- merge
+- concat
+- append
+-
