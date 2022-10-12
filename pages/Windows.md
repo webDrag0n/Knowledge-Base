@@ -21,3 +21,5 @@
 		- ```cmd
 		  winsat disk
 		  ```
+	- 硬盘通电时间检测
+		- 使用[CrystalDiskMark](https://crystalmark.info/en/software/crystaldiskmark/)
