@@ -67,6 +67,7 @@
 - ## 以下为需要在维护模式下进行的操作
 - ### 进入维护模式
   collapsed:: true
+  id:: 630719d5-e712-4c79-bb3c-8615da494804
 	- ```bash
 	  sudo -u www-data php /var/www/nextcloud/occ maintenance:mode --on
 	  ```
@@ -81,7 +82,9 @@
 	  sudo -u www-data php occ maintenance:mode --off
 	  ```
 - ### 文件被锁定后的修复
-	- 操作不当，如同时在客户端上传和网页端删除一个文件，或中断上传试图删除时有可能会导致文件被锁定无法删除
+	- 操作不当，如同时在客户端上传和网页端删除一个文件，或中断上传试图删除时有可能会导致文件被锁定无法删除，此时请按如下步骤操作：
+		- ((630719d5-e712-4c79-bb3c-8615da494804))
+		-
 - ### 数据硬盘迁移
   collapsed:: true
 	- 挂载新硬盘
