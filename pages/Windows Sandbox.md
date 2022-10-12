@@ -1,5 +1,5 @@
 - #Windows
-- 在Windows 11家庭版上安装
+- 在[[Windows 11]]家庭版上安装
 	- 将以下脚本保存为bat文件并用管理员权限执行
 	- ```cmd
 	  @echo off
