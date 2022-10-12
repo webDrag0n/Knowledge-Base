@@ -81,7 +81,7 @@
 - ### 关闭维护模式
   id:: 6346328a-6381-4629-9130-442b28ae49a0
 	- ```bash
-	  sudo -u www-data php occ maintenance:mode --off
+	  sudo -u www-data php /var/www/nextcloud/occ maintenance:mode --off
 	  ```
 - ### 文件被锁定后的修复
 	- 操作不当，如同时在客户端上传和网页端删除一个文件，或中断上传试图删除时有可能会导致文件被锁定无法删除，此时请按如下步骤操作：
