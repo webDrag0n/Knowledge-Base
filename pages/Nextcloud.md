@@ -80,7 +80,6 @@
 	  ```
 - ### 关闭维护模式
   id:: 6346328a-6381-4629-9130-442b28ae49a0
-  collapsed:: true
 	- ```bash
 	  sudo -u www-data php occ maintenance:mode --off
 	  ```
