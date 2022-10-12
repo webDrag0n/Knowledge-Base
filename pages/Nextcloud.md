@@ -80,7 +80,8 @@
 	- ```bash
 	  sudo -u www-data php occ maintenance:mode --off
 	  ```
-- ###
+- ### 文件被锁定后的修复
+	- 操作不当时，如同时在
 - ### 数据硬盘迁移
   collapsed:: true
 	- 挂载新硬盘
