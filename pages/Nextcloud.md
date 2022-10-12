@@ -78,6 +78,8 @@
 	  
 	  + apc.enable_cli=1
 	  ```
+- ### 关闭维护模式
+  collapsed:: true
 	- ```bash
 	  sudo -u www-data php occ maintenance:mode --off
 	  ```
@@ -93,8 +95,10 @@
 			- ```Mysql
 			  SHOW schemas
 			  USE nextcloud
-			  
+			  DELETE FROM oc_file_locks WHERE 1
+			  exit
 			  ```
+		- 关闭维护模式
 - ### 数据硬盘迁移
   collapsed:: true
 	- 挂载新硬盘
