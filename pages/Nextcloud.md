@@ -64,6 +64,22 @@
 - ### Nextcloud + Raidrive DAV客户端
   collapsed:: true
 	- ![image.png](../assets/image_1653845444421_0.png)
+- ##
+- ### 进入维护模式
+  collapsed:: true
+	- ```bash
+	  sudo -u www-data php /var/www/nextcloud/occ maintenance:mode --on
+	  ```
+	- 如报错`Could not open input file: occ`，请确认occ是否在nextcloud安装目录下且是否nextcloud目录与子目录，子文件皆可被www-data用户读写
+	- 遇到报错`OC\HintException: [0]: Memcache \OC\Memcache\APCu not available for local cache (Is the matching PHP module installed and enabled?)`
+	- ```bash
+	  sudo vim /etc/php/7.4/mods-available/apcu.ini
+	  
+	  + apc.enable_cli=1
+	  ```
+	- ```bash
+	  sudo -u www-data php occ maintenance:mode --off
+	  ```
 - ### 数据硬盘迁移
   collapsed:: true
 	- 挂载新硬盘
@@ -90,21 +106,6 @@
 - ### 挂载外部硬盘
   collapsed:: true
 	- https://www.zywvvd.com/notes/environment/nas/nextcloud/nextcloud-add-disk/
-- ### 进入维护模式
-  collapsed:: true
-	- ```bash
-	  sudo -u www-data php /var/www/nextcloud/occ maintenance:mode --on
-	  ```
-	- 如报错`Could not open input file: occ`，请确认occ是否在nextcloud安装目录下且是否nextcloud目录与子目录，子文件皆可被www-data用户读写
-	- 遇到报错`OC\HintException: [0]: Memcache \OC\Memcache\APCu not available for local cache (Is the matching PHP module installed and enabled?)`
-	- ```bash
-	  sudo vim /etc/php/7.4/mods-available/apcu.ini
-	  
-	  + apc.enable_cli=1
-	  ```
-	- ```bash
-	  sudo -u www-data php occ maintenance:mode --off
-	  ```
 - ### 自动修复命令
 	- 在维护模式内执行
 	- ```bash
