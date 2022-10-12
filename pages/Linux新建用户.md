@@ -1,0 +1,5 @@
+- #Linux
+- adduser
+- useradd
+- deluser
+- usermod -aG
