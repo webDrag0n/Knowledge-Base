@@ -79,6 +79,7 @@
 	  + apc.enable_cli=1
 	  ```
 - ### 关闭维护模式
+  id:: 6346328a-6381-4629-9130-442b28ae49a0
   collapsed:: true
 	- ```bash
 	  sudo -u www-data php occ maintenance:mode --off
@@ -98,7 +99,7 @@
 			  DELETE FROM oc_file_locks WHERE 1
 			  exit
 			  ```
-		- 关闭维护模式
+		- ((6346328a-6381-4629-9130-442b28ae49a0))
 - ### 数据硬盘迁移
   collapsed:: true
 	- 挂载新硬盘
