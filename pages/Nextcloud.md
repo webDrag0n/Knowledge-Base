@@ -80,6 +80,7 @@
 	- ```bash
 	  sudo -u www-data php occ maintenance:mode --off
 	  ```
+- ###
 - ### 数据硬盘迁移
   collapsed:: true
 	- 挂载新硬盘
@@ -107,6 +108,7 @@
   collapsed:: true
 	- https://www.zywvvd.com/notes/environment/nas/nextcloud/nextcloud-add-disk/
 - ### 自动修复命令
+  collapsed:: true
 	- 在维护模式内执行
 	- ```bash
 	  sudo -u www-data php --define apc.enable_cli=1 /var/www/nextcloud/occ maintenance:repair
