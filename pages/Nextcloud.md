@@ -88,7 +88,9 @@
 			- ```bash
 			  mysql -unextcloud -p
 			  ```
-		- 输入密码，密码在
+		- 输入密码，密码在`/var/www/nextcloud/config/config.php`中可以找到
+		- 进入数据库后
+			- ``````
 - ### 数据硬盘迁移
   collapsed:: true
 	- 挂载新硬盘
