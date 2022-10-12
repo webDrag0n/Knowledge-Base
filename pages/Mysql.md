@@ -1,5 +1,5 @@
 - #Database
 - ## 安装与配置
 - ## 终端登录
-- Mysql命令
+- ## Mysql命令
 -
