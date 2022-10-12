@@ -1,4 +1,5 @@
 - ### 安装与配置
+  collapsed:: true
 	- #### 安装
 		- [Use Apache2 Server](https://docs.nextcloud.com/server/stable/admin_manual/installation/source_installation.html#apache-web-server-configuration)
 		-
@@ -43,6 +44,7 @@
 		  ),
 		  ```
 - ### 增加信任域名
+  collapsed:: true
 	- https://help.nextcloud.com/t/howto-add-a-new-trusted-domain/26
 	- #### 在 [[apache2]] 中几个重要的配置文件位置
 		- nextcloud自身配置文件
