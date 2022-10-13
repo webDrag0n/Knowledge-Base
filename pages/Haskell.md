@@ -4,5 +4,8 @@
 		- ```powershell
 		  Set-ExecutionPolicy Bypass -Scope Process -Force;[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072;Invoke-Command -ScriptBlock ([ScriptBlock]::Create((Invoke-WebRequest https://www.haskell.org/ghcup/sh/bootstrap-haskell.ps1 -UseBasicParsing))) -ArgumentList $true
 		  ```
-	- 2. 
-	  3.
+	- 2.
+- ## 教程
+	- [Haskell First Steps](https://www.haskell.org/ghcup/steps/#first-steps)
+	-
+	-
