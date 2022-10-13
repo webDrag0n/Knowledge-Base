@@ -88,6 +88,9 @@
  {:block/name "contents",
   :block/created-at 1649002343067,
   :block/updated-at 1661940407140}
+ {:block/name "database",
+  :block/created-at 1665559587194,
+  :block/updated-at 1665559587194}
  {:block/name "dataframe",
   :block/created-at 1663923598357,
   :block/updated-at 1663923616861}
@@ -186,7 +189,7 @@
   :block/updated-at 1661238406875}
  {:block/name "linux",
   :block/created-at 1655388088055,
-  :block/updated-at 1660274579129}
+  :block/updated-at 1665551844450}
  {:block/name "linux kernel",
   :block/created-at 1665392799664,
   :block/updated-at 1665392893255}
@@ -196,6 +199,9 @@
  {:block/name "linux安装微信",
   :block/created-at 1660273626800,
   :block/updated-at 1660273628798}
+ {:block/name "linux新建用户",
+  :block/created-at 1665551844450,
+  :block/updated-at 1665551880059}
  {:block/name "linux权限管理",
   :block/created-at 1659606969824,
   :block/updated-at 1659606970539}
@@ -211,9 +217,12 @@
  {:block/name "markdown-cheat-sheet",
   :block/created-at 1648999263616,
   :block/updated-at 1648999562097}
+ {:block/name "mysql",
+  :block/created-at 1665559575132,
+  :block/updated-at 1665559632020}
  {:block/name "nextcloud",
   :block/created-at 1648998179559,
-  :block/updated-at 1665484560703}
+  :block/updated-at 1665545761468}
  {:block/name "now",
   :block/created-at 1649002343067,
   :block/updated-at 1649002343067}
@@ -223,6 +232,12 @@
  {:block/name "oct 11th, 2022",
   :block/created-at 1665471881304,
   :block/updated-at 1665471881304}
+ {:block/name "oct 12th, 2022",
+  :block/created-at 1665540123167,
+  :block/updated-at 1665540123167}
+ {:block/name "oct 13th, 2022",
+  :block/created-at 1665595438250,
+  :block/updated-at 1665595438250}
  {:block/name "openvpn",
   :block/created-at 1663124483013,
   :block/updated-at 1663125518535}
@@ -324,7 +339,16 @@
   :block/updated-at 1649002343067}
  {:block/name "windows",
   :block/created-at 1651564149596,
-  :block/updated-at 1661408899303}
+  :block/updated-at 1665557616044}
+ {:block/name "windows 11",
+  :block/created-at 1665542345823,
+  :block/updated-at 1665542345823}
+ {:block/name "windows hyper-v",
+  :block/created-at 1665542384356,
+  :block/updated-at 1665542423034}
+ {:block/name "windows sandbox",
+  :block/created-at 1665540793992,
+  :block/updated-at 1665542352585}
  {:block/name "windows10",
   :block/created-at 1660902344569,
   :block/updated-at 1661408838937}
