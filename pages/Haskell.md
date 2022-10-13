@@ -1,2 +1,3 @@
 - ## 安装
+	- [Haskell官方安装教程](https://www.haskell.org/downloads/)
 	-
