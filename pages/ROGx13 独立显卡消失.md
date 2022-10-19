@@ -1,0 +1,2 @@
+- #[[ROG x13]] #NVIDIA
+- 找不到独显的时候先看看ROG Armoury Crate
