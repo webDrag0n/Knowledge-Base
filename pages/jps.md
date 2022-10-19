@@ -50,17 +50,16 @@
   2300 jar
   ```
   
+  
+  
   jps -l
   
+  ```bash
   [root@119 app]# jps -l
   16464 test-1.0.0-SNAPSHOT.jar
   9671 sun.tools.jps.Jps
-  1
-  2
-  3
-  当然，也可以组合使用参数，比如
-  
-  jps -ml
-  1
-  特殊说明
+  ```
+- 当然，也可以组合使用参数，比如
+  `jps -ml`
+- 特殊说明
   jps仅查找当前用户的Java进程，而不是当前系统中的所有进程。
