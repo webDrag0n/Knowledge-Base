@@ -12,3 +12,58 @@
 	- jps(Java Virtual Machine Process Status Tool)是JDK 1.5提供的一个显示当前所有java进程pid的命令，简单实用，非常适合在linux/unix平台上简单察看当前java进程的一些简单情况。
 - ### 使用
 	- 先执行`jps –help`查看一下此命令的使用方法
+- 先执行jps –help 查看一下此命令的使用方法
+- ```# jps -help
+  usage: jps [-help]
+       jps [-q] [-mlvV] [<hostid>]
+  
+  Definitions:
+    <hostid>:      <hostname>[:<port>]```
+  
+  具体 [options]选项解析：
+  -q：仅输出VM标识符，不包括classname,jar name,arguments in main method；
+  -m：输出main method的参数；
+  -l：输出完全的包名，应用主类名，jar的完全路径名；
+  -v：输出jvm参数 ；
+  -V：输出通过flag文件传递到JVM中的参数(.hotspotrc文件或-XX:Flags=所指定的文件 ；
+  
+  实例
+  jps命令：
+  
+  [root@119 app]# jps
+  16464 jar
+  2300 jar
+  1
+  2
+  3
+  jps -q：
+  
+  [root@119 app]# jps -q
+  16464
+  2300
+  1
+  2
+  3
+  jps -m
+  
+  [root@119 app]# jps -m
+  16464 jar
+  2300 jar
+  
+  jps -l
+  
+  [root@119 app]# jps -l
+  16464 test-1.0.0-SNAPSHOT.jar
+  9671 sun.tools.jps.Jps
+  1
+  2
+  3
+  当然，也可以组合使用参数，比如
+  
+  jps -ml
+  1
+  特殊说明
+  jps仅查找当前用户的Java进程，而不是当前系统中的所有进程。
+  ————————————————
+  版权声明：本文为CSDN博主「程序新视界」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+  原文链接：https://blog.csdn.net/wo541075754/article/details/55095443
