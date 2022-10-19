@@ -26,3 +26,4 @@
 	  Alt + p: Launch the demnu
 	  Alt + [0-9]: Switch to tag [0-9]
 	  Alt + Shift + Q: Quit DWM
+- [Change the Suckless DWM Wallpaper with Feh](https://www.yanboyang.com/dwmwallpaper/)
