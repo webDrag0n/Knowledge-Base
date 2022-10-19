@@ -41,19 +41,13 @@
   16464
   2300
   ```
-  
-  jps -m
-  
+- jps -m
   ```bash
   [root@119 app]# jps -m
   16464 jar
   2300 jar
   ```
-  
-  
-  
-  jps -l
-  
+- jps -l
   ```bash
   [root@119 app]# jps -l
   16464 test-1.0.0-SNAPSHOT.jar
