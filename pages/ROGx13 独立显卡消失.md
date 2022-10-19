@@ -1,2 +1,2 @@
 - #[[ROG x13]] #NVIDIA
-- 找不到独显的时候先看看ROG Armoury Crate里面的设备>系统>GPU节能 是否已调节为混合输出模式
+- 找不到独显的时候先看看ROG Armoury Crate里面的设备>系统>GPU节能 是否已调节为混合输出模式 https://www.reddit.com/r/FlowX13/comments/rqwlrp/lost_dedicated_gpu/
