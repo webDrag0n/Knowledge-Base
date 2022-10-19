@@ -13,14 +13,15 @@
 - ### 使用
 	- 先执行`jps –help`查看一下此命令的使用方法
 - 先执行jps –help 查看一下此命令的使用方法
-- ```# jps -help
+- ```bash
+  # jps -help
   usage: jps [-help]
        jps [-q] [-mlvV] [<hostid>]
   
   Definitions:
-    <hostid>:      <hostname>[:<port>]```
-  
-  具体 [options]选项解析：
+    <hostid>:      <hostname>[:<port>]
+  ```
+- 具体 [options]选项解析：
   -q：仅输出VM标识符，不包括classname,jar name,arguments in main method；
   -m：输出main method的参数；
   -l：输出完全的包名，应用主类名，jar的完全路径名；
@@ -30,13 +31,10 @@
   实例
   jps命令：
   
-  [root@119 app]# jps
+  ```[root@119 app]# jps
   16464 jar
-  2300 jar
-  1
-  2
-  3
-  jps -q：
+  2300 jar```
+- jps -q：
   
   [root@119 app]# jps -q
   16464
@@ -64,6 +62,3 @@
   1
   特殊说明
   jps仅查找当前用户的Java进程，而不是当前系统中的所有进程。
-  ————————————————
-  版权声明：本文为CSDN博主「程序新视界」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-  原文链接：https://blog.csdn.net/wo541075754/article/details/55095443
