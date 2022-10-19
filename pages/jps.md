@@ -30,23 +30,25 @@
   
   实例
   jps命令：
-  
-  ```[root@119 app]# jps
+  ```bash
+  [root@119 app]# jps
   16464 jar
-  2300 jar```
+  2300 jar
+  ```
 - jps -q：
-  
+  ```bash
   [root@119 app]# jps -q
   16464
   2300
-  1
-  2
-  3
+  ```
+  
   jps -m
   
+  ```bash
   [root@119 app]# jps -m
   16464 jar
   2300 jar
+  ```
   
   jps -l
   
