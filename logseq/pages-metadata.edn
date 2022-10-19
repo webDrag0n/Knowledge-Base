@@ -160,6 +160,9 @@
  {:block/name "google code scanner",
   :block/created-at 1661939858481,
   :block/updated-at 1661939971452}
+ {:block/name "haskell",
+  :block/created-at 1665684074223,
+  :block/updated-at 1665684509969}
  {:block/name "hugging face",
   :block/created-at 1661937715639,
   :block/updated-at 1661937813588}
@@ -238,6 +241,9 @@
  {:block/name "oct 13th, 2022",
   :block/created-at 1665595438250,
   :block/updated-at 1665595438250}
+ {:block/name "oct 14th, 2022",
+  :block/created-at 1665684046303,
+  :block/updated-at 1665684046303}
  {:block/name "openvpn",
   :block/created-at 1663124483013,
   :block/updated-at 1663125518535}
