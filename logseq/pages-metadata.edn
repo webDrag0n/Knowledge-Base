@@ -82,6 +82,12 @@
  {:block/name "card",
   :block/created-at 1649054142907,
   :block/updated-at 1649054142907}
+ {:block/name "chrome",
+  :block/created-at 1666187563554,
+  :block/updated-at 1666187563554}
+ {:block/name "chromedriver",
+  :block/created-at 1666187556996,
+  :block/updated-at 1666187588063}
  {:block/name "conda",
   :block/created-at 1662538316593,
   :block/updated-at 1662785723324}
@@ -108,7 +114,7 @@
   :block/updated-at 1649002343067}
  {:block/name "dwm窗口管理器",
   :block/created-at 1660274579129,
-  :block/updated-at 1660292743427}
+  :block/updated-at 1666187369029}
  {:block/name "favorites",
   :block/created-at 1649002343067,
   :block/updated-at 1649002343067}
@@ -265,6 +271,9 @@
  {:block/name "oct 19th, 2022",
   :block/created-at 1666142474363,
   :block/updated-at 1666142474363}
+ {:block/name "oct 20th, 2022",
+  :block/created-at 1666195235056,
+  :block/updated-at 1666195235056}
  {:block/name "openvpn",
   :block/created-at 1663124483013,
   :block/updated-at 1663125518535}
