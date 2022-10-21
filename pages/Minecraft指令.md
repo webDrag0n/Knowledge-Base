@@ -1,3 +1,6 @@
 - #Minecraft
 - 参考[Minecraft Wiki](https://minecraft.fandom.com/zh/wiki/%E5%91%BD%E4%BB%A4?variant=zh)
--
+- ## 比较重要的概念
+- ### NBT路径格式
+- ### /data 指令
+	- [改变世界的]
