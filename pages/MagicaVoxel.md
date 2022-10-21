@@ -1,0 +1,1 @@
+- [Turning MagicaVoxel models into [[Minecraft]] models](https://www.reddit.com/r/Minecraft/comments/3yj3jr/turning_magicavoxel_models_into_minecraft_models/)
