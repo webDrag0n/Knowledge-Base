@@ -1,0 +1,2 @@
+- ## 搭建
+- [搭建属于自己的TeamSpeak服务器](https://zhuanlan.zhihu.com/p/496494116)
