@@ -1,5 +1,6 @@
 - #Chrome
 - [Official Website](https://sites.google.com/chromium.org/driver/getting-started)
+- [Getting started](https://chromedriver.chromium.org/getting-started)
 - ## 下载
 - [chromedriver下载与安装方法，亲测可用](https://blog.csdn.net/zhoukeguai/article/details/113247342)
 - chromedriver下载地址：
