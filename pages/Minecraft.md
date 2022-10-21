@@ -1,1 +1,2 @@
-- Minecraft is a sandbox game with different versions on Java,
+- Minecraft is a sandbox game with different versions on [[Java]] , C/C++ ([[Android]], [[Windows]] bedrock, [[IOS]] ) platforms
+- ##
