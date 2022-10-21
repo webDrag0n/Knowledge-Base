@@ -10,9 +10,13 @@
 - 把exe文件复制到python的安装目录下
 - 配置环境变量:此电脑→右击属性→高级系统设置→环境变量→**用户变量**→Path→编辑→新建，将以下路径复制,然后不要忘记后续全部点击确定
 - 打开pycharm,输入以下代码，测试一下是否驱动成功
-- from selenium import webdriver
-- driver = webdriver.Chrome()
+- ```python
+  from selenium import webdriver
+  
+  driver = webdriver.Chrome()
   url = 'https://www.csdn.net/'
   driver.get(url)
   driver.maximize_window()
+  ```
 - 成功!!
+-
