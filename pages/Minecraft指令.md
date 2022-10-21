@@ -2,5 +2,6 @@
 - 参考[Minecraft Wiki](https://minecraft.fandom.com/zh/wiki/%E5%91%BD%E4%BB%A4?variant=zh)
 - ## 比较重要的概念
 - ### NBT路径格式
+	- [Minecraft Wiki - NBT路径格式](https://minecraft.fandom.com/zh/wiki/NBT%E8%B7%AF%E5%BE%84%E6%A0%BC%E5%BC%8F)
 - ### /data 指令
-	- [改变世界的]
+	- [改变世界的/data](https://www.bilibili.com/read/cv5469925)
