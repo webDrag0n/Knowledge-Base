@@ -1,6 +1,7 @@
 - #Chrome
 - [Official Website](https://sites.google.com/chromium.org/driver/getting-started)
 - ## 下载
+- [chromedriver下载与安装方法，亲测可用]
 - chromedriver下载地址：
 - [http://chromedriver.storage.googleapis.com/index.html](http://chromedriver.storage.googleapis.com/index.html)
 - [http://npm.taobao.org/mirrors/chromedriver/](http://npm.taobao.org/mirrors/chromedriver/)
