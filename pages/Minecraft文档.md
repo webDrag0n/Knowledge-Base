@@ -1,0 +1,3 @@
+- [《Minecraft: Bedrock Edition》创作者文档](https://learn.microsoft.com/zh-cn/minecraft/creator/documents/introductiontoaddentity)
+	- 命令
+		-
