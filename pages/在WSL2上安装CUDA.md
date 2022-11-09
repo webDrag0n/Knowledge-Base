@@ -8,7 +8,7 @@
   sudo apt-get update
   sudo apt-get -y install cuda
   ```
-- 如果遇到报错：`nvcc --version command says nvcc is not installed`
+- 如果遇到报错：`nvcc --version command says nvcc is not installed`（参考：[Stackoverflow](https://askubuntu.com/questions/885610/nvcc-version-command-says-nvcc-is-not-installed)）
 	- nano /home/$USER/.bashrc
 	  Inside there add the following: (replace cuda-8.0 with your version)
 	  
@@ -21,12 +21,9 @@
 	   ctrl + o             --> save 
 	   enter or return key  --> accept changes
 	   ctrl + x             --> close editor
-	  Now either do source .bashrc or close and open another terminal
-	  
-	  Now run `nvcc --version`
-	  
-	  Information:
-	  
+	- Now either do source .bashrc or close and open another terminal
+	- Now run `nvcc --version`
+	- Information:
 	  .bashrc: is the file read by the terminal before opening and its found in the /home/$USER diretory of the user in question.
 	  the . before the file means its hidden from view unless you instruct you file manager to show hidden files
 	-
