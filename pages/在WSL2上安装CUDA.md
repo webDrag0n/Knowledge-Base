@@ -8,4 +8,5 @@
   sudo apt-get update
   sudo apt-get -y install cuda
   ```
--
+- 如果遇到报错：`nvcc --version command says nvcc is not installed`
+	-
