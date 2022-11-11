@@ -94,6 +94,9 @@
  {:block/name "contents",
   :block/created-at 1649002343067,
   :block/updated-at 1661940407140}
+ {:block/name "cuda",
+  :block/created-at 1667988548334,
+  :block/updated-at 1667988548334}
  {:block/name "database",
   :block/created-at 1665559587194,
   :block/updated-at 1665559587194}
@@ -283,6 +286,9 @@
  {:block/name "nov 8th, 2022",
   :block/created-at 1667902189587,
   :block/updated-at 1667902222272}
+ {:block/name "nov 9th, 2022",
+  :block/created-at 1667988185377,
+  :block/updated-at 1667988185377}
  {:block/name "now",
   :block/created-at 1649002343067,
   :block/updated-at 1649002343067}
@@ -532,6 +538,9 @@
  {:block/name "国际象棋网站",
   :block/created-at 1660714440687,
   :block/updated-at 1660714444569}
+ {:block/name "在wsl2上安装cuda",
+  :block/created-at 1667988222214,
+  :block/updated-at 1667988555715}
  {:block/name "大图书馆计划",
   :block/created-at 1660553453719,
   :block/updated-at 1660553506352}
