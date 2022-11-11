@@ -1,9 +1,9 @@
 - ## 一些重要文件的名字，位置与功能
-	- /etc
-		- /etc/bash.bashrc
+	- etc
+		- bash.bashrc
 		  id:: 62eb946d-a94f-4486-880a-06594b75aec2
 			- 当交互式终端打开时被执行，默认会引用并执行 ((62eb948c-87d4-4004-8131-6dcd549c8e0a))
-		- /etc/profile
+		- profile
 		  id:: 62eb948c-87d4-4004-8131-6dcd549c8e0a
 			- 当ssh登录发生时被执行
 - ## 系统
