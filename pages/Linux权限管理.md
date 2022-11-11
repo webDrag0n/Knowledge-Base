@@ -1,5 +1,5 @@
 - 移除sudo权限：
-	- TODO
+	- `sudo deluser xxx`
 - drwxr-xr-x权限：
   id:: 62fc9ef9-95bb-4877-ae90-50aaf730c887
 	- 目录所有者可读写执行，其他用户只能读写不能执行
