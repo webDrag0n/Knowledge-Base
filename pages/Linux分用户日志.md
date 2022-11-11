@@ -20,7 +20,7 @@
   export HISTFILE="/var/log/history/${LOGNAME}/${USER}@${USER_IP}_$DT"
   chmod 600 /var/log/history/${LOGNAME}/*history* 2>/dev/null
   ```
-- 保存的文件名格式为：`${USER}@${USER_IP}_$d`
+- 保存的文件名格式为：`${USER}@${USER_IP}_$DateTime`
 -
 - 为每个用户建立``/var/log/history/{Username}``目录，并按需设置每个文件夹的访问权限，建议设置如下：
 - ```bash
