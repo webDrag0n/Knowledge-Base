@@ -4,5 +4,9 @@
   sudo apt-get update
   sudo apt-get upgrade
   sudo apt-get install mysql-server
-  
+  sudo usermod -d /var/lib/mysql/ mysql
+  sudo service mysql start
+  # 设置密码
+  mysql -u root -p
   ```
+-
