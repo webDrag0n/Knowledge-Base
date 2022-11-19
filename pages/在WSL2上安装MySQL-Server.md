@@ -7,6 +7,9 @@
   sudo usermod -d /var/lib/mysql/ mysql
   sudo service mysql start
   # 设置密码
+  sudo mysql -u root -p
+  ```
+- ```bash
+  # 之后的登录也使用命令
   mysql -u root -p
   ```
--

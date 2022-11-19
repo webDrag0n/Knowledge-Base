@@ -277,6 +277,9 @@
  {:block/name "nov 14th, 2022",
   :block/created-at 1668412467353,
   :block/updated-at 1668412467353}
+ {:block/name "nov 15th, 2022",
+  :block/created-at 1668501744648,
+  :block/updated-at 1668501744648}
  {:block/name "nov 4th, 2022",
   :block/created-at 1667571217844,
   :block/updated-at 1667571280358}
@@ -547,6 +550,9 @@
  {:block/name "在wsl2上安装cuda",
   :block/created-at 1667988222214,
   :block/updated-at 1667988555715}
+ {:block/name "在wsl2上安装mysql-server",
+  :block/created-at 1668502473435,
+  :block/updated-at 1668502614006}
  {:block/name "大图书馆计划",
   :block/created-at 1660553453719,
   :block/updated-at 1660553506352}
