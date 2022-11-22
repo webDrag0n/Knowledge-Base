@@ -6,6 +6,8 @@
 	  ```c++
 	  //错误示例
 	  double var_val = 0;
-	  symbol_table.add_variable(var_name, var_val);
-	  symbol_table.add_variable("name2)
+	  symbol_table.add_variable("name0", var_val);
+	  var_val = 1;
+	  symbol_table.add_variable("name1", var_val);
 	  ```
+	- 在不确定需要增加的
