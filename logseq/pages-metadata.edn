@@ -118,6 +118,12 @@
  {:block/name "dwm窗口管理器",
   :block/created-at 1660274579129,
   :block/updated-at 1666360273686}
+ {:block/name "evaluation",
+  :block/created-at 1669213644183,
+  :block/updated-at 1669213644183}
+ {:block/name "exprtk",
+  :block/created-at 1669213644197,
+  :block/updated-at 1669213644197}
  {:block/name "favorites",
   :block/created-at 1649002343067,
   :block/updated-at 1649002343067}
@@ -253,6 +259,9 @@
  {:block/name "markdown-cheat-sheet",
   :block/created-at 1648999263616,
   :block/updated-at 1648999562097}
+ {:block/name "math",
+  :block/created-at 1669213644187,
+  :block/updated-at 1669213644187}
  {:block/name "minecraft",
   :block/created-at 1666358098124,
   :block/updated-at 1666359575465}
@@ -283,6 +292,9 @@
  {:block/name "nov 19th, 2022",
   :block/created-at 1668868617524,
   :block/updated-at 1668868617524}
+ {:block/name "nov 23rd, 2022",
+  :block/created-at 1669213643729,
+  :block/updated-at 1669213643729}
  {:block/name "nov 4th, 2022",
   :block/created-at 1667571217844,
   :block/updated-at 1667571280358}
