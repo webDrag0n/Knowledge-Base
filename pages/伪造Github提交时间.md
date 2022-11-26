@@ -11,3 +11,9 @@
   git commit -m "message"
   git 
   ```
+- ### 踩坑
+	- 直接使用
+	  ```bash
+	  git commit --amend --no-edit --date="Thu Nov 10 01:28:33 2022 +0800"
+	  ```
+	  会导致Git本地提交
