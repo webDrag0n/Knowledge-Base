@@ -80,14 +80,14 @@
 		  details, please see the section INSTALLING THE NVIDIA DRIVER in the README available on 
 		  the Linux driver download page at [www.nvidia.com](http://www.nvidia.com/).
 		  ```
-		- ![image](https://cdn.jsdelivr.net/gh/qishibo/img/1630657156154-131807913-321c9477-630d-4ec7-b6d5-43ee8c6efede.png)
+		- ![image.png](../assets/image_1669985537045_0.png)
 	- ### 6、验证安装
 		- 执行`nvidia-smi`命令能看到显卡相关信息即可，其中的`CUDA Version: 11.1`为最高能支持到的cuda版本，并非当前系统安装的cuda版本
-		- ![image](https://cdn.jsdelivr.net/gh/qishibo/img/1630657156652-131808938-689a2f2b-be35-4654-b624-7f56afd3a581.png)
+		- ![image.png](../assets/image_1669985545960_0.png)
 - ## Cuda安装
 	- ### 1、从官网下载
 		- 下载地址为[https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads)，选择自己的版本，按照命令执行即可，`Installer Type`一般选择`runfile`，然后执行最下面提示的两句命令
-		- ![1630574457(1)](https://cdn.jsdelivr.net/gh/qishibo/img/1630657157133-131818637-b5f55d3b-befe-4841-b0dc-2c7042cbdc47.png)
+		- ![image.png](../assets/image_1669985556455_0.png)
 	- ### 2、按照1步骤的提示下载并执行
 		- 1步骤中的两句命令一般如下
 		- ```
@@ -149,7 +149,8 @@
 	- > Cudnn安装即下载文件复制到Cuda目录的过程，故实际上并未真正安装软件
 	- ### 1、下载文件
 		- 下载地址为[https://developer.nvidia.com/cudnn](https://developer.nvidia.com/cudnn)，不过需要注册才能下载，点击Download ![image](https://cdn.jsdelivr.net/gh/qishibo/img/1630657157607-131815896-3329c752-feca-432d-bf79-603afc4be551.png)
-		- 勾选 `I Agree` 那一行之后，根据自己上面安装的Cuda版本选择对应的Cudnn版本下载，这里选择的是`cuDNN Library for Linux (x86)`，下载后得到类似`cudnn-10.0-linux-x64-v7.6.5.32.tgz`的压缩文件 ![1630573592(1)](https://cdn.jsdelivr.net/gh/qishibo/img/1630657158132-131816427-abb7b98c-d5ec-42dd-880e-6e3c35b97bcf.png)
+		- 勾选 `I Agree` 那一行之后，根据自己上面安装的Cuda版本选择对应的Cudnn版本下载，这里选择的是`cuDNN Library for Linux (x86)`，下载后得到类似`cudnn-10.0-linux-x64-v7.6.5.32.tgz`的压缩文件
+		- ![image.png](../assets/image_1669985579014_0.png)
 		- 执行如下命令解压，会自动解压到cuda文件夹中
 		- ```
 		  # 换成你下载的文件
