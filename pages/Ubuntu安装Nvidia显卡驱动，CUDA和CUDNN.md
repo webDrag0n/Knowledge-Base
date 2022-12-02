@@ -148,9 +148,10 @@
 - ## Cudnn安装
 	- > Cudnn安装即下载文件复制到Cuda目录的过程，故实际上并未真正安装软件
 	- ### 1、下载文件
-		- 下载地址为[https://developer.nvidia.com/cudnn](https://developer.nvidia.com/cudnn)，不过需要注册才能下载，点击Download ![image](https://cdn.jsdelivr.net/gh/qishibo/img/1630657157607-131815896-3329c752-feca-432d-bf79-603afc4be551.png)
-		- 勾选 `I Agree` 那一行之后，根据自己上面安装的Cuda版本选择对应的Cudnn版本下载，这里选择的是`cuDNN Library for Linux (x86)`，下载后得到类似`cudnn-10.0-linux-x64-v7.6.5.32.tgz`的压缩文件
+		- 下载地址为[https://developer.nvidia.com/cudnn](https://developer.nvidia.com/cudnn)，不过需要注册才能下载，点击Download
 		- ![image.png](../assets/image_1669985579014_0.png)
+		- 勾选 `I Agree` 那一行之后，根据自己上面安装的Cuda版本选择对应的Cudnn版本下载，这里选择的是`cuDNN Library for Linux (x86)`，下载后得到类似`cudnn-10.0-linux-x64-v7.6.5.32.tgz`的压缩文件
+		-
 		- 执行如下命令解压，会自动解压到cuda文件夹中
 		- ```
 		  # 换成你下载的文件
@@ -166,7 +167,9 @@
 		  sudo chmod a+r /usr/local/cuda-10.0/lib64/libcudnn*
 		  ```
 - ## Cuda版本切换
-	- 如果机器上安装了多个版本的cuda，则会在`/usr/local/`中存在多个cuda-xx的文件夹，如下： ![1630578392(1)](https://cdn.jsdelivr.net/gh/qishibo/img/1630657158574-131828164-c7331656-687c-45a2-b7b9-5f5ec15dd344.png)
+	- 如果机器上安装了多个版本的cuda，则会在`/usr/local/`中存在多个cuda-xx的文件夹，如下：
+	- ![image.png](../assets/image_1669985593601_0.png)
+	- ![image.png](../assets/image_1669985620331_0.png)
 	- 其中`/usr/local/cuda`文件夹是个软链接，链接到目前的cuda版本目录，所以如果要切换版本的话，只需要将原来cuda软链删除，重新建立指向另一个cuda-xx目录即可
 - ## 关于NVIDIA-SMI失效
 	- 有时候执行`nvidia-smi`命令时会报错`NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running`，这种可能是由于最近升级内核导致的新内核无法启动驱动，如下处理：
