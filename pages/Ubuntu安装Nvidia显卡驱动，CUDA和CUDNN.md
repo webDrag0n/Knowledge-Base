@@ -12,7 +12,7 @@
 		  01:00.1 Audio device: NVIDIA Corporation GP104 High Definition Audio Controller (rev a1)
 		  ```
 		- 然后去[https://www.nvidia.cn/Download/index.aspx](https://www.nvidia.cn/Download/index.aspx)官网选择型号下载，得到类似`NVIDIA-Linux-x86_64-450.80.02.run`这样的执行文件
-		- ![1630577932(1)](https://cdn.jsdelivr.net/gh/qishibo/img/1630657154319-131827123-204045d5-4ae3-488d-9361-30c238829d52.png)
+		- ![image.png](../assets/image_1669985441314_0.png)
 	- ### 2、删除可能存在的Nvidia驱动
 		- ```
 		  sudo apt-get remove --purge nvidia*
