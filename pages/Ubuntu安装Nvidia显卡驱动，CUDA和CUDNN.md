@@ -52,7 +52,7 @@
 		- ```
 		  The distribution-provided pre-install script failed!  Are you sure you want to continue?
 		  ```
-		- ![image](https://cdn.jsdelivr.net/gh/qishibo/img/1630657154650-131831529-207e2312-8b0a-463f-8f34-c8d5a8462d28.png)
+		- ![image.png](../assets/image_1669985481065_0.png)
 		- 如下提示是否需要32位兼容，不需要，`no`即可
 		- ```
 		  Install NVIDIA's 32-bit compatibility libraries?
@@ -65,14 +65,15 @@
 		- ```
 		  Would you like to register the kernel module sources with DKMS? This will allow DKMS to automatically build a new module, if you install a different kernel later
 		  ```
-		- ![image](https://cdn.jsdelivr.net/gh/qishibo/img/1630657154996-131830852-39a54355-7554-4663-a141-a8817949f92a.png)
-		- 然后会有如下过程提示 ![image](https://cdn.jsdelivr.net/gh/qishibo/img/1630657155333-131831623-fda3614e-9092-4c4c-bba9-8db3bd1d8a7e.png)
+		- ![image.png](../assets/image_1669985499444_0.png)
+		- 然后会有如下过程提示
+		- ![image.png](../assets/image_1669985513760_0.png)
 		- 是否运行Nvidia-xconfig来配置X configuration文件，选择`yes`
 		- ```
 		  Would you like to run the nvidia-xconfig utility to automatically update your X configuration file so that the
 		   NVIDIA X driver will be used when you restart X?  Any pre-existing X configuration file will be backed up.
 		  ```
-		- ![image](https://cdn.jsdelivr.net/gh/qishibo/img/1630657155745-131831014-ea58d249-e977-420e-a8ce-8428085910b6.png)
+		- ![image.png](../assets/image_1669985526562_0.png)
 		- Tips: 如果提示这个Error，说明Xserver还没关，重新执行上面的第5步关闭Xserver
 		- ```
 		  ERROR: You appear to be running an X server; please exit X before installing.  For further     
