@@ -151,7 +151,7 @@
 		- 下载地址为[https://developer.nvidia.com/cudnn](https://developer.nvidia.com/cudnn)，不过需要注册才能下载，点击Download
 		- ![image.png](../assets/image_1669985579014_0.png)
 		- 勾选 `I Agree` 那一行之后，根据自己上面安装的Cuda版本选择对应的Cudnn版本下载，这里选择的是`cuDNN Library for Linux (x86)`，下载后得到类似`cudnn-10.0-linux-x64-v7.6.5.32.tgz`的压缩文件
-		-
+		- ![](file:///C:/Users/webDrag0n/AppData/Local/Logseq/app-0.8.1/resources/assets/image_1669985593601_0.png "image.png")
 		- 执行如下命令解压，会自动解压到cuda文件夹中
 		- ```
 		  # 换成你下载的文件
@@ -168,7 +168,6 @@
 		  ```
 - ## Cuda版本切换
 	- 如果机器上安装了多个版本的cuda，则会在`/usr/local/`中存在多个cuda-xx的文件夹，如下：
-	- ![image.png](../assets/image_1669985593601_0.png)
 	- ![image.png](../assets/image_1669985620331_0.png)
 	- 其中`/usr/local/cuda`文件夹是个软链接，链接到目前的cuda版本目录，所以如果要切换版本的话，只需要将原来cuda软链删除，重新建立指向另一个cuda-xx目录即可
 - ## 关于NVIDIA-SMI失效
