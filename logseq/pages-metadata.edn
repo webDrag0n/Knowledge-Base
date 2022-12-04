@@ -73,6 +73,36 @@
  {:block/name "c++ style guide",
   :block/created-at 1659938994516,
   :block/updated-at 1659938994516}
+ {:block/name "c:/users",
+  :block/created-at 1669985653153,
+  :block/updated-at 1669985653153}
+ {:block/name "c:/users/webdrag0n",
+  :block/created-at 1669985653153,
+  :block/updated-at 1669985653153}
+ {:block/name "c:/users/webdrag0n/appdata",
+  :block/created-at 1669985653154,
+  :block/updated-at 1669985653154}
+ {:block/name "c:/users/webdrag0n/appdata/local",
+  :block/created-at 1669985653154,
+  :block/updated-at 1669985653154}
+ {:block/name "c:/users/webdrag0n/appdata/local/logseq",
+  :block/created-at 1669985653155,
+  :block/updated-at 1669985653155}
+ {:block/name "c:/users/webdrag0n/appdata/local/logseq/app-0.8.1",
+  :block/created-at 1669985653155,
+  :block/updated-at 1669985653155}
+ {:block/name
+  "c:/users/webdrag0n/appdata/local/logseq/app-0.8.1/resources",
+  :block/created-at 1669985653156,
+  :block/updated-at 1669985653156}
+ {:block/name
+  "c:/users/webdrag0n/appdata/local/logseq/app-0.8.1/resources/assets",
+  :block/created-at 1669985653156,
+  :block/updated-at 1669985653156}
+ {:block/name
+  "c:/users/webdrag0n/appdata/local/logseq/app-0.8.1/resources/assets/image_1669985593601_0.png",
+  :block/created-at 1669985653152,
+  :block/updated-at 1669985653152}
  {:block/name "canceled",
   :block/created-at 1660722291690,
   :block/updated-at 1660722291690}
@@ -100,12 +130,18 @@
  {:block/name "cuda",
   :block/created-at 1667988548334,
   :block/updated-at 1667988548334}
+ {:block/name "cudnn",
+  :block/created-at 1669985340645,
+  :block/updated-at 1669985340645}
  {:block/name "database",
   :block/created-at 1665559587194,
   :block/updated-at 1665559587194}
  {:block/name "dataframe",
   :block/created-at 1663923598357,
   :block/updated-at 1663923616861}
+ {:block/name "dec 2nd, 2022",
+  :block/created-at 1669984992854,
+  :block/updated-at 1669984992854}
  {:block/name "docker",
   :block/created-at 1661939764985,
   :block/updated-at 1661939764985}
@@ -247,6 +283,9 @@
  {:block/name "linux安装微信",
   :block/created-at 1660273626800,
   :block/updated-at 1660273628798}
+ {:block/name "linux报错及解决办法",
+  :block/created-at 1669985107285,
+  :block/updated-at 1669985248476}
  {:block/name "linux新建用户",
   :block/created-at 1665551844450,
   :block/updated-at 1665551880059}
@@ -490,6 +529,12 @@
  {:block/name "transformer",
   :block/created-at 1660900641848,
   :block/updated-at 1660900641848}
+ {:block/name "ubuntu",
+  :block/created-at 1669985328500,
+  :block/updated-at 1669985328500}
+ {:block/name "ubuntu安装nvidia显卡驱动，cuda和cudnn",
+  :block/created-at 1669985321224,
+  :block/updated-at 1669985751951}
  {:block/name "unity",
   :block/created-at 1648998093893,
   :block/updated-at 1649259572842}
@@ -634,6 +679,9 @@
  {:block/name "打包so链接库",
   :block/created-at 1669802694472,
   :block/updated-at 1669802694472}
+ {:block/name "报错",
+  :block/created-at 1669985118307,
+  :block/updated-at 1669985118307}
  {:block/name "插件",
   :block/created-at 1661335441752,
   :block/updated-at 1661335441752}
