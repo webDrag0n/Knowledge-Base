@@ -2,7 +2,7 @@
 - 在windows中安装CUDA环境，参考 [[NVIDIA]] 官方教程：[CUDA on WSL User Guide](https://docs.nvidia.com/cuda/wsl-user-guide/index.html#getting-started-with-cuda-on-wsl)
   其他参考：
   [WSL2 安装配置 GPU 驱动](https://lamirs.vercel.app/wsl2%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEgpu%E9%A9%B1%E5%8A%A8/)
-  []
+  [修复 libcuda.so.1 is not a symbolic link](https://lamirs.vercel.app/wsl2%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEgpu%E9%A9%B1%E5%8A%A8/)
 - 安装完成Linux驱动后应能够在wsl2中执行`nvidia-smi`并得到回复
 - ```bash
   wget https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/cuda-wsl-ubuntu.pin
