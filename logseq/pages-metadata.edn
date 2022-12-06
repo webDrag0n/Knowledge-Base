@@ -142,6 +142,9 @@
  {:block/name "dec 2nd, 2022",
   :block/created-at 1669984992854,
   :block/updated-at 1669984992854}
+ {:block/name "dec 4th, 2022",
+  :block/created-at 1670136093590,
+  :block/updated-at 1670136093590}
  {:block/name "docker",
   :block/created-at 1661939764985,
   :block/updated-at 1661939764985}
@@ -292,6 +295,9 @@
  {:block/name "linux权限管理",
   :block/created-at 1659606969824,
   :block/updated-at 1668144316861}
+ {:block/name "linux环境打包so链接库",
+  :block/created-at 1669802694472,
+  :block/updated-at 1670136389109}
  {:block/name "logseq",
   :block/created-at 1661324008987,
   :block/updated-at 1661939559119}
@@ -493,6 +499,9 @@
  {:block/name "sep 9th, 2022",
   :block/created-at 1662713533331,
   :block/updated-at 1662713533331}
+ {:block/name "so链接库",
+  :block/created-at 1670136179874,
+  :block/updated-at 1670136179874}
  {:block/name "ssh",
   :block/created-at 1663124491386,
   :block/updated-at 1663124491386}
@@ -676,9 +685,6 @@
  {:block/name "房产证号码",
   :block/created-at 1666358512864,
   :block/updated-at 1666358567592}
- {:block/name "打包so链接库",
-  :block/created-at 1669802694472,
-  :block/updated-at 1669802694472}
  {:block/name "报错",
   :block/created-at 1669985118307,
   :block/updated-at 1669985118307}
