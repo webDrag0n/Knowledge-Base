@@ -1,6 +1,6 @@
 - #CUDA #WSL2
 - 在windows中安装CUDA环境，参考 [[NVIDIA]] 官方教程：[CUDA on WSL User Guide](https://docs.nvidia.com/cuda/wsl-user-guide/index.html#getting-started-with-cuda-on-wsl)
-- 安装完成Linux驱动后应能够在
+- 安装完成Linux驱动后应能够在wsl2中执行`nvidia-smi`并得到回复
 - ```bash
   wget https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/cuda-wsl-ubuntu.pin
   sudo mv cuda-wsl-ubuntu.pin /etc/apt/preferences.d/cuda-repository-pin-600
