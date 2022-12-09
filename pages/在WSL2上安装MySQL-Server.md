@@ -32,6 +32,6 @@
 		  # mysql 8.0后
 		  create user 'root'@'%' identified by '[mysql root password]';
 		  grant all on *.* to 'root'@'%';
-		  alter user 'root'@'%'
+		  alter user 'root'@'%' identified
 		  ```
 -
