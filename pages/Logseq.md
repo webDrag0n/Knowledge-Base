@@ -1,8 +1,10 @@
 - Logseq Github页面
 	- https://github.com/logseq/logseq
 - [awesome-logseq](https://github.com/logseq/awesome-logseq)
+- [Widgets](https://indify.co/#)
 - ### Markdown 文档
   id:: 6249ba5b-b3e7-4878-8cb1-7d7dc1209932
+  collapsed:: true
 	- ==https://www.markdownguide.org/tools/logseq/==
 - ### 制作Notion风格的链接卡片
 	- <div contenteditable="false" data-content-editable-void="true"><a rel="noopener noreferrer" style="display: block; color: inherit; text-decoration: none; flex-grow: 1; min-width: 0px;" href="https://stackoverflow.com/questions/22575662/filename-too-long-in-git-for-windows"><div class="notion-focusable" role="button" tabindex="0" style="user-select: none; transition: background 20ms ease-in 0s; cursor: pointer; width: 100%; display: flex; flex-wrap: wrap-reverse; align-items: stretch; text-align: left; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.16); border-radius: 3px; position: relative; color: inherit; fill: inherit;"><div style="flex: 4 1 180px; padding: 12px 14px 14px; overflow: hidden; text-align: left;"><div style="font-size: 14px; line-height: 20px; color: rgb(255, 255, 255); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-height: 24px; margin-bottom: 2px;">Filename too long in Git for Windows</div><div style="font-size: 12px; line-height: 16px; color: rgba(255, 255, 255, 0.65); height: 32px; overflow: hidden;">Asked I'm using Git-1.9.0-preview20140217 for Windows. As I know, this release should fix the issue with too long filenames. But not for me. Surely I'm doing something wrong: I did git config core.longpaths true and git add . and then git commit. Everything went well.
