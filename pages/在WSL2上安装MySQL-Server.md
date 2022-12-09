@@ -24,6 +24,9 @@
 		  # bind-address           = 127.0.0.1
 		  # mysqlx-bind-address    = 127.0.0.1
 		  ```
+		  ```bash
+		  sudo mysql -u root
+		  ```
 		- ```MySql
 		  
 		  ```
