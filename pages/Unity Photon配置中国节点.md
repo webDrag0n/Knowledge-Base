@@ -11,5 +11,8 @@
 - 填写信息，填写之前复制的appid，一般两个工作日
 - 按正常流程安装配置Unity photon插件
 - 搜索LoadBalancingClient.cs
-- 修改 NameServerHost， 由 ns.exitgames.io 改为 ns.photonengine.cn;
+  ![image.png](../assets/image_1670552837317_0.png){:height 241, :width 620}
+- 修改 NameServerHost， 由 ns.exitgames.io 改为 ns.photonengine.cn
+  ![image.png](../assets/image_1670552855961_0.png)
+- PhotonServerSettings 的 Fixed Region 设置为 cn
 -
