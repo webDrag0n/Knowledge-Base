@@ -17,7 +17,9 @@
 	- 1. 开启Windows端口转发和防火墙许可
 		- #远程访问WSL2服务
 		- ```powershell
+		  netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=13306 connectaddress=172.22.62.142 connectport=3306
 		  
+		  netsh advfirewall firewall add rule name=WSL2 dir=in action=allow protocol=TCP localport=13306
 		  ```
 	- 2. Mysql设置允许远程访问
 		- ```bash
