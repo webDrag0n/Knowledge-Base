@@ -38,6 +38,6 @@
 	-
 -
 - ### [[国际象棋]]
-	- [[https://lichess.org/]]
-	-
+	- https://lichess.org/
+	- https://www.chess.com/play/online
 - [[ZeroTier]]
