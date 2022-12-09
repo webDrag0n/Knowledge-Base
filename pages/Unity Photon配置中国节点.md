@@ -1,4 +1,5 @@
-- 参考：
+- #Unity #Photon
+- 参考：[photon pun2 设置中国区 - 非递归电饭煲的博客](https://blog.csdn.net/qq_37350725/article/details/124657623)
 - ## photon 网址
   
   >  https://dashboard.photonengine.com/zh-CN
