@@ -7,5 +7,9 @@
 - > https://vibrantlink.com/
 - ## 步骤
 - 访问中国区官网
+  ![image.png](../assets/image_1670552818742_0.png)
 - 填写信息，填写之前复制的appid，一般两个工作日
-- 导入
+- 按正常流程安装配置Unity photon插件
+- 搜索LoadBalancingClient.cs
+- 修改 NameServerHost， 由 ns.exitgames.io 改为 ns.photonengine.cn;
+-
