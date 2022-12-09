@@ -1,3 +1,4 @@
+- 参考：
 - ## photon 网址
   
   >  https://dashboard.photonengine.com/zh-CN
@@ -15,4 +16,9 @@
 - 修改 NameServerHost， 由 ns.exitgames.io 改为 ns.photonengine.cn
   ![image.png](../assets/image_1670552855961_0.png)
 - PhotonServerSettings 的 Fixed Region 设置为 cn
--
+  ![image.png](../assets/image_1670552886636_0.png)
+  ![image.png](../assets/image_1670552895577_0.png)
+- ## 测试
+  可以将配置文件的日志打开，载入自带的demo
+  ![image.png](../assets/image_1670552922114_0.png)
+  ![image.png](../assets/image_1670552929936_0.png)
