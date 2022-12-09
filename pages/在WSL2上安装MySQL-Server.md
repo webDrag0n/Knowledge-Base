@@ -19,4 +19,9 @@
 		- ```bash
 		  vim /etc/mysql/mysql.conf.d/mysql.cnf
 		  ```
+		- 修改（加#注释）
+		  ```bash
+		  # bind-address           = 127.0.0.1
+		  # mysqlx-bind-address    = 127.0.0.1
+		  ```
 		-
