@@ -1,5 +1,6 @@
 - #WSL2
 - ```powershell
+  # 端口转发
   netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=[exposed windows port] connectaddress=[wsl ip] connectport=[wsl port]
   
   # 防火墙规则
