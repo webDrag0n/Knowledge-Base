@@ -118,6 +118,9 @@
  {:block/name "chromedriver",
   :block/created-at 1666187556996,
   :block/updated-at 1666358012530}
+ {:block/name "colorjump",
+  :block/created-at 1670553248808,
+  :block/updated-at 1670553248808}
  {:block/name "commit",
   :block/created-at 1669470295481,
   :block/updated-at 1669470295481}
@@ -126,7 +129,7 @@
   :block/updated-at 1662785723324}
  {:block/name "contents",
   :block/created-at 1649002343067,
-  :block/updated-at 1661940407140}
+  :block/updated-at 1670554715626}
  {:block/name "cuda",
   :block/created-at 1667988548334,
   :block/updated-at 1667988548334}
@@ -184,6 +187,9 @@
  {:block/name "favorites",
   :block/created-at 1649002343067,
   :block/updated-at 1649002343067}
+ {:block/name "fly",
+  :block/created-at 1670553367673,
+  :block/updated-at 1670553367673}
  {:block/name "ftp服务器搭建",
   :block/created-at 1656489342322,
   :block/updated-at 1656491122027}
@@ -229,6 +235,9 @@
  {:block/name "gitlab安装",
   :block/created-at 1661934795841,
   :block/updated-at 1661995568827}
+ {:block/name "goodnight",
+  :block/created-at 1670553362160,
+  :block/updated-at 1670553362160}
  {:block/name "google",
   :block/created-at 1660901339714,
   :block/updated-at 1660901339714}
@@ -247,6 +256,9 @@
  {:block/name "hdfs",
   :block/created-at 1666158784126,
   :block/updated-at 1666158789944}
+ {:block/name "https:",
+  :block/created-at 1670553495042,
+  :block/updated-at 1670553495042}
  {:block/name "hugging face",
   :block/created-at 1661937715639,
   :block/updated-at 1661937813588}
@@ -312,7 +324,7 @@
   :block/updated-at 1670136389109}
  {:block/name "logseq",
   :block/created-at 1661324008987,
-  :block/updated-at 1661939559119}
+  :block/updated-at 1670553969898}
  {:block/name "logseq插件开发",
   :block/created-at 1661335335832,
   :block/updated-at 1661335441753}
