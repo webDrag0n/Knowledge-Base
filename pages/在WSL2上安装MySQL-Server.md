@@ -33,14 +33,12 @@
 		  ```bash
 		  sudo mysql -u root
 		  ```
-		- ```MySql
-		  grant system_user on *.* to 'root';
+		- grant system_user on *.* to 'root';
 		  # mysql 8.0后
 		  create user 'root'@'%' identified by '[mysql root password]';
 		  grant all on *.* to 'root'@'%';
 		  alter user 'root'@'%' identified with mysql_native_password by '[mysql root password]';
 		  flush privileges
-		  ```
 		- ```bash
 		  service mysql restart
 		  ```
