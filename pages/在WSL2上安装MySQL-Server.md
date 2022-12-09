@@ -15,7 +15,10 @@
   ```
 - 使数据库可被远程访问
 	- 1. 开启Windows端口转发和防火墙许可
-	-
+		- #远程访问WSL2服务
+		- ```powershell
+		  
+		  ```
 	- 2. Mysql设置允许远程访问
 		- ```bash
 		  sudo vim /etc/mysql/mysql.conf.d/mysql.cnf
