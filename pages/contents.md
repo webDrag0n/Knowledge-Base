@@ -13,8 +13,10 @@
 - ### 项目
 	- [[大图书馆计划]]
 	- #### 游戏
-	  [[FUNCTION]]
-	- [[ColorJump]]
+		- [[FUNCTION]]
+		- [[GoodNight]]
+		- [[Fly]]
+		- [[ColorJump]]
 -
 - ### 算法
 	- [[Knight's Tour]]
