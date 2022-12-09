@@ -35,9 +35,10 @@
 - ### 建模
 	- [[Blender]]
 	- [[照片扫描]]
-	-
--
 - ### [[国际象棋]]
 	- https://lichess.org/
 	- https://www.chess.com/play/online
 - [[ZeroTier]]
+- ### 破解
+	- #### 游戏
+		- []
