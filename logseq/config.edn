@@ -172,7 +172,7 @@
  :graph/settings {:journal? false, :orphan-pages? false, :builtin-pages? true}
  :favorites ["logseq" "Nextcloud" "markdown-cheat-sheet"]
  :feature/enable-journals? false
- :default-home {}
+ :default-home {:page "Contents"}
  :feature/enable-flashcards? false
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
