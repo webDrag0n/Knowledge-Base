@@ -47,6 +47,7 @@
 	- Now that your keys are installed, it's time to install a firmware. Make sure you have an untrimmed XCI file of a recent game cartridge you dumped, or have compiled your dumped firmware into a ZIP file.
 		- 1.  Open _Ryujinx_. There should be no warning about KEYS.md anymore; if you still get the warning, go back through the prod.keys steps and ensure you have placed the file correctly.
 		- 2.  Now that _Ryujinx_ is open, click _Tools > Firmware > Install from XCI/ZIP_
+		  此处的firmware可以从[Switch Firmwares - Darthsternie's Firmware Archive](https://darthsternie.net/switch-firmwares/)处获取
 			- ![image](https://user-images.githubusercontent.com/62343878/86277870-aec63280-bb94-11ea-8932-df14c870e25c.png)
 			- This brings up the "Choose the firmware file to open" window.
 			- ![image](https://user-images.githubusercontent.com/62343878/86277923-c69db680-bb94-11ea-99ab-2d8c7ea74e0e.png)
