@@ -39,6 +39,7 @@
 		- 4.  Click _File_ at the top left of the _Ryujinx_ window, and then click _Open Ryujinx_ _Folder_.
 			- ![image](https://user-images.githubusercontent.com/62343878/86277744-7b83a380-bb94-11ea-96c3-83acfbd9b534.png)
 		- 5.  Navigate down into the system subfolder and paste your prod.keys file here. The file/folder structure should look like this (JohnDoe substituted for your username):
+		  此处的prod.keys可以从[Ryujinx Prod Keys - prodkeys.net](https://prodkeys.net/ryujinx-prod-keys/)处下载获取
 			- ![image](https://user-images.githubusercontent.com/62343878/86277827-9d7d2600-bb94-11ea-9900-b5351364fd14.png)
 		- 6.  Close and reopen _Ryujinx_ so that the prod.keys file is validated.
 			- You're done installing keys!
