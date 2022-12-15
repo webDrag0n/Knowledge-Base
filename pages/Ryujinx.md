@@ -1,4 +1,4 @@
 - #NintendoSwitch #破解 #游戏
 - [Switch模拟器 - Ryujinx](https://ryujinx.org/)
-- 安装教程
+- 安装教程（参考[Ryujinx Setup & Configuration Guide - Ryujinx/Ryujinx Wiki](https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide)
 -
