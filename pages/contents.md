@@ -45,4 +45,4 @@
 - ### 破解
 	- #### 游戏
 		- [[Ryujinx]]
-		- [Switch模拟器 - Ryujinx](https://ryujinx.org/)
+		-
