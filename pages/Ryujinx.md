@@ -1,0 +1,79 @@
+- #NintendoSwitch #破解 #游戏
+- [Switch模拟器 - Ryujinx](https://ryujinx.org/)
+- 安装教程（参考[Ryujinx Setup & Configuration Guide - Ryujinx/Ryujinx Wiki](https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide)）
+- # Preface
+	- Ryujinx comes pre-optimized by default. If a particular menu option is not mentioned in this guide, it should be ignored and should not be changed unless directly instructed by Ryujinx staff.
+	- _**When requesting support on the Ryujinx official Discord server, you will usually be asked for your log file. With this in mind, Logging should be left at default settings (enabled) for everything except debug logs. Do not enable debug logs unless specifically instructed by Ryujinx staff.**_
+- # [](https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide#system-requirements)System Requirements
+	- In order to use _Ryujinx_ your computer will need:
+		- At least 8GB RAM
+		- A video card/GPU that supports OpenGL 4.5 or higher, or Vulkan.
+		- Your Switch keys and either your dumped firmware or recent game cartridge untrimmed XCI
+		- Your dumped Nintendo Switch games or homebrew
+		- A 64-bit Operating System
+		- OS-specific dependencies installed
+- # [](https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide#dependencies)Dependencies
+	- **Windows**
+		- **Windows 10 RS4 (Redstone 4, version 1803) or newer** is required.
+		- Graphics drivers must be up to date. On laptops with 2 different graphics cards, both iGPU and dGPU drivers must be updated.
+	- **Linux**
+	- copy the command into your terminal emulator of choice and execute it
+		- _Archlinux based distros:_
+			- `sudo pacman -S sdl2 openal`
+		- _Ubuntu based distros:_
+			- `sudo apt-get install libsdl2-2.0 libsdl2-dev libalut-dev`
+		- _Fedora:_
+			- `sudo dnf install SDL2-devel openal-soft`
+	- **MacOS**
+		- `brew install gtk+3 sdl2`
+			- (_NOTE:_ if you don't have brew, open your terminal, and execute the command bellow to install it
+			- `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
+			- After that you should be able to use the brew command to install the needed dependencies.
+- # [](https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide#initial-setup---placement-of-prodkeys)Initial Setup - Placement of prod.keys
+	- **Ryujinx supports [portable mode!](https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide#portable-mode) If you set up portable mode, note that any time the %appdata% folder is referenced in the guide below, it is referring to your custom data folder.**
+		- 1.  Now that you've downloaded the _Ryujinx_ archive, open it and extract the contents of the publish folder onto your hard drive in the location of your choice.
+		- 2.  Navigate to where you extracted the _Ryujinx_ files, and double-click on _Ryujinx.exe_. This will launch the emulator and you will be met with the following message (don't worry; this is normal!):
+			- ![image](https://user-images.githubusercontent.com/62343878/86277688-5ee76b80-bb94-11ea-9c51-0f5ba153371b.png)
+		- 3.  Click _OK_ on the warning box.
+			- Now that _Ryujinx_ has been launched, the proper folders have been created for you in your %appdata% folder.
+		- 4.  Click _File_ at the top left of the _Ryujinx_ window, and then click _Open Ryujinx_ _Folder_.
+			- ![image](https://user-images.githubusercontent.com/62343878/86277744-7b83a380-bb94-11ea-96c3-83acfbd9b534.png)
+		- 5.  Navigate down into the system subfolder and paste your prod.keys file here. The file/folder structure should look like this (JohnDoe substituted for your username):
+		  此处的prod.keys可以从[Ryujinx Prod Keys - prodkeys.net](https://prodkeys.net/ryujinx-prod-keys/)处下载获取
+			- ![image](https://user-images.githubusercontent.com/62343878/86277827-9d7d2600-bb94-11ea-9900-b5351364fd14.png)
+		- 6.  Close and reopen _Ryujinx_ so that the prod.keys file is validated.
+			- You're done installing keys!
+- # [](https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide#initial-setup-continued---installation-of-firmware)Initial Setup Continued - Installation of Firmware
+	- Now that your keys are installed, it's time to install a firmware. Make sure you have an untrimmed XCI file of a recent game cartridge you dumped, or have compiled your dumped firmware into a ZIP file.
+		- 1.  Open _Ryujinx_. There should be no warning about KEYS.md anymore; if you still get the warning, go back through the prod.keys steps and ensure you have placed the file correctly.
+		- 2.  Now that _Ryujinx_ is open, click _Tools > Firmware > Install from XCI/ZIP_
+		  此处的firmware可以从[Switch Firmwares - Darthsternie's Firmware Archive](https://darthsternie.net/switch-firmwares/)处获取
+			- ![image](https://user-images.githubusercontent.com/62343878/86277870-aec63280-bb94-11ea-8932-df14c870e25c.png)
+			- This brings up the "Choose the firmware file to open" window.
+			- ![image](https://user-images.githubusercontent.com/62343878/86277923-c69db680-bb94-11ea-99ab-2d8c7ea74e0e.png)
+		- 3.  Using the _Ryujinx_ window, navigate to the location of your dumped XCI file and click _Open_. You will be asked to confirm whether you want to install the firmware. Make sure your prod.keys are at least as new as the firmware you are installing!
+			- (Your firmware version number may vary)
+			- ![image](https://user-images.githubusercontent.com/62343878/86277970-db7a4a00-bb94-11ea-9142-2616ed6e742b.png)
+		- 4.  Click _Yes_. You will see a message that the firmware is installing:
+			- ![image](https://user-images.githubusercontent.com/62343878/86278026-ee8d1a00-bb94-11ea-98ab-a45d9d4ca48c.png)
+			- and was successfully installed:
+			- ![image](https://user-images.githubusercontent.com/62343878/86278058-fcdb3600-bb94-11ea-861f-866a13dbefdb.png)
+		- 5.  Click _OK_. If all went well, you will now see your firmware version listed as the "System Version" in the bottom right hand corner of the main _Ryujinx_ window.
+			- ![image](https://user-images.githubusercontent.com/62343878/86278217-4035a480-bb95-11ea-9803-fabc39dbec5b.png)
+- # [](https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide#adding-your-games-to-ryujinx)Adding Your Games to Ryujinx
+	- You have keys and firmware ready to go. Time to add your games!
+	- With _Ryujinx_ open, click on _Options > Settings_. This takes you straight to the _General_ tab.
+	- ![image](https://user-images.githubusercontent.com/62343878/86278362-7c690500-bb95-11ea-9667-cb61e7d45b8e.png)
+	- There are two different methods in which you can add a Game Directory in this window.
+	- **1st Method:**
+	- Type the absolute path of the folder containing your games into the path field and click _Add_.
+	- ![image](https://user-images.githubusercontent.com/62343878/86278453-a6bac280-bb95-11ea-8bb0-005e89dbb295.png)
+	- **2nd Method:**
+	- Without typing anything into the path field, click _Add_.
+	- ![image](https://user-images.githubusercontent.com/62343878/86278489-b76b3880-bb95-11ea-929c-da8b53052406.png)\
+	- This brings up the navigation window. Navigate to the folder containing your games (e.g. D:\Switch Games) and click _Add_.
+	- ![image](https://user-images.githubusercontent.com/62343878/86278572-d5d13400-bb95-11ea-98e6-91a58667a538.png)
+		- 1.  Whichever method you chose, **click _Save_** to save the game directory setting.
+		- 2.  Your games will now show up in the main _Ryujinx_ window.
+			- ![image](https://user-images.githubusercontent.com/62343878/86278608-e7b2d700-bb95-11ea-8b2c-f12b1b7f0fcc.png)
+-
