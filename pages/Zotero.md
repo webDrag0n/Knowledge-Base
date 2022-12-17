@@ -1,0 +1,2 @@
+- [How to use Logseq's Zotero Integration](https://blog.logseq.com/citation-needed-how-to-use-logseqs-zotero-integration/)
+- /zotero
