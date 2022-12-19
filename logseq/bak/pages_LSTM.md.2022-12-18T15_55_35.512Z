@@ -1,0 +1,15 @@
+- Long-Short Term Memory
+	- https://zhuanlan.zhihu.com/p/42717426
+	- https://zhuanlan.zhihu.com/p/32085405
+	- https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21
+	- https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+	-
+	- https://medium.com/swlh/a-simple-overview-of-rnn-lstm-and-attention-mechanism-9e844763d07b
+	- ### Attention
+		- https://zhuanlan.zhihu.com/p/47282410
+		- #### Attention is all you need
+			- https://arxiv.org/abs/1706.03762
+			- https://paperswithcode.com/paper/attention-is-all-you-need
+		- https://towardsdatascience.com/illustrated-self-attention-2d627e33b20a
+	- ### Transformer
+		- https://jalammar.github.io/illustrated-transformer/
