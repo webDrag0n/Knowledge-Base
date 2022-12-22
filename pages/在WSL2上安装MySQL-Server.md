@@ -14,7 +14,8 @@
   sudo mysql -u root -p
   ```
 - 使数据库可被远程访问
-	- 1. 开启Windows端口转发和防火墙许可
+	- collapsed:: true
+	  1. 开启Windows端口转发和防火墙许可
 		- #远程访问WSL2服务
 		- ```powershell
 		  netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=13306 connectaddress=172.22.62.142 connectport=3306
@@ -33,12 +34,14 @@
 		  ```bash
 		  sudo mysql -u root
 		  ```
-		- grant system_user on *.* to 'root';
+		- ```mysql
+		  grant system_user on *.* to 'root';
 		  # mysql 8.0后
 		  create user 'root'@'%' identified by '[mysql root password]';
 		  grant all on *.* to 'root'@'%';
 		  alter user 'root'@'%' identified with mysql_native_password by '[mysql root password]';
 		  flush privileges
+		  ```
 		- ```bash
 		  service mysql restart
 		  ```
