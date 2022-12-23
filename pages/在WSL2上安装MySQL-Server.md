@@ -32,7 +32,7 @@
 		  # mysqlx-bind-address    = 127.0.0.1
 		  ```
 		  ```bash
-		  sudo mysql -u root
+		  sudo mysql -u root -p
 		  ```
 		- ```mysql
 		  # mysql 8.0前
