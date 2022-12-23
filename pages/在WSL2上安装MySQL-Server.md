@@ -43,6 +43,5 @@
 		  alter user 'root'@'%' identified with mysql_native_password by '[mysql root password]';
 		  flush privileges
 		  ```
-		- ```bash
-		  service mysql restart
-		  ```
+		- service mysql restart
+-
