@@ -35,8 +35,9 @@
 		  sudo mysql -u root
 		  ```
 		- ```mysql
+		  # mysql 8.0前
 		  grant system_user on *.* to 'root';
-		  # mysql 8.0后
+		  # mysql 8.0后，执行以下命令
 		  create user 'root'@'%' identified by '[mysql root password]';
 		  grant all on *.* to 'root'@'%';
 		  alter user 'root'@'%' identified with mysql_native_password by '[mysql root password]';
