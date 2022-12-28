@@ -1,1 +1,4 @@
+- ## 常见报错与解决办法
+	- `Connection failure. Network error or Proxmox VE services not running?`
+		- 在pve终端控制台中输入`pvecm updatecerts`
 -

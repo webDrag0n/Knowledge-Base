@@ -153,9 +153,7 @@
  ;; input "{{{poem red,blue}}}"
  ;; becomes
  ;; Rose is red, violet's blue. Life's ordered: Org assists you.
- :macros {
-          
-          }
+ :macros {}
 
  ;; The default level to be opened for the linked references.
  ;; For example, if we have some example blocks like this:
@@ -171,10 +169,9 @@
  :ref/linked-references-collapsed-threshold 50
  :graph/settings {:journal? false, :orphan-pages? false, :builtin-pages? true}
  :favorites ["logseq" "Nextcloud" "markdown-cheat-sheet"]
- :feature/enable-journals? false
+ :feature/enable-journals? true
  :default-home {:page "Contents"}
  :feature/enable-flashcards? false
- :zotero/settings-v2 {"default" {:type-id "10766989", :zotero-linked-attachment-base-directory "/Users/lzx/ZoteroAttachment"}}
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
