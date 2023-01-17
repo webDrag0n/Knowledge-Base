@@ -1,1 +1,2 @@
 - #Unity
+- ECS是Entity, Component, System的缩写，Unity新一代Burst编译器通过强制要求开发者使用
