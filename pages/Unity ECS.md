@@ -4,4 +4,4 @@
 	- 替代了原本的GameObject，
 - Job Scheduler
 - Burst
-- C
+- C# components
