@@ -7,4 +7,4 @@
 		  index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 		  ```
 	- Windows:
-		-
+		- 修改 `C:\Users\xxx\pip\pip.ini`，内容同上
