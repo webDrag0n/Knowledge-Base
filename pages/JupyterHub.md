@@ -5,5 +5,15 @@
   curl -L https://tljh.jupyter.org/bootstrap.py | sudo -E python3 - --admin <admin-name>
   ```
 - 注：当网络不佳导致curl下载卡顿时可以尝试在网页端打开并复制粘贴文本至同名文件，使用`sudo -E python3 bootstrap.py --admin <admin-name>`进行第二阶段
-- # 关闭与重启
+- # 停止与重启
 - ## 停止
+- ```bash
+  systemctl stop jupyterhub.service
+  ```
+- ## 重启
+- ```bash 
+  # 重启
+  sudo tljh-config reload proxy
+  
+  sudo tljh-config reload hub
+  ```
