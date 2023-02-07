@@ -1,4 +1,5 @@
-- #Python #JupyterNotebook
+- #Python #JupyterHub
+- ⚠如无必要请不要使用该版本的JupyterHub
 - # 安装
 - ```bash
   sudo apt install python3 python3-dev git curl
