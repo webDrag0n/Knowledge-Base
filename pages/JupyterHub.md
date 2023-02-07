@@ -12,8 +12,8 @@
   ```
 - ## 重启
 - ```bash 
-  # 重启
+  # 重启Traefik服务
   sudo tljh-config reload proxy
-  
+  # 重启jupyter hub
   sudo tljh-config reload hub
   ```
