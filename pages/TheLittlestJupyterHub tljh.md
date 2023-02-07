@@ -1,6 +1,6 @@
 - #Python #JupyterHub
 - ⚠如无必要请不要使用该JupyterHub，此项目旨为提供一个JupyterHub的最小安装，生产环境请参考 ((63e1f57a-98bf-418d-bd6f-011b9c45744d))
-- # TLJH安装
+- # 安装
 	- ```bash
 	  sudo apt install python3 python3-dev git curl
 	  curl -L https://tljh.jupyter.org/bootstrap.py | sudo -E python3 - --admin <admin-name>
