@@ -1,5 +1,5 @@
 - #Python #JupyterHub
-- ⚠如无必要请不要使用该JupyterHub，此项目旨为提供一个JupyterHub的最小安装，生产环境请
+- ⚠如无必要请不要使用该JupyterHub，此项目旨为提供一个JupyterHub的最小安装，生产环境请参考 [[JupyterHub]]
 - # 安装
 - ```bash
   sudo apt install python3 python3-dev git curl
