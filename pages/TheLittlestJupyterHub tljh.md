@@ -18,3 +18,6 @@
 	  # 重启jupyter hub
 	  sudo tljh-config reload hub
 	  ```
+- # 移除
+- 参考：https://tljh.jupyter.org/en/latest/topic/installer-actions.html
+-
