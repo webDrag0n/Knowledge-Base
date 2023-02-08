@@ -20,7 +20,7 @@
 	  ```
 - # 移除
 - 参考：[What does the installer do?](https://tljh.jupyter.org/en/latest/topic/installer-actions.html)
-- 该文档在介绍安装器的
+- 该文档在介绍安装器的原理和执行步骤时，每一步也附上了撤销操作👍
 - ```bash
   sudo rm -rf /opt/tljh/hub
   ```
