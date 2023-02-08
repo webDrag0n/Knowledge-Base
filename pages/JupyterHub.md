@@ -21,3 +21,8 @@
 		  ```
 	- ## Docker镜像
 -
+- # 启动
+- 多用户
+  ```bash
+  sudo jupyterhub
+  ```
