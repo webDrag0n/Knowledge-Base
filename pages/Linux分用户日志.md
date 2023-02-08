@@ -2,6 +2,8 @@
 - 在/var/log/history下会以每个用户为名新建一个文件夹
 - 在 [/etc/bash/bashrc](((62eb946d-a94f-4486-880a-06594b75aec2))) 中加入
 - ```bash
+  export HISTSIZE=4096
+  export HISTTIMEFORMAT="%F %T "
   history
   USER=`whoami`
   USER_IP=`who -u am i 2>/dev/null| awk '{print $NF}'|sed -e 's/[()]//g'`
@@ -16,7 +18,6 @@
   mkdir /var/log/history/${LOGNAME}
   chmod 300 /var/log/history/${LOGNAME}
   fi
-  export HISTSIZE=4096
   DT=`date +"%Y%m%d_%H:%M:%S"`
   export HISTFILE="/var/log/history/${LOGNAME}/${USER}@${USER_IP}_$DT"
   chmod 600 /var/log/history/${LOGNAME}/*history* 2>/dev/null
