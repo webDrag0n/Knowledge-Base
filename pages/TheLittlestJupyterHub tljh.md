@@ -21,6 +21,34 @@
 - # 移除
 - 参考：[What does the installer do?](https://tljh.jupyter.org/en/latest/topic/installer-actions.html)
 - ```bash
-  
+  sudo rm -rf /opt/tljh/hub
   ```
--
+- ```bash
+  sudo rm -rf /opt/tljh/user
+  ```
+- ```bash
+  sudo unlink /usr/bin/tljh-config
+  ```
+- ```bash
+  sudo rm -rf /opt/tljh/config
+  ```
+- ```bash
+  # stop the services
+  systemctl stop jupyterhub.service
+  systemctl stop traefik.service
+  systemctl stop jupyter-<username>
+  
+  # disable the services
+  systemctl disable jupyterhub.service
+  systemctl disable traefik.service
+  # run this command for all the Jupyter users
+  systemctl disable jupyter-<username>
+  
+  # remove the systemd unit
+  rm /etc/systemd/system/jupyterhub.service
+  rm /etc/systemd/system/traefik.service
+  
+  # reset the state of all units
+  systemctl daemon-reload
+  systemctl reset-failed
+  ```
