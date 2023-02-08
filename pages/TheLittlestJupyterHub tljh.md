@@ -19,5 +19,8 @@
 	  sudo tljh-config reload hub
 	  ```
 - # 移除
-- 参考：https://tljh.jupyter.org/en/latest/topic/installer-actions.html
+- 参考：[What does the installer do?](https://tljh.jupyter.org/en/latest/topic/installer-actions.html)
+- ```bash
+  
+  ```
 -
