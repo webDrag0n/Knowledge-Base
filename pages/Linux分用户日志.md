@@ -1,5 +1,5 @@
 - 参考 [Linux下记录所有用户的登录和操作日志](https://blog.51cto.com/xuaijun/2821502)
-- 在 ((62eb946d-a94f-4486-880a-06594b75aec2)) 中加入
+- 在 [/etc/bash/bashrc](((62eb946d-a94f-4486-880a-06594b75aec2))) 中加入
 - ```bash
   history
   USER=`whoami`
