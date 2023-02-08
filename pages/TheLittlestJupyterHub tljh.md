@@ -20,6 +20,7 @@
 	  ```
 - # 移除
 - 参考：[What does the installer do?](https://tljh.jupyter.org/en/latest/topic/installer-actions.html)
+- 该文档在介绍安装器的
 - ```bash
   sudo rm -rf /opt/tljh/hub
   ```
@@ -52,3 +53,20 @@
   systemctl daemon-reload
   systemctl reset-failed
   ```
+- ```bash
+  sudo rm -rf /opt/tljh/state
+  ```
+- ```bash
+  sudo rm /var/run/index.html
+  sudo rm /var/run/favicon.ico
+  ```
+- ```bash
+  sudo userdel -r <user>
+  ```
+- ```bash
+  sudo delgroup jupyterhub-users
+  sudo delgroup jupyterhub-admins
+  # remove jupyterhub-admins from the sudoers group
+  sudo rm /etc/sudoers.d/jupyterhub-admins
+  ```
+-
