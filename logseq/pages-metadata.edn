@@ -283,6 +283,9 @@
  {:block/name "jps",
   :block/created-at 1666158248173,
   :block/updated-at 1666158736093}
+ {:block/name "jupyterhub",
+  :block/created-at 1675752700832,
+  :block/updated-at 1675838092533}
  {:block/name "keras",
   :block/created-at 1655388088055,
   :block/updated-at 1660901323372}
@@ -312,7 +315,7 @@
   :block/updated-at 1666360371554}
  {:block/name "linux分用户日志",
   :block/created-at 1659606905789,
-  :block/updated-at 1668144068357}
+  :block/updated-at 1675848849710}
  {:block/name "linux安装微信",
   :block/created-at 1660273626800,
   :block/updated-at 1660273628798}
@@ -321,7 +324,7 @@
   :block/updated-at 1669985248476}
  {:block/name "linux新建用户",
   :block/created-at 1665551844450,
-  :block/updated-at 1665551880059}
+  :block/updated-at 1675839047810}
  {:block/name "linux权限管理",
   :block/created-at 1659606969824,
   :block/updated-at 1668144316861}
@@ -480,7 +483,7 @@
   :block/updated-at 1670552988887}
  {:block/name "pip",
   :block/created-at 1662911564816,
-  :block/updated-at 1662911564816}
+  :block/updated-at 1675754110178}
  {:block/name "proxmox",
   :block/created-at 1667571280353,
   :block/updated-at 1667571280353}
@@ -571,6 +574,9 @@
  {:block/name "tensorflow probability",
   :block/created-at 1662819891408,
   :block/updated-at 1662912513319}
+ {:block/name "thelittlestjupyterhub tljh",
+  :block/created-at 1675739272536,
+  :block/updated-at 1675837780317}
  {:block/name "time",
   :block/created-at 1669470298818,
   :block/updated-at 1669470298818}
