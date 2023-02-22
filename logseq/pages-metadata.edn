@@ -286,6 +286,9 @@
  {:block/name "magicavoxel",
   :block/created-at 1666358384099,
   :block/updated-at 1666358453036}
+ {:block/name "mailto:linzexinmasterchief@gmail.com",
+  :block/created-at 1677071183213,
+  :block/updated-at 1677071183213}
  {:block/name "markdown-cheat-sheet",
   :block/created-at 1648999263616,
   :block/updated-at 1648999562097}
@@ -604,6 +607,9 @@
  {:block/name "机器学习",
   :block/created-at 1660900827788,
   :block/updated-at 1660900827788}
+ {:block/name "林泽昕简介",
+  :block/created-at 1677071170228,
+  :block/updated-at 1677071887493}
  {:block/name "架构",
   :block/created-at 1661408955490,
   :block/updated-at 1661408955490}
