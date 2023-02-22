@@ -171,7 +171,7 @@
   :block/updated-at 1669470272585}
  {:block/name "gitlab",
   :block/created-at 1661827022109,
-  :block/updated-at 1661934846481}
+  :block/updated-at 1676596659788}
  {:block/name "gitlab升级企业版",
   :block/created-at 1661934846480,
   :block/updated-at 1661935103882}
@@ -181,6 +181,9 @@
  {:block/name "gitlab安装",
   :block/created-at 1661934795841,
   :block/updated-at 1661995568827}
+ {:block/name "gitlab新增用户",
+  :block/created-at 1676596659787,
+  :block/updated-at 1676596738081}
  {:block/name "goodnight",
   :block/created-at 1670553362160,
   :block/updated-at 1670553362160}
