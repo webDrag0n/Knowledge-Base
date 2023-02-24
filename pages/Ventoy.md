@@ -4,12 +4,12 @@
 - # 安装使用简介
 	- 参考：[Ventoy使用说明](https://www.ventoy.net/cn/doc_start.html)
 	- ## 1. Windows 系统安装 Ventoy —— 图形界面
-	- 下载安装包，例如 ventoy-1.0.00-windows.zip 然后解压开。
-	- 直接执行 `Ventoy2Disk.exe` 如下图所示，选择磁盘设备，然后点击 `安装` 按钮即可。
-	- 说明：
-	- 默认的 `Ventoy2Disk.exe` 是32位x86程序，同时支持最常见的32位和64位Windows系统，绝大部分情况下使用它就可以。
-	- 从1.0.58版本开始，Ventoy还同时提供了 `Ventoy2Disk_X64.exe/Ventoy2Disk_ARM.exe/Ventoy2Disk_ARM64.exe` 可以根据需要使用。
-	- 这些文件位于安装包内的`altexe`目录下，使用时需要将其拷贝到上一层目录（即和 `Ventoy2Disk.exe` 同一位置）。
+		- 下载安装包，例如 ventoy-1.0.00-windows.zip 然后解压开。
+		- 直接执行 `Ventoy2Disk.exe` 如下图所示，选择磁盘设备，然后点击 `安装` 按钮即可。
+		- 说明：
+		- 默认的 `Ventoy2Disk.exe` 是32位x86程序，同时支持最常见的32位和64位Windows系统，绝大部分情况下使用它就可以。
+		- 从1.0.58版本开始，Ventoy还同时提供了 `Ventoy2Disk_X64.exe/Ventoy2Disk_ARM.exe/Ventoy2Disk_ARM64.exe` 可以根据需要使用。
+		- 这些文件位于安装包内的`altexe`目录下，使用时需要将其拷贝到上一层目录（即和 `Ventoy2Disk.exe` 同一位置）。
 		- 安装包内 Ventoy 版本：当前安装包中的Ventoy版本号
 		- 设备内部 Ventoy 版本：U盘中已安装的Ventoy版本号，如果为空则表示U盘内没有安装Ventoy
 		- 左侧显示的 MBR/GPT：用户当前选择的分区格式，可以在选项中修改，只对安装过程有效。
@@ -24,12 +24,12 @@
 			- 3.  MBR/GPT 分区格式选项只在安装时会用，升级的时候是不管的，也就是说升级是不会改变现有分区格式的，必须重新安装才可以。
 			- 4.  安装完之后，U盘存放镜像文件的Ventoy分区也可以再次手动格式化。支持 exFAT/FAT32/NTFS/UDF/XFS/Ext2/3/4 系统。
 				- 对于普通U盘建议使用exFAT文件系统，对于大容量的移动硬盘、本地硬盘、SSD等建议使用NTFS文件系统。
-		- ## 2. Windows 系统安装 Ventoy —— 命令行界面
+	- ## 2. Windows 系统安装 Ventoy —— 命令行界面
 		- 从 Ventoy 1.0.86 版本开始，也支持在命令行模式下执行安装、升级。请参考 [Windows 命令行](https://www.ventoy.net/cn/doc_windows_cli.html)
-		- ## 3. Linux系统安装 Ventoy —— 图形化界面
+	- ## 3. Linux系统安装 Ventoy —— 图形化界面
 		- 方式1，请参考 [Linux 图形化界面 — GTK/QT](https://www.ventoy.net/cn/doc_linux_gui.html)
 		- 方式2，请参考 [Linux 图形化界面 — WebUI](https://www.ventoy.net/cn/doc_linux_webui.html)
-		- ## 4. Linux系统安装 Ventoy —— 命令行界面
+	- ## 4. Linux系统安装 Ventoy —— 命令行界面
 		- 下载安装包，例如 ventoy-1.0.00-linux.tar.gz, 然后解压开.
 		- 在终端以root权限执行 `sudo sh Ventoy2Disk.sh -i /dev/XXX`   其中 /dev/XXX 是U盘对应的设备名，比如 /dev/sdb
 		- ```
@@ -52,11 +52,11 @@
 		- 请注意：选择安装的时候，磁盘将会被格式化，里面所有的数据都会丢失！
 		- 你只需要安装一次Ventoy即可，剩下的就只需要把各种ISO/WIM/VHD(x)/EFI文件拷贝到U盘中就可以了.
 		- 你也可以把它当成普通U盘使用，保存普通文件、图片或视频等，不会影响Ventoy的功能。
-		- ## 5. 拷贝镜像文件
+	- ## 5. 拷贝镜像文件
 		- 安装完成之后，U盘会被分成两个分区（参考 [说明](https://www.ventoy.net/cn/doc_disk_layout.html)）。
 		- 其中第1个分区（就是容量大的那个分区，也可以称之为 镜像分区）将会被格式化为exFAT文件系统（你也可以再手动重新格式化成其他支持的文件系统，比如 NTFS/FAT32/UDF/XFS/Ext2/3/4 等，参考 [说明](https://www.ventoy.net/cn/doc_disk_layout.html)）， 你只需要把ISO/WIM等文件拷贝到这里面即可。你可以把文件放在任意目录以及子目录下。 Ventoy默认会遍历所有的目录和子目录，找出所有的镜像文件，并按照字母排序之后显示在菜单中。
 		- 你可以通过插件配置让Ventoy只搜索某一个固定的目录，或是跳过某些特殊目录等。 详细的控制 Ventoy 搜索路径的方法请参考 [控制 Ventoy 搜索路径方法总结](https://www.ventoy.net/cn/doc_search_path.html)
-		- ## 6. 升级 Ventoy
+	- ## 6. 升级 Ventoy
 		- 如果Ventoy发布了新版本之后，你可以点击 `升级` 按钮进行升级，或者Linux系统中使用 -u 选项进行升级。
 		- 需要说明的是，升级操作是安全的，不会影响现有的镜像文件，也不会重新把镜像分区改成exFAT格式。
 		- 你可以认为升级只是把第二个分区（32MB的VTOYEFI分区）内的Ventoy启动文件覆盖了，不会动到镜像分区，因此镜像文件不会丢失。 即使你当初安装完成之后，把镜像分区重新格式化为了NTFS，升级的时候也不会再改回exFAT。
