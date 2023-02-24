@@ -1,4 +1,5 @@
 - #多系统 #系统安装盘
 - [官方网站](https://www.ventoy.net/cn/index.html)
 - [Github Release](https://github.com/ventoy/Ventoy/releases/tag/v1.0.88)
+- [安装使用简介](https://www.ventoy.net/cn/doc_start.html)
 -
