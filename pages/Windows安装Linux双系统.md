@@ -1,3 +1,7 @@
 - #Windows #Linux #双系统
 - # 安装失败情况
+- 硬盘出于Raid模式
+	- 打开Bios调整硬盘为AHCI模式
+- Bios打开了safe boot
+	- 打开Bios关闭safe boot
 -
