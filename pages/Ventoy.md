@@ -7,15 +7,15 @@
 		- 下载安装包，例如 ventoy-1.0.00-windows.zip 然后解压开。
 		- 直接执行 `Ventoy2Disk.exe` 如下图所示，选择磁盘设备，然后点击 `安装` 按钮即可。
 		- 说明：
-		- 默认的 `Ventoy2Disk.exe` 是32位x86程序，同时支持最常见的32位和64位Windows系统，绝大部分情况下使用它就可以。
-		- 从1.0.58版本开始，Ventoy还同时提供了 `Ventoy2Disk_X64.exe/Ventoy2Disk_ARM.exe/Ventoy2Disk_ARM64.exe` 可以根据需要使用。
-		- 这些文件位于安装包内的`altexe`目录下，使用时需要将其拷贝到上一层目录（即和 `Ventoy2Disk.exe` 同一位置）。
-		- 安装包内 Ventoy 版本：当前安装包中的Ventoy版本号
-		- 设备内部 Ventoy 版本：U盘中已安装的Ventoy版本号，如果为空则表示U盘内没有安装Ventoy
-		- 左侧显示的 MBR/GPT：用户当前选择的分区格式，可以在选项中修改，只对安装过程有效。
-		- 右侧显示的 MBR/GPT：设备当前使用的分区格式 （也就是当初安装Ventoy时选择的分区格式），如果U盘内没有安装Ventoy，则会显示空。
-		- 左侧显示的 exFAT/NTFS/FAT32：用户当前选择的Ventoy分区文件系统类型，可以在选项中修改，只对安装过程有效。
-		- 右侧显示的 exFAT/NTFS/FAT32：当前设备中Ventoy分区的文件系统类型。如果当前设备中没有安装Ventoy，则显示为空。
+			- 默认的 `Ventoy2Disk.exe` 是32位x86程序，同时支持最常见的32位和64位Windows系统，绝大部分情况下使用它就可以。
+			- 从1.0.58版本开始，Ventoy还同时提供了 `Ventoy2Disk_X64.exe/Ventoy2Disk_ARM.exe/Ventoy2Disk_ARM64.exe` 可以根据需要使用。
+			- 这些文件位于安装包内的`altexe`目录下，使用时需要将其拷贝到上一层目录（即和 `Ventoy2Disk.exe` 同一位置）。
+			- 安装包内 Ventoy 版本：当前安装包中的Ventoy版本号
+			- 设备内部 Ventoy 版本：U盘中已安装的Ventoy版本号，如果为空则表示U盘内没有安装Ventoy
+			- 左侧显示的 MBR/GPT：用户当前选择的分区格式，可以在选项中修改，只对安装过程有效。
+			- 右侧显示的 MBR/GPT：设备当前使用的分区格式 （也就是当初安装Ventoy时选择的分区格式），如果U盘内没有安装Ventoy，则会显示空。
+			- 左侧显示的 exFAT/NTFS/FAT32：用户当前选择的Ventoy分区文件系统类型，可以在选项中修改，只对安装过程有效。
+			- 右侧显示的 exFAT/NTFS/FAT32：当前设备中Ventoy分区的文件系统类型。如果当前设备中没有安装Ventoy，则显示为空。
 		- 安装：把Ventoy安装到U盘，只有第一次的时候需要，其他情况就只需要升级即可
 		- 升级：升级U盘中的Ventoy版本，升级不会影响已有的ISO文件
 			- 1.  如果Ventoy2Disk.exe安装或升级一直提示失败，请参考 [说明](https://www.ventoy.net/cn/doc_ventoy2disk.html)
