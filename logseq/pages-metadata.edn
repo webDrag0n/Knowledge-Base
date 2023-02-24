@@ -448,6 +448,9 @@
  {:block/name "unity photon配置中国节点",
   :block/created-at 1670552119049,
   :block/updated-at 1670552988888}
+ {:block/name "ventoy",
+  :block/created-at 1677224040992,
+  :block/updated-at 1677224420641}
  {:block/name "vpn",
   :block/created-at 1663125517722,
   :block/updated-at 1663125517722}
@@ -562,6 +565,9 @@
  {:block/name "在wsl2上安装mysql-server",
   :block/created-at 1668502473435,
   :block/updated-at 1671761267423}
+ {:block/name "多系统",
+  :block/created-at 1677224049625,
+  :block/updated-at 1677224049625}
  {:block/name "大图书馆计划",
   :block/created-at 1660553453719,
   :block/updated-at 1660553506352}
@@ -670,6 +676,9 @@
  {:block/name "符号学",
   :block/created-at 1661328408675,
   :block/updated-at 1661328500383}
+ {:block/name "系统安装盘",
+  :block/created-at 1677224060019,
+  :block/updated-at 1677224060019}
  {:block/name "编程",
   :block/created-at 1660900840973,
   :block/updated-at 1660900840973}
