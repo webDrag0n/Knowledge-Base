@@ -1,2 +1,3 @@
 - #[[Control Theory]]
--
+- [PID Wikipedia](https://www.wikiwand.com/en/PID_controller)
+- The overall control function
