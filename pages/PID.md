@@ -1,5 +1,5 @@
 - #[[Control Theory]]
 - [PID Wikipedia](https://www.wikiwand.com/en/PID_controller)
 - The overall control function
-	- $$u(t)=K_pe(t)+K_i\integral$$
+	- $$u(t)=K_pe(t)+K_i\integral{e()}$$
 -
