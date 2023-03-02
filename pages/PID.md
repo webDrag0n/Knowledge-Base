@@ -1,5 +1,6 @@
 - #[[Control Theory]]
 - [PID Wikipedia](https://www.wikiwand.com/en/PID_controller)
 - The overall control function
-	- $$u(t)=K_pe(t)+K_i\int_0^t{e(\tau)d\tau}+K_d\frac{de(t)}{dt}$$
+	- $u(t)=K_pe(t)+K_i\int_0^t{e(\tau)d\tau}+K_d\frac{de(t)}{dt}$
+- where $K_p$, $K_i$
 -
