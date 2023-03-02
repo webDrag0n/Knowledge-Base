@@ -1,5 +1,5 @@
-- #Jupyter Notebook
-  参考：https://www.jianshu.com/p/8fc3cd032d3c
+- #[[Jupyter Notebook]
+- 参考：https://www.jianshu.com/p/8fc3cd032d3c
 - ### 方法1. ssh远程使用jupyter notebook
 	- 1.  在远程服务器上，启动jupyter notebooks服务：
 	- ```
