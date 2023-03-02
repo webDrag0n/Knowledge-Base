@@ -364,6 +364,9 @@
  {:block/name "python deap",
   :block/created-at 1661940120921,
   :block/updated-at 1661940180043}
+ {:block/name "python 虚拟环境",
+  :block/created-at 1677764983430,
+  :block/updated-at 1677765070228}
  {:block/name "pytorch",
   :block/created-at 1660900406027,
   :block/updated-at 1660901387003}
