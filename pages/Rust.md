@@ -1,0 +1,2 @@
+- Cargo init vs Cargo new
+	- Cargo init: new
