@@ -1,2 +1,3 @@
 - Cargo init vs Cargo new
-	- Cargo init: new
+	- Cargo init: new cargo package in current directory
+	- Cargo new: new cargo package in new directory
