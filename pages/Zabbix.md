@@ -1,2 +1,4 @@
 - # 安装
--
+	- ## 从部署包安装
+		- https://www.zabbix.com/documentation/3.4/zh/manual/installation/install_from_packages
+	- ##
