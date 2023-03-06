@@ -522,7 +522,7 @@
   :block/updated-at 1660902545292}
  {:block/name "zabbix",
   :block/created-at 1677767298611,
-  :block/updated-at 1677767298611}
+  :block/updated-at 1677836666605}
  {:block/name "zerotier",
   :block/created-at 1655388088055,
   :block/updated-at 1655388088055}

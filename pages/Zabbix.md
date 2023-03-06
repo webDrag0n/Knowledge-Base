@@ -1,4 +1,8 @@
 - # 安装
 	- ## 从部署包安装
 		- https://www.zabbix.com/documentation/3.4/zh/manual/installation/install_from_packages
-	- ##
+	- ## 从源代码安装
+		- https://www.zabbix.com/documentation/3.4/zh/manual/installation/install
+	- ## 从容器安装
+		- https://www.zabbix.com/documentation/3.4/zh/manual/installation/containers
+		-
