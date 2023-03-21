@@ -130,6 +130,34 @@
 		-
 	- #### Docker安装GitLab
 		- #Docker
-		- 参考：https://juejin.cn/post/6991435962303643679
-		-
+		- 参考：https://juejin.cn/post/6991435962303643679 3.2创建方法二
+		- 创建`docker-compose.yml`文件，并在该文件所在的文件夹目录下运行`docker-compose up -d`
+		- 需要事先安装`docker-compose`
+		- [安装docker-compose](https://link.juejin.cn?target=https%3A%2F%2Fyeasy.gitbook.io%2Fdocker_practice%2Fcompose%2Finstall "https://yeasy.gitbook.io/docker_practice/compose/install")
+		- ```
+		  version: '2'
+		  services:
+		      gitlab:
+		        image: 'gitlab/gitlab-ce:latest'
+		        container_name: "gitlab"
+		        restart: always
+		        hostname: '主机ip'
+		        environment:
+		          TZ: 'Asia/Shanghai'
+		          GITLAB_OMNIBUS_CONFIG: |
+		            external_url 'http://主机ip:8088'
+		            gitlab_rails['gitlab_shell_ssh_port'] = 10080
+		            gitlab_rails['time_zone'] = 'Asia/Shanghai'
+		        ports:
+		          - '8088:8088'
+		          - '10080:22'
+		          - '443:443'
+		        volumes:
+		          - /usr/local/gitlab/config:/etc/gitlab
+		          - /usr/local/gitlab/logs:/var/log/gitlab
+		          - /usr/local/gitlab/data:/var/opt/gitlab
+		  复制代码
+		  ```
+		- **注**：端口和映射目录可根据需要修改
+		  若开放访问端口为`80`，`external_url`可不加端口号，默认80
 		-
