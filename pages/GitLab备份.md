@@ -8,7 +8,7 @@
 	  ```bash
 	  gitlab-rake gitlab:backup:create
 	  ```
-	- Docker:
+	- #Docker:
 	  ```bash
 	  docker exec -t <container name> [Command above]
 	  ```

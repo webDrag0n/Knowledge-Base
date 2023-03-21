@@ -138,8 +138,8 @@
 		  version: '2'
 		  services:
 		      gitlab:
-		        image: 'gitlab/gitlab-ce:latest'
-		        container_name: "gitlab"
+		        image: 'gitlab/gitlab-ee:latest'
+		        container_name: "gitlab-example"
 		        restart: always
 		        hostname: '主机ip'
 		        environment:
