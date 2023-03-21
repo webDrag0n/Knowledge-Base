@@ -1,4 +1,8 @@
 - # 操作
+	- ### 查看运行中的镜像
+		- ```bash
+		  docker ps
+		  ```
 	- ### 传输文件
 		- ```bash
 		  docker cp /source container_id:/destination
