@@ -128,4 +128,5 @@
 		  gitlab-ctl restart
 		  ```
 		-
-	- #### Docker
+	- #### Docker安装GitLab
+		-
