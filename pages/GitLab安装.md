@@ -156,7 +156,6 @@
 		          - /usr/local/gitlab/config:/etc/gitlab
 		          - /usr/local/gitlab/logs:/var/log/gitlab
 		          - /usr/local/gitlab/data:/var/opt/gitlab
-		  复制代码
 		  ```
 		- **注**：端口和映射目录可根据需要修改
 		  若开放访问端口为`80`，`external_url`可不加端口号，默认80
