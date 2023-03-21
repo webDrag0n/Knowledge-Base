@@ -129,4 +129,7 @@
 		  ```
 		-
 	- #### Docker安装GitLab
+		- #Docker
+		- 参考：https://juejin.cn/post/6991435962303643679
+		-
 		-
