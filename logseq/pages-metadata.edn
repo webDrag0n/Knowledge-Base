@@ -588,7 +588,7 @@
   :block/updated-at 1660714444569}
  {:block/name "在wsl2上安装cuda",
   :block/created-at 1667988222214,
-  :block/updated-at 1678684333702}
+  :block/updated-at 1678692288297}
  {:block/name "在wsl2上安装mysql-server",
   :block/created-at 1668502473435,
   :block/updated-at 1671761267423}
