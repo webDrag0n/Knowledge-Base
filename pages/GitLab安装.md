@@ -134,7 +134,7 @@
 		- 创建`docker-compose.yml`文件，并在该文件所在的文件夹目录下运行`docker-compose up -d`
 		- 需要事先安装`docker-compose`
 		- [安装docker-compose](https://link.juejin.cn?target=https%3A%2F%2Fyeasy.gitbook.io%2Fdocker_practice%2Fcompose%2Finstall "https://yeasy.gitbook.io/docker_practice/compose/install")
-		- ```
+		- ```docker-compose
 		  version: '2'
 		  services:
 		      gitlab:
@@ -149,7 +149,7 @@
 		            gitlab_rails['gitlab_shell_ssh_port'] = 10080
 		            gitlab_rails['time_zone'] = 'Asia/Shanghai'
 		        ports:
-		          - '8088:8088'
+		          - '18088:8088'
 		          - '10080:22'
 		          - '443:443'
 		        volumes:
