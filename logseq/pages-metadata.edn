@@ -117,7 +117,7 @@
   :block/updated-at 1663923616861}
  {:block/name "docker",
   :block/created-at 1679363101144,
-  :block/updated-at 1679363101144}
+  :block/updated-at 1679387151670}
  {:block/name "docker图形化管理系统",
   :block/created-at 1661939790564,
   :block/updated-at 1679363353269}
@@ -463,6 +463,9 @@
  {:block/name "ubuntu",
   :block/created-at 1669985328500,
   :block/updated-at 1669985328500}
+ {:block/name "ubuntu安装java",
+  :block/created-at 1679386479466,
+  :block/updated-at 1679386563956}
  {:block/name "ubuntu安装nvidia显卡驱动，cuda和cudnn",
   :block/created-at 1669985321224,
   :block/updated-at 1669985751951}
