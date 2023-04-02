@@ -13,9 +13,9 @@
 	  #启用 SSL 功能
 	  SSLEngine on
 	  #证书文件的路径
-	  SSLCertificateFile /etc/httpd/ssl/www-webdrag0n-com.crt
+	  SSLCertificateFile /etc/httpd/ssl/www-xxx-com.crt
 	  #私钥文件的路径
-	  SSLCertificateKeyFile /etc/httpd/ssl/www-webdrag0n-com.key
+	  SSLCertificateKeyFile /etc/httpd/ssl/xxx.key
 	  #证书链文件的路径
-	  SSLCertificateChainFile /etc/httpd/ssl/www-webdrag0n-com.crt
+	  SSLCertificateChainFile /etc/httpd/ssl/xxx.crt
 	  ```
