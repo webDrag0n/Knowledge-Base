@@ -45,7 +45,4 @@
 	  [6]:fs_pass - 该字段被fsck命令用来决定在启动时需要被扫描的文件系统的顺序，根文件系统”/”对应该字
 	  段的值应该为1，其他文件系统应该为2。若该文件系统无需在启动时扫描则设置该字段为0
 	- 本例，在fstab文件中添加sdb1分区自动挂载的配置如下：
-	  /dev/sdb1 /mnt/sdb1 ext4 defaults 0 2
-	  ————————————————
-	  版权声明：本文为CSDN博主「vickyleexy」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-	  原文链接：https://blog.csdn.net/u012150360/article/details/81333051
+	  `/dev/sdx1 /target_dir ext4 defaults 0 0`
