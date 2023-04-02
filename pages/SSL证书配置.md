@@ -7,15 +7,15 @@
 	  Alias /nextcloud "/var/www/nextcloud"
 	  DocumentRoot "/var/www/nextcloud"
 	  #填写证书名称
-	  ServerName www.webdrag0n.com
-	  ServerAlias 192.168.1.21 webdrag0n.com *.webdrag0n.com
+	  ServerName www.xxx.com
+	  ServerAlias 111.111.111.111 xxx.com *.xxx.com
 	  
 	  #启用 SSL 功能
 	  SSLEngine on
 	  #证书文件的路径
 	  SSLCertificateFile /etc/httpd/ssl/www-xxx-com.crt
 	  #私钥文件的路径
-	  SSLCertificateKeyFile /etc/httpd/ssl/xxx.key
+	  SSLCertificateKeyFile /etc/httpd/ssl/www-xxx-com.key
 	  #证书链文件的路径
-	  SSLCertificateChainFile /etc/httpd/ssl/xxx.crt
+	  SSLCertificateChainFile /etc/httpd/ssl/www-xxx-com.crt
 	  ```
