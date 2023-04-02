@@ -43,6 +43,7 @@
 		    'timeout' => 1.5,
 		  ),
 		  ```
+		- 配置https证书
 		-
 - ### 增加信任域名
   collapsed:: true
