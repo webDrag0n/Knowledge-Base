@@ -21,3 +21,7 @@
 	  SSLCertificateChainFile /etc/httpd/ssl/www-xxx-com.crt
 	  ```
 	- 将证书放置于对应路径下
+	- 重启apache2
+	- ```bash
+	  apachectl -k restart
+	  ```
