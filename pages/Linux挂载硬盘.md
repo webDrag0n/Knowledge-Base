@@ -10,6 +10,9 @@
 - ```bash
   parted /dev/sdx
   
+  #对磁盘信息进行查看
+  (parted) print
+  
   
   ```
 - 挂载
