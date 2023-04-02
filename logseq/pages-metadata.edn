@@ -280,6 +280,9 @@
  {:block/name "linux报错及解决办法",
   :block/created-at 1669985107285,
   :block/updated-at 1669985248476}
+ {:block/name "linux挂载硬盘",
+  :block/created-at 1680429028813,
+  :block/updated-at 1680441402114}
  {:block/name "linux新建用户",
   :block/created-at 1665551844450,
   :block/updated-at 1675839047810}
@@ -289,6 +292,9 @@
  {:block/name "linux环境打包so链接库",
   :block/created-at 1669802694472,
   :block/updated-at 1670136389109}
+ {:block/name "linux硬盘分区",
+  :block/created-at 1680429627867,
+  :block/updated-at 1680429678738}
  {:block/name "logseq",
   :block/created-at 1661324008987,
   :block/updated-at 1670553969898}
@@ -327,7 +333,7 @@
   :block/updated-at 1665559632020}
  {:block/name "nextcloud",
   :block/created-at 1648998179559,
-  :block/updated-at 1665545761468}
+  :block/updated-at 1680439902719}
  {:block/name "nextcloud webdav",
   :block/created-at 1673073881475,
   :block/updated-at 1673073881475}
@@ -427,6 +433,15 @@
  {:block/name "ssh隧道",
   :block/created-at 1663124500581,
   :block/updated-at 1663125414163}
+ {:block/name "ssl",
+  :block/created-at 1680438946695,
+  :block/updated-at 1680438946695}
+ {:block/name "ssl证书",
+  :block/created-at 1680438935789,
+  :block/updated-at 1680438946695}
+ {:block/name "ssl证书配置",
+  :block/created-at 1680438859373,
+  :block/updated-at 1680440867784}
  {:block/name "study of war",
   :block/created-at 1661333560485,
   :block/updated-at 1661335129539}
