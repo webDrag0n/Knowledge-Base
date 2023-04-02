@@ -5,7 +5,7 @@
   
   lsblk -f
   ```
--
+- 以下假设选择`/dev/sdx`硬盘进行挂载
 - 磁盘分区
 - ```bash
   parted /dev/sdx
