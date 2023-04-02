@@ -13,7 +13,9 @@
   #对磁盘信息进行查看
   (parted) print
   
+  (parted) mklabel gpt
   
+  (parted) mkpart primary 
   ```
 - 挂载
 - ```bash
