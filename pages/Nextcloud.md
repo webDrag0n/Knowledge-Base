@@ -44,7 +44,7 @@
 		  ),
 		  ```
 		- 配置ssl证书
-		-
+		- [[SSL证书配置]]
 - ### 增加信任域名
   collapsed:: true
 	- https://help.nextcloud.com/t/howto-add-a-new-trusted-domain/26
