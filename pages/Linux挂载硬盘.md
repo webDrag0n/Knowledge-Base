@@ -22,7 +22,11 @@
   #再次确认
   (parted) print
   
-  (parted) 
+  #退出parted
+  (parted) q
+  
+  #格式化
+  mkfs.ext4 /dev/sdbx
   ```
 - 挂载
 - ```bash
