@@ -15,7 +15,14 @@
   
   (parted) mklabel gpt
   
-  (parted) mkpart primary 
+  #(parted) mkpart primary 下限% 上限%
+  (parted) mkpart primary 0% 24%
+  (parted) mkpart primary 25% 100%
+  
+  #再次确认
+  (parted) print
+  
+  (parted) 
   ```
 - 挂载
 - ```bash
