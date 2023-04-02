@@ -104,6 +104,8 @@
 	- 挂载新硬盘
 	- 设置启动时自动挂载
 		- ```bash
+		  fdisk -l
+		  
 		  vim /etc/fstab
 		  
 		  + /dev/sdb1 /new ext4 defaults 0 0
