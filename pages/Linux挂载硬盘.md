@@ -25,8 +25,8 @@
   #退出parted
   (parted) q
   
-  #格式化
-  mkfs.ext4 /dev/sdbx
+  #格式化 sdxn中的n为sdx磁盘的n号分区
+  mkfs.ext4 /dev/sdxn
   ```
 - 挂载
 - ```bash
