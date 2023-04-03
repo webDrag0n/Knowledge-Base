@@ -15,7 +15,7 @@
   $ sudo lvscan
    ACTIVE            '/dev/ubuntu-vg/ubuntu-lv' [<462.71 GiB] inherit
   ```
-- 使用以下命令扩展Ubuntu根分区：
+- 使用以下命令扩展Ubuntu根分区（此处为扩展至最大）：
 - ```bash
   sudo lvextend -r -l +100%FREE /dev/ubuntu-vg/root
   ```

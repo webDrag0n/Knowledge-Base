@@ -268,6 +268,9 @@
  {:block/name "linux kernel",
   :block/created-at 1665392799664,
   :block/updated-at 1665392893255}
+ {:block/name "linux lvm卷扩容",
+  :block/created-at 1680484422709,
+  :block/updated-at 1680484784547}
  {:block/name "linux中查看硬盘信息",
   :block/created-at 1666360318514,
   :block/updated-at 1666360371554}
@@ -282,7 +285,7 @@
   :block/updated-at 1669985248476}
  {:block/name "linux挂载硬盘",
   :block/created-at 1680429028813,
-  :block/updated-at 1680441402114}
+  :block/updated-at 1680483312347}
  {:block/name "linux新建用户",
   :block/created-at 1665551844450,
   :block/updated-at 1675839047810}
