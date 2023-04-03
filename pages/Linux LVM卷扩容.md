@@ -10,3 +10,9 @@
   └─sda3                      8:3    0 462.7G  0 part
     └─ubuntu--vg-ubuntu--lv 253:0    0   100G  0 lvm 
   ```
+- 查看是否为lvm分区
+- ```bash
+  sudo lvscan
+   ACTIVE            '/dev/ubuntu-vg/ubuntu-lv' [<462.71 GiB] inherit
+  ```
+-
