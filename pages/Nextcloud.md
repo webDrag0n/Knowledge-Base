@@ -45,6 +45,7 @@
 		  ```
 		- 配置ssl证书
 		- ((6429768d-04b9-4b12-be66-b3c275cf37e0))
+-
 - ### 增加信任域名
   collapsed:: true
 	- https://help.nextcloud.com/t/howto-add-a-new-trusted-domain/26
@@ -82,10 +83,12 @@
 	  ```
 - ### 关闭维护模式
   id:: 6346328a-6381-4629-9130-442b28ae49a0
+  collapsed:: true
 	- ```bash
 	  sudo -u www-data php /var/www/nextcloud/occ maintenance:mode --off
 	  ```
 - ### 文件被锁定后的修复
+  collapsed:: true
 	- 操作不当，如同时在客户端上传和网页端删除一个文件，或中断上传试图删除时有可能会导致文件被锁定无法删除，此时请按如下步骤操作：
 		- ((630719d5-e712-4c79-bb3c-8615da494804))
 		- 进入Mysql数据库终端
@@ -136,6 +139,7 @@
 	  sudo -u www-data php --define apc.enable_cli=1 /var/www/nextcloud/occ maintenance:repair
 	  ```
 - ### 重新扫描更改
+  collapsed:: true
 	- ```bash
 	  sudo -u www-data php console.php files:scan --all
 	  ```
