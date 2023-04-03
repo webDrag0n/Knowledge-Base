@@ -49,15 +49,13 @@
 - ### 升级
 	- 在`https://www.url.com/updater/`页面检查/进行升级
 	- 如果遇到错误，进入`/var/www/nextcloud`目录执行以下命令，根据报错信息进行处理
-	- ```bash
-	  #you may try this command from a terminal on your NC Server
+	- #you may try this command from a terminal on your NC Server
 	  sudo -u www-data php updater/updater.phar
 	  
 	  #after upgrade has finished, you can complete with
 	  sudo -u www-data php /location-of-your-nextcloud/occ upgrade
 	  
 	  #don’t forget to update columns and indices of your database.
-	  ```
 	-
 - ### 增加信任域名
   collapsed:: true
