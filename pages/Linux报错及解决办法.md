@@ -5,4 +5,11 @@
 	  sudo touch /lib/firmware/ast_dp501_fw.bin
 	  ```
 - [This account is currently not available](https://www.cnblogs.com/Autism-jay/p/9228875.html)
-	-
+  id:: 63e36e6f-814d-4487-9756-875fa1269401
+	- 解决办法：
+	- 比如我是 su kafka的时候出现的问题
+	- 用vi看看 kafka的帐号信息
+	- ```bash
+	  cat /etc/passwd | grep kafka
+	  ```
+	- 发现它的shell是“/sbin /nologin”，需要将起改成“/bin/bash”

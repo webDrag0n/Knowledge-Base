@@ -76,9 +76,7 @@
   collapsed:: true
 	- ![image.png](../assets/image_1653845444421_0.png)
 - ## 错误处理
-  collapsed:: true
 	- cron模式下的同步错误
-	  collapsed:: true
 		- 参考：[宝塔面板部署Nextcloud后解决后台安全错误及设置警告](https://www.hao0564.com/1927.html)
 		- **nextcloudcron.service 文件内容如下 :**
 		- ```
