@@ -88,7 +88,8 @@
 		  #其中xxx.com为站点目录
 		  ExecStart=/www/server/php/72/bin/php -f /www/wwwroot/xxx.com/cron.php
 		  ```
-		- 建议在此处测试ExecStart后的命令，确保能够正常运行
+		- 建议在此处测试ExecStart后的命令，确保能够正常运行。
+		  可能出现错误： ((63e36e6f-814d-4487-9756-875fa1269401))
 		- nextcloudcron.timer 文件内容如下 :
 		- ```
 		  [Unit]
