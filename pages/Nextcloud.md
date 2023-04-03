@@ -77,7 +77,7 @@
 	- ![image.png](../assets/image_1653845444421_0.png)
 - ## 错误处理
 	- cron模式下的同步错误
-		- 参考：
+		- 参考：[宝塔面板部署Nextcloud后解决后台安全错误及设置警告](https://www.hao0564.com/1927.html)
 - ## 以下为需要在维护模式下进行的操作
 - ### 进入维护模式
   collapsed:: true
