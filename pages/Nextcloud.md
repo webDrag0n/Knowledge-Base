@@ -76,8 +76,32 @@
   collapsed:: true
 	- ![image.png](../assets/image_1653845444421_0.png)
 - ## 错误处理
+  collapsed:: true
 	- cron模式下的同步错误
+	  collapsed:: true
 		- 参考：[宝塔面板部署Nextcloud后解决后台安全错误及设置警告](https://www.hao0564.com/1927.html)
+		- **nextcloudcron.service 文件内容如下 :**
+		- ```
+		  [Unit]
+		  Description=Nextcloud cron.php job
+		  [Service]
+		  User=www
+		  #此处为Php的目录环境和站点下的cron.php的路径（请根据实际情况填写）
+		  #其中xxx.com为站点目录
+		  ExecStart=/www/server/php/72/bin/php -f /www/wwwroot/xxx.com/cron.php
+		  ```
+		- **nextcloudcron.timer 文件内容如下 :**
+		- ```
+		  [Unit]
+		  Description=Run Nextcloud cron.php every 5 minutes
+		  [Timer]
+		  OnBootSec=5min
+		  OnUnitActiveSec=5min
+		  Unit=nextcloudcron.service
+		  [Install]
+		  WantedBy=timers.target
+		  ```
+		- **将以上两个文件移动到 /etc/systemd/system 目录下(并修改文件的可执行权限)**
 - ## 以下为需要在维护模式下进行的操作
 - ### 进入维护模式
   collapsed:: true
