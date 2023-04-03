@@ -47,6 +47,7 @@
   collapsed:: true
 	- ((6429768d-04b9-4b12-be66-b3c275cf37e0))
 - ### 升级
+  collapsed:: true
 	- 在`https://www.url.com/updater/`页面检查/进行升级
 	- 如果遇到错误，进入`/var/www/nextcloud`目录执行以下命令，根据报错信息进行处理
 	- ```
@@ -58,7 +59,7 @@
 	  
 	  #don’t forget to update columns and indices of your database.
 	  ```
-	- 如果在第一步有意外或手动中断导致再次执行升级命令时出现`currently in process错误`，可删除数据文件夹（
+	- 如果在第一步有意外或手动中断导致再次执行升级命令时出现`currently in process错误`，可删除数据文件夹（同云端数据文件储存处）中的updater-xxx文件夹，删除后可重试。
 - ### 增加信任域名
   collapsed:: true
 	- https://help.nextcloud.com/t/howto-add-a-new-trusted-domain/26
