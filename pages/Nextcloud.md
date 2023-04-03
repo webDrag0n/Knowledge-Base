@@ -45,7 +45,11 @@
 		  ```
 		- 配置ssl证书
 		- ((6429768d-04b9-4b12-be66-b3c275cf37e0))
--
+- ### 升级
+	- 在`https://www.webdrag0n.com:20443/updater/`
+	- ```bash
+	  sudo -u www-data php updater/updater.phar
+	  ```
 - ### 增加信任域名
   collapsed:: true
 	- https://help.nextcloud.com/t/howto-add-a-new-trusted-domain/26
