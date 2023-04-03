@@ -1,0 +1,2 @@
+- #Linux
+- [Ubuntu根目录满了怎么扩容](https://juejin.cn/s/Ubuntu%E6%A0%B9%E7%9B%AE%E5%BD%95%E6%BB%A1%E4%BA%86%E6%80%8E%E4%B9%88%E6%89%A9%E5%AE%B9)
