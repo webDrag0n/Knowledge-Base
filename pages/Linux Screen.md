@@ -8,3 +8,4 @@
 	- ```bash
 	  screen -D -r ＜session-id>
 	  ```
+- 强制停止
