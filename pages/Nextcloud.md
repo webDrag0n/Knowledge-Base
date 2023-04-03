@@ -58,7 +58,7 @@
 	  
 	  #don’t forget to update columns and indices of your database.
 	  ```
-	- 如果在第一步有意外或手动
+	- 如果在第一步有意外或手动中断导致再次执行升级命令时出现`currently in process错误`，可删除数据文件夹（
 - ### 增加信任域名
   collapsed:: true
 	- https://help.nextcloud.com/t/howto-add-a-new-trusted-domain/26
