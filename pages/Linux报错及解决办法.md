@@ -4,4 +4,5 @@
 	- ```bash
 	  sudo touch /lib/firmware/ast_dp501_fw.bin
 	  ```
--
+- [This account is currently not available](https://www.cnblogs.com/Autism-jay/p/9228875.html)
+	-
