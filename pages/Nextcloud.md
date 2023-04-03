@@ -78,7 +78,7 @@
 - ## 错误处理
 	- cron模式下的同步错误
 		- 参考：[宝塔面板部署Nextcloud后解决后台安全错误及设置警告](https://www.hao0564.com/1927.html)
-		- **nextcloudcron.service 文件内容如下 :**
+		- nextcloudcron.service 文件内容如下 :
 		- ```
 		  [Unit]
 		  Description=Nextcloud cron.php job
@@ -88,7 +88,8 @@
 		  #其中xxx.com为站点目录
 		  ExecStart=/www/server/php/72/bin/php -f /www/wwwroot/xxx.com/cron.php
 		  ```
-		- **nextcloudcron.timer 文件内容如下 :**
+		- 建议在此处测试ExecStart后的命令，确保能够正常运行
+		- nextcloudcron.timer 文件内容如下 :
 		- ```
 		  [Unit]
 		  Description=Run Nextcloud cron.php every 5 minutes
@@ -99,7 +100,7 @@
 		  [Install]
 		  WantedBy=timers.target
 		  ```
-		- **将以上两个文件移动到 /etc/systemd/system 目录下(并修改文件的可执行权限)**
+		- 将以上两个文件移动到 /etc/systemd/system 目录下(并修改文件的可执行权限)
 - ## 以下为需要在维护模式下进行的操作
 - ### 进入维护模式
   collapsed:: true
