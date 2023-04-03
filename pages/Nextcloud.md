@@ -124,7 +124,7 @@
 		- ```bash
 		  chown -hR www-data:www-data /new
 		  ```
-	- 修改 nextcloud 配置文件中的数据存储目录位置，配置文件路径为 */data/wwwroot/nextcloud/config* （部分旧版镜像的配置文件路径为：*/data/wwwroot/default/nextcloud/config*）
+	- 修改 nextcloud 配置文件中的数据存储目录位置，配置文件路径为 */var/www/nextcloud/config* （部分旧版镜像的配置文件路径为：*/var/www/default/nextcloud/config*）
 		- `'datadirectory' => '/CloudStorage'`
 - ### 挂载外部硬盘
   collapsed:: true
