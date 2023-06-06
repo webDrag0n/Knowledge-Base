@@ -16,8 +16,8 @@
 - Lin 加上baseline的readme 3.16
 - Liu 所有文件 4.25
   
-  export GIT_AUTHOR_DATE="2022-10-08 20:00:00+08:00"
-  export GIT_COMMITTER_DATE="2022-10-08 20:00:00+08:00"
+  export GIT_AUTHOR_DATE="2023-10-08 20:00:00+08:00"
+  export GIT_COMMITTER_DATE="2023-10-08 20:00:00+08:00"
   
   git config --global user.name "webDrag0n"
   git config --global user.email "linzexinmasterchief@gmail.com"
