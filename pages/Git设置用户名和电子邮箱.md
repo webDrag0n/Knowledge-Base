@@ -25,5 +25,5 @@
   git config --global user.name "wek-deng"
   git config --global user.email "939681959@qq.com"
   
-  git config --global user.name "FIRST_NAME LAST_NAME"
-  git config --global user.email "MY_NAME@example.com"
+  git config --global user.name "JunhuaLiu0"
+  git config --global user.email "jeshualiu@gmail.com"
