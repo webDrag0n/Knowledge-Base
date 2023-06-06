@@ -193,6 +193,9 @@
  {:block/name "gitlab新增用户",
   :block/created-at 1676596659787,
   :block/updated-at 1676596738081}
+ {:block/name "git设置用户名和电子邮箱",
+  :block/created-at 1685523036199,
+  :block/updated-at 1685523063947}
  {:block/name "goodnight",
   :block/created-at 1670553362160,
   :block/updated-at 1670553362160}
@@ -591,7 +594,7 @@
   :block/updated-at 1660721413128}
  {:block/name "伪造github提交时间",
   :block/created-at 1669470168391,
-  :block/updated-at 1669470787395}
+  :block/updated-at 1685523501578}
  {:block/name "使用linux deploy在手机上部署linux系统",
   :block/created-at 1661937370874,
   :block/updated-at 1661937605964}
