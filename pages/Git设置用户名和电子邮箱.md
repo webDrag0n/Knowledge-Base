@@ -16,11 +16,14 @@
 - Lin 加上baseline的readme 3.16
 - Liu 所有文件 4.25
   
-  git config --global user.name "FIRST_NAME LAST_NAME"
-  git config --global user.email "MY_NAME@example.com"
+  git config --global user.name "webDrag0n"
+  git config --global user.email "linzexinmasterchief@gmail.com"
   
-  git config --global user.name "FIRST_NAME LAST_NAME"
-  git config --global user.email "MY_NAME@example.com"
+  git config --global user.name "iamgeorge"
+  git config --global user.email "wangxiiq200@icloud.com"
+  
+  git config --global user.name "wek-deng"
+  git config --global user.email "939681959@qq.com"
   
   git config --global user.name "FIRST_NAME LAST_NAME"
   git config --global user.email "MY_NAME@example.com"
