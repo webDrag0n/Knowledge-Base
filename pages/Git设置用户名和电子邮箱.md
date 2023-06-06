@@ -15,3 +15,12 @@
 - Lin 加上 NABA baseline  2.5
 - Lin 加上baseline的readme 3.16
 - Liu 所有文件 4.25
+  
+  git config --global user.name "FIRST_NAME LAST_NAME"
+  git config --global user.email "MY_NAME@example.com"
+  
+  git config --global user.name "FIRST_NAME LAST_NAME"
+  git config --global user.email "MY_NAME@example.com"
+  
+  git config --global user.name "FIRST_NAME LAST_NAME"
+  git config --global user.email "MY_NAME@example.com"
