@@ -1,9 +1,10 @@
 title:: Ubuntu22.04软件Raid
 
 - #Raid #Ubuntu
+- 参考：https://www.digitalocean.com/community/tutorials/how-to-create-raid-arrays-with-mdadm-on-ubuntu-22-04#creating-a-complex-raid-10-array
 - use mdadm in ubuntu
 	- check for the drives whether there is already any raid existed before creating a new one.
-	- [[Linux硬盘分区]]
+	- [[Linux硬盘分区]] 不要格式化
 	- mdadm检查分区
 		- ```bash
 		  $> sudo mdadm -E /dev/sd[b-e]
@@ -25,7 +26,7 @@ title:: Ubuntu22.04软件Raid
 		  ```
 	- 建立raid10
 		- ```bash
-		  $> sudo mdadm --create /dev/md0 --level=10 --raid-device=4 /dev/sdc1 /dev/sde1 /dev/sdd1 /dev/sdg1
+		  $> sudo mdadm --create --verbose /dev/md0 --level=10 --layout=o3 --raid-devices=4 /dev/sda /dev/sdb /dev/sdc /dev/sdd
 		  
 		  #输出
 		  mdadm: Defaulting to version 1.2 metadata
@@ -255,22 +256,23 @@ title:: Ubuntu22.04软件Raid
 		  ```
 	- 修改/etc/fstab开机自动挂载
 		- ```bash
-		  $> sudo vim /etc/fstab
-		  #文件内写入
-		  /dev/md0 /Storage ext4 defaults 0 0
+		  $> echo '/dev/md0 /mnt/md0 ext4 defaults,nofail,discard 0 0' | sudo tee -a /etc/fstab
 		  
 		  #自动重载
 		  $> sudo mount -av
 		  ```
 	- 保存RAID设置
 		- ```bash
-		  #该命令需要root用户执行，或者分两步输出后手动写入
-		  root> mdadm --detail --scan --verbose >> /etc/mdadm.conf
+		  sudo mdadm --detail --scan | sudo tee -a /etc/mdadm/mdadm.conf
 		  ```
 		- ```bash
 		  root> cat /etc/mdadm.conf 
 		  
 		  ARRAY /dev/md0 level=raid10 num-devices=4 metadata=1.2 name=swat:0 UUID=ee966ee8:11df167b:58bb9346:ca7cac03
 		     devices=/dev/sdc1,/dev/sdd1,/dev/sde1,/dev/sdg1
+		  ```
+	- 更新启动引导
+		- ```bash
+		  $> sudo update-initramfs -u
 		  ```
 	-
