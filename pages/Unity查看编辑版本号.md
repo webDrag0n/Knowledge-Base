@@ -1,0 +1,2 @@
+- #Unity #版本
+- 【项目文件夹】/ProjectSettings/ProjectVersion.txt
