@@ -23,6 +23,7 @@
 		- [[ColorJump]]
 - ## 科研
 	- [[Zotero]]
+	- [[机器人仿真]]
 - ## 算法
 	- [[Knight's Tour]]
 	-
