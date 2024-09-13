@@ -1,4 +1,5 @@
-## Sunshine远程桌面
+- #Ubuntu #Sunshine #RDP
+- ## Sunshine远程桌面
 - 可用于Ubuntu22.04 / 24.04
 - Github：https://github.com/LizardByte/Sunshine
 - ## 安装步骤
