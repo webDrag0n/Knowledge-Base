@@ -37,5 +37,38 @@
 	- 安装URDF-Importer
 		- 官方教程：[Importing a Niryo One Robot using URDF Importer](https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/main/tutorials/urdf_importer/urdf_tutorial.md)
 		- 在unity package manager中选择`install from git`并填入链接`https://github.com/Unity-Technologies/URDF-Importer.git?path=/com.unity.robotics.urdf-importer#v0.5.2`，v0.5.2为版本号，请注意选择。
-		-
-		-
+- ## 增加模块
+	- 在`<workspace>/src/unity_robotics_demo/unity_robotics_demo/`目录下添加新publisher，如`h1_control_publisher.py`
+	- 更改`<workspace>/src/unity_robotics_demo/setup.py`，在`entry_points`字段下以
+	  ```python
+	  entry_points={'console_scripts': ['h1_control_publisher = unity_robotics_demo.h1_control_publisher:main'], ...}
+	  ```
+	  的格式注册新模块
+	- 在`<workspace>/src/unity_robotics_demo/unity_robotics_demo_msgs/msg/`目录下添加新消息，如`H1ControlCommand.msg`
+	- 更改`<workspace>/src/unity_robotics_demo/unity_robotics_demo_msgs/CMakeLists.txt`，在`rosidl_generate_interfaces`字段下以
+	  ```cmake
+	  rosidl_generate_interfaces(${PROJECT_NAME}
+	  	"msg/H1ControlCommand.msg"
+	      ...
+	      "srv/xxx.srv"
+	      DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
+	  )
+	  ```
+	  格式注册新消息
+	- 最后执行`<workspace>/start_compile.sh`或
+	  ```bash
+	  cd <workspace>
+	  source install/setup.bash
+	  source build
+	  source install/setup.bash
+	  ```
+	  完成编译
+- ## 运行
+	- 运行前需要重新编译工作区，以防有更改在增加模块阶段忘记编译
+	  ```bash
+	  cd <workspace>
+	  ./start_compile.sh
+	  ./start_ros_tcp_endpoint.sh 
+	  ./start_h1_publisher.sh
+	  ```
+-
