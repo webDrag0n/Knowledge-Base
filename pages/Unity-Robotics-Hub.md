@@ -3,6 +3,7 @@
 	- Git：[官方Git页面](https://github.com/Unity-Technologies/Unity-Robotics-Hub)
 	- 首先使用鱼香ROS教程安装ROS2环境
 	- [安装ros_unity_integration与demo](https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/main/tutorials/ros_unity_integration/setup.md)
+	  id:: 66e563ac-54e4-4847-a4ed-8ff236dfaa9f
 		- ```bash
 		  git clone https://github.com/Unity-Technologies/Unity-Robotics-Hub.git
 		  # 注意最后的branch指定参数
@@ -34,9 +35,13 @@
 		  ros2 run ros_tcp_endpoint default_server_endpoint --ros-args -p ROS_IP:=0.0.0.0
 		  ```
 		- 注意如果报错某package not found或import error，很有可能是没有一开始就关闭conda环境，可以尝试删除除src以外所有生成文件重新构建。
-	- 安装URDF-Importer
-		- 官方教程：[Importing a Niryo One Robot using URDF Importer](https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/main/tutorials/urdf_importer/urdf_tutorial.md)
-		- 在unity package manager中选择`install from git`并填入链接`https://github.com/Unity-Technologies/URDF-Importer.git?path=/com.unity.robotics.urdf-importer#v0.5.2`，v0.5.2为版本号，请注意选择。
+	- Unity端插件安装
+	  id:: 66f11252-eeb3-43d1-8b00-d9f84883f836
+		- 安装ROS-TCP-Connector（Unity端插件）
+			- 在unity package manager中选择`install from git`并填入链接`https://github.com/Unity-Technologies/ROS-TCP-Connector.git?path=/com.unity.robotics.ros-tcp-connector`
+		- 安装URDF-Importer
+			- 官方教程：[Importing a Niryo One Robot using URDF Importer](https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/main/tutorials/urdf_importer/urdf_tutorial.md)
+			- 在unity package manager中选择`install from git`并填入链接`https://github.com/Unity-Technologies/URDF-Importer.git?path=/com.unity.robotics.urdf-importer#v0.5.2`，v0.5.2为版本号，请注意选择。
 - ## 增加模块
 	- 在`<workspace>/src/unity_robotics_demo/unity_robotics_demo/`目录下添加新publisher，如`h1_control_publisher.py`
 	- 更改`<workspace>/src/unity_robotics_demo/setup.py`，在`entry_points`字段下以
