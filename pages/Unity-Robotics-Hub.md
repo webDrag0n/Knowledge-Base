@@ -1,7 +1,11 @@
 - #Unity #机器人仿真
 - ## 安装
 	- Git：[官方Git页面](https://github.com/Unity-Technologies/Unity-Robotics-Hub)
-	- 首先使用鱼香ROS教程安装ROS2环境
+	- 首先使用[鱼香ROS](https://fishros.org.cn/forum/)教程安装ROS2-foxy桌面版环境，如遇到问题也可改为安装基础版，但是桌面版有更全面的功能，对于其他ROS2开发可能有用。
+		- [一键安装教程](https://fishros.org.cn/forum/topic/20/%E5%B0%8F%E9%B1%BC%E7%9A%84%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E7%B3%BB%E5%88%97)
+		  ```bash
+		  wget http://fishros.com/install -O fishros && . fishros
+		  ```
 	- [安装ros_unity_integration与demo](https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/main/tutorials/ros_unity_integration/setup.md)
 	  id:: 66e563ac-54e4-4847-a4ed-8ff236dfaa9f
 		- ```bash
@@ -12,7 +16,6 @@
 		  cd workspace_colcon
 		  mkdir src
 		  cp -r ../ROS-TCP-Endpoint ../Unity-Robotics-Hub ./src
-		  
 		  ```
 		- ros_tcp_endpoint目录下：
 		  ```bash
