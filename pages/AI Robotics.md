@@ -1,11 +1,15 @@
 - #AI #Robotics #综述 #论文
 - 已有综述：
-	- * [Multimodal Foundation Models: From Specialists to General-Purpose Assistants](https://arxiv.org/abs/2309.10020)
-	- [Awesome-Robotics-Foundation-Models](https://github.com/robotics-survey/Awesome-Robotics-Foundation-Models) by Stanford University **主要技术分类**
+	- 【优秀survey结构参考：需要对未来的展望/确定方向】 **模型类别分类** [Multimodal Foundation Models: From Specialists to General-Purpose Assistants](https://arxiv.org/abs/2309.10020)
+	  ![截屏2024-09-25 13.17.16.png](../assets/截屏2024-09-25_13.17.16_1727243301057_0.png)
+	- **主要技术分类** [Awesome-Robotics-Foundation-Models](https://github.com/robotics-survey/Awesome-Robotics-Foundation-Models) by Stanford University
 	  ![Awesome-Robotics-Foundation-Models-Survey-Tree.png](../assets/Awesome-Robotics-Foundation-Models-Survey-Tree_1726999204161_0.png)
-	- [Paper list for Embodied AI](https://github.com/HCPLab-SYSU/Embodied_AI_Paper_List) by Pengcheng Laboratory (鹏城实验室) & HCPLab-SYSU (中山大学人机物智能融合实验室) [Survey Paper](https://arxiv.org/pdf/2407.06886) **应用场景**
+	- ![截屏2024-09-25 13.10.00.png](../assets/截屏2024-09-25_13.10.00_1727243482185_0.png){:height 256, :width 370}![截屏2024-09-25 13.09.30.png](../assets/截屏2024-09-25_13.09.30_1727243491377_0.png){:height 232, :width 378}
+	- **应用场景** [Paper list for Embodied AI](https://github.com/HCPLab-SYSU/Embodied_AI_Paper_List) by Pengcheng Laboratory (鹏城实验室) & HCPLab-SYSU (中山大学人机物智能融合实验室) [Survey Paper](https://arxiv.org/pdf/2407.06886)
 	  ![截屏2024-09-22 18.35.03.png](../assets/截屏2024-09-22_18.35.03_1727001310394_0.png)
-	- [Awesome Object-Centric Robotic Manipulation](https://github.com/RayYoh/OCRM_survey?tab=readme-ov-file) by CUHK **物体抓取机械臂控制技术路径**
+	- **下游任务分类** [Robot Learning in the Era of Foundation Models: A Survey](https://arxiv.org/pdf/2311.14379) by 同济大学 National Key Laboratory of Autonomous Intelligent Unmanned Systems
+	  ![截屏2024-09-25 13.05.44.png](../assets/截屏2024-09-25_13.05.44_1727240749049_0.png)
+	- **物体抓取机械臂控制技术路径分类** [Awesome Object-Centric Robotic Manipulation](https://github.com/RayYoh/OCRM_survey?tab=readme-ov-file) by CUHK
 	  ![Awesome Object-Centric Robotic Manipulation Overview.png](../assets/Awesome_Object-Centric_Robotic_Manipulation_Overview_1727001056245_0.png)
 	- [Awesome-LLM-Papers-Comprehensive-Topics](https://github.com/shure-dev/Awesome-LLM-Papers-Comprehensive-Topics)
 - ## 仿真相关综述
@@ -14,7 +18,19 @@
 	- 2. **[Survey of Simulators for Aerial Robots](https://arxiv.org/abs/2311.02296v5)**: 本文概述了 44 款无人机模拟器，并对其中 14 款进行了深入比较。还讨论了选择模拟器的关键选择标准和决策因素。
 - ## AI Robotics数据集相关综述
 	- [A Survey on Datasets for Decision-making of Autonomous Vehicle](https://arxiv.org/abs/2306.16784) by Tsinghua University Toyota Joint Research Center for AI Technology of Automated Vehicle.
+- ## AI Robotics数据
+	- 1. 互联网人类视频数据
+		- [ATM](https://xingyu-lin.github.io/atm/), [GVHMR](https://github.com/zju3dv/GVHMR) 通过视频生成动作, [MimicPlay](https://arxiv.org/abs/2302.12422) 视频生成策略（高层次轨迹规划）
+	- 2. 合成数据
+		- [HumanPlus](https://arxiv.org/abs/2406.10454) 结合机器人仿真数据与人类运动数据, [Eureka & DrEureka](https://arxiv.org/abs/2406.01967) 大语言模型生成奖励函数, [Robot Parkour](https://arxiv.org/abs/2309.05665) 多任务->多教师共同训练学生模型->带视觉深度信息不同动力学约束的强化学习训练，以及技能模型的蒸馏, [RoboGen](https://arxiv.org/abs/2311.01455) 强化学习柔性物体操作任务解决状态空间爆炸问题
+	- 3. 动捕数据
+		- [UMI](https://arxiv.org/abs/2402.10329), [DexCap](https://arxiv.org/abs/2403.07788), [HumanPlus](https://arxiv.org/abs/2406.10454)
+	- 4. 机器人遥操数据
+		- [Open-TeleVision](https://arxiv.org/abs/2407.01512), [Mobile ALOHA](https://arxiv.org/abs/2401.02117)
+	- 5. 机器人数据组合
+		- [HPT](https://arxiv.org/abs/2204.13413)
 - ## 较有影响力的10篇文章（不一定最新）
+  collapsed:: true
 	- ### 1. **《Distilled Feature Fields Enable Few-Shot Language-Guided Manipulation》**
 		- **作者**：William Shen, Ge Yang, Alan Yu, Jensen Wong, Leslie Pack Kaelbling, Phillip Isola
 		- **会议**：CoRL 2023
@@ -154,3 +170,4 @@
 		- **会议**：2023
 		- **主要内容**：提出了一种通过人类演示学习灵巧操纵的方法。
 		- **性能**：在灵巧操纵任务中表现出色，能够处理复杂的物体操作。
+-
