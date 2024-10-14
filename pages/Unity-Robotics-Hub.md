@@ -17,7 +17,7 @@
 		  mkdir src
 		  cp -r ../ROS-TCP-Endpoint ../Unity-Robotics-Hub ./src
 		  ```
-		- ros_tcp_endpoint目录下：
+		- workspace_colcon目录下：
 		  ```bash
 		  # conda 环境会扰乱ros2引用
 		  conda deactivate
@@ -67,7 +67,7 @@
 	  ```bash
 	  cd <workspace>
 	  source install/setup.bash
-	  source build
+	  colcon build
 	  source install/setup.bash
 	  ```
 	  完成编译
