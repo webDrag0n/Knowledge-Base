@@ -8,6 +8,7 @@
 		  ```
 	- [安装ros_unity_integration与demo](https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/main/tutorials/ros_unity_integration/setup.md)
 	  id:: 66e563ac-54e4-4847-a4ed-8ff236dfaa9f
+		- 将项目目录下的MuJoCo.zip复制至用户目录（Windows：C:/Users/<UserName>）并解压，文件夹命名为`MuJoCo`
 		- ```bash
 		  git clone https://github.com/Unity-Technologies/Unity-Robotics-Hub.git
 		  # 注意最后的branch指定参数
@@ -18,6 +19,7 @@
 		  cp -r ../ROS-TCP-Endpoint ../Unity-Robotics-Hub ./src
 		  ```
 		- workspace_colcon目录下：
+		  id:: 66e5649f-d7b9-41e0-9960-4d4ba47b3d90
 		  ```bash
 		  # conda 环境会扰乱ros2引用
 		  conda deactivate
@@ -45,6 +47,10 @@
 		- 安装URDF-Importer
 			- 官方教程：[Importing a Niryo One Robot using URDF Importer](https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/main/tutorials/urdf_importer/urdf_tutorial.md)
 			- 在unity package manager中选择`install from git`并填入链接`https://github.com/Unity-Technologies/URDF-Importer.git?path=/com.unity.robotics.urdf-importer#v0.5.2`，v0.5.2为版本号，请注意选择。
+	- 将该仓库中tutorials/ros_unity_integration/ros2_packages下的包复制至workspace_colcon/src并重新执行编译步骤 ((66e5649f-d7b9-41e0-9960-4d4ba47b3d90))
+	- 在 Unity 菜单栏中，转到 Robotics -> Generate ROS Messages.... 在 Message Browser 窗口中，单击右上角的 Browse 按钮​​，将 ROS 消息路径设置为此 repo 中的 tutorials/ros_unity_integration/ros_packages/unity_robotics_demo_msgs。
+		- ros2_packages 文件夹中的版本是等效的；ROS2 用户可以随意使用或不使用。
+	- 在消息浏览器中，展开 unity_robotics_demo_msgs 子文件夹，然后单击“Build 2 msgs”和“Build 2 srvs”，从 ROS .msg 和 .srv 文件生成 C# 脚本。
 - ## 增加模块
 	- 在`<workspace>/src/unity_robotics_demo/unity_robotics_demo/`目录下添加新publisher，如`h1_control_publisher.py`
 	- 更改`<workspace>/src/unity_robotics_demo/setup.py`，在`entry_points`字段下以
