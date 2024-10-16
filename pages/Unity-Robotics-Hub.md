@@ -82,7 +82,26 @@
 	  ```bash
 	  cd <workspace>
 	  ./start_compile.sh
-	  ./start_ros_tcp_endpoint.sh 
 	  ./start_h1_publisher.sh
 	  ```
--
+	- 开启三个终端，分别依次执行：
+	  ```bash
+	  # Terminal 1
+	  source install/setup.sh
+	  ./start_ros_tcp_endpoint.sh 
+	  ```
+	  启动并运行Unity项目
+	  开启第二个终端
+	  ```bash
+	  # Terminal 2
+	  source install/setup.sh
+	  ./start_h1_publisher.sh
+	  ```
+	  开启第三个终端
+	  ```bash
+	  # Terminal 3
+	  source install/setup.sh
+	  cd src/unity_robotics_demo/unity_robotics_demo
+	  python3 h1_controller.py
+	  ```
+	- 回到Unity窗口即可看的结果
