@@ -1,5 +1,5 @@
-- ### 安装与配置
-  collapsed:: true
+### 安装与配置
+collapsed:: true
 	- #### 安装
 		- [Use Apache2 Server](https://docs.nextcloud.com/server/stable/admin_manual/installation/source_installation.html#apache-web-server-configuration)
 		-
@@ -44,7 +44,6 @@
 		  ),
 		  ```
 - ### 配置ssl证书
-  collapsed:: true
 	- ((6429768d-04b9-4b12-be66-b3c275cf37e0))
 - ### 升级
   collapsed:: true
