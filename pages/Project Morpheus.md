@@ -209,6 +209,9 @@
 	- 1. **一个高效、灵活的机器人仿真基座平台**，供实验室所有项目使用。
 	- 2. **多篇高质量的学术论文**，发表在机器人和仿真领域的顶级会议和期刊上。
 	- 3. **丰富的技术文档和用户手册**，方便其他研究人员和开发者使用和扩展平台。
+- ## GitHub仓库
+	- [Morpheus](https://github.com/webDrag0n/Morpheus)
+	- [MorpheusROS2EndPoint](https://github.com/webDrag0n/MorpheusROS2EndPoint)
 - ## 实现进展
 - ### 架构图
 	- ![image.png](../assets/image_1729360878341_0.png){:height 247, :width 314} ![image.png](../assets/image_1727075194675_0.png){:height 253, :width 466}
