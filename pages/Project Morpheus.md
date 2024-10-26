@@ -2,6 +2,7 @@
 - ## Project Morpheus: 基于 ROS、Unity 和 MuJoCo 的机器人数字基座平台开发
 - ## 简介
 	- ### 愿景：加速人形机器人成为家庭成员的进程
+	  id:: 67152c52-a91d-4669-b15f-19a369359072
 		- 我们认为人形机器人加入普通家庭必然会发生
 		- Morpheus的名字取自希腊神话梦神，我们希望该仿真环境能够“让仿生人梦见电子羊”，实现意识从无到有的跨越，从`被动-任务驱动`到`主动-事件驱动`。
 		- 机器人应适应人类社会，对人类友善，像其他人类同伴一样与你协作
@@ -214,31 +215,5 @@
 	- [MorpheusROS2EndPoint](https://github.com/webDrag0n/MorpheusROS2EndPoint)
 - ## 实现进展
 - ### 架构图
-	- ![image.png](../assets/image_1729360878341_0.png){:height 247, :width 314} ![image.png](../assets/image_1727075194675_0.png){:height 253, :width 466}
-- ## 开发文档
-	- ### Roadmap
-		- ✅ MuJoCo
-			- Unity端插件部署完成
-		- ✅ [[Unitree MuJoCo]]
-			- 部署完成
-		- ✅ [[Unitree sdk2]] [[Unitree sdk2 python]]
-		- ✅ ML-Agent
-		- ✅ ROS Plugin：Unity-Robotics-Hub
-			- ROS2（foxy）与Unity通信完成测试，相关过程记录在 [[Unity-Robotics-Hub]]
-		- ▶️ Isaac Sim RL Sim2Sim测试
-			- ✅ 环境部分部署完成
-			- 缺失依赖待解决
-		- ▶️ Hololens 2 连接Unity
-			- ✅ Microsoft-MRTK3.0 OpenXR技术栈部署完成
-			- ▶️ Hololens 2连接Unity（相机输出）
-			- ⏸️ Hololens 2手部输入反控仿真物体
-		- ⏸️ 动捕数据录制模块
-		- ⏸️ Unitree H1仿真数据录制模块
-	- ### 部署
-		- #### Unity-Robotics-Hub
-			- [[Unity-Robotics-Hub]]
-		- #### 渲染
-		- #### Hololens2
-		- #### 动作捕捉
-	-
-	-
+	- ![image.png](../assets/image_1729360878341_0.png){:height 235, :width 314} ![image.png](../assets/image_1727075194675_0.png){:height 253, :width 466}
+- [[Project Morpheus开发文档]]

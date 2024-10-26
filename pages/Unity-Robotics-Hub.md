@@ -1,5 +1,6 @@
 - #Unity #机器人仿真
 - ## 安装
+  collapsed:: true
 	- Git：[官方Git页面](https://github.com/Unity-Technologies/Unity-Robotics-Hub)
 	- 首先使用[鱼香ROS](https://fishros.org.cn/forum/)教程安装ROS2-foxy桌面版环境，如遇到问题也可改为安装基础版，但是桌面版有更全面的功能，对于其他ROS2开发可能有用。
 		- [一键安装教程](https://fishros.org.cn/forum/topic/20/%E5%B0%8F%E9%B1%BC%E7%9A%84%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E7%B3%BB%E5%88%97)
@@ -14,38 +15,32 @@
 		- ```bash
 		  bash start_compile.sh
 		  ```
-	- ### Clean Install
-		- [安装ros_unity_integration与demo](https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/main/tutorials/ros_unity_integration/setup.md)
-		  id:: 66e563ac-54e4-4847-a4ed-8ff236dfaa9f
-			- 将项目目录下的MuJoCo.zip复制至用户目录（Windows：C:/Users/<UserName>）并解压，文件夹命名为`MuJoCo`
-			- ```bash
-			  git clone https://github.com/Unity-Technologies/Unity-Robotics-Hub.git
-			  # 注意最后的branch指定参数
-			  git clone https://github.com/Unity-Technologies/ROS-TCP-Endpoint.git -b main-ros2
-			  mkdir workspace_colcon
-			  cd workspace_colcon
-			  mkdir src
-			  cp -r ../ROS-TCP-Endpoint ../Unity-Robotics-Hub ./src
-			  ```
-			- workspace_colcon目录下：
-			  id:: 66e5649f-d7b9-41e0-9960-4d4ba47b3d90
-			  ```bash
-			  # conda 环境会扰乱ros2引用
-			  conda deactivate
-			  
-			  # 一定要执行两次
-			  # --symlink-install 更快迭代
-			  colcon build --symlink-install
-			  source install/setup.bash
-			  colcon build --symlink-install
-			  source install/setup.bash
-			  ```
-			- 如安装过程中报`No module named 'em'`错误，请通过`pip3 install empy==3.3.2`安装`em`模块，⚠️注意版本号不对也有可能报错，其他缺少模块报错只需缺什么装什么即可。
-	- ### Docker Install
+	- [安装ros_unity_integration与demo](https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/main/tutorials/ros_unity_integration/setup.md)
+	  id:: 66e563ac-54e4-4847-a4ed-8ff236dfaa9f
+		- 将项目目录下的MuJoCo.zip复制至用户目录（Windows：C:/Users/<UserName>）并解压，文件夹命名为`MuJoCo`
 		- ```bash
-		  source /opt/ros/humble/setup.bash
-		  echo " source /opt/ros/humble/setup.bash" >> ~/.bashrc
+		  git clone https://github.com/Unity-Technologies/Unity-Robotics-Hub.git
+		  # 注意最后的branch指定参数
+		  git clone https://github.com/Unity-Technologies/ROS-TCP-Endpoint.git -b main-ros2
+		  mkdir workspace_colcon
+		  cd workspace_colcon
+		  mkdir src
+		  cp -r ../ROS-TCP-Endpoint ../Unity-Robotics-Hub ./src
 		  ```
+		- workspace_colcon目录下：
+		  id:: 66e5649f-d7b9-41e0-9960-4d4ba47b3d90
+		  ```bash
+		  # conda 环境会扰乱ros2引用
+		  conda deactivate
+		  
+		  # 一定要执行两次
+		  # --symlink-install 更快迭代
+		  colcon build --symlink-install
+		  source install/setup.bash
+		  colcon build --symlink-install
+		  source install/setup.bash
+		  ```
+		- 如安装过程中报`No module named 'em'`错误，请通过`pip3 install empy==3.3.2`安装`em`模块，⚠️注意版本号不对也有可能报错，其他缺少模块报错只需缺什么装什么即可。
 	- 测试
 	  ```bash
 	  # conda 环境会扰乱ros2引用
