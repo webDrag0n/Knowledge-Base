@@ -1,4 +1,9 @@
 # 操作
+	- ### 拉取Docker
+	  collapsed:: true
+		- ```bash
+		  docker pull <image_name>:<tag>
+		  ```
 	- ### 查看运行中的镜像
 	  collapsed:: true
 		- ```bash
@@ -27,7 +32,9 @@
 		  ```
 	- ### 导入导出当前Docker环境为Image
 		- ```bash
-		  docker commit container_id name:version
+		  docker commit [container_id] name:version
+		  docker export [container_id] -o [output_name]
+		  docker load -i xxx.tar
 		  ```
 		- 导出容器
 		  打开 Docker Desktop。
