@@ -6,13 +6,13 @@
 		  ```bash
 		  wget http://fishros.com/install -O fishros && . fishros
 		  ```
-	- 下载本仓库
+	- 重启终端
+	- 安装python3 em库
+		- 如安装过程中报`No module named 'em'`错误，请通过`pip3 install empy==3.3.2`安装`em`模块，⚠️注意版本号不对也有可能报错，其他缺少模块报错只需缺什么装什么即可。
 		- ```bash
-		  git clone https://github.com/webDrag0n/Morpheus.git
-		  ```
-	- 删除build目录（如有）并执行：
-		- ```bash
-		  bash start_compile.sh
+		  pip install empy==3.3.2
+		  pip install catkin-pkg
+		  pip install lark
 		  ```
 	- [安装ros_unity_integration与demo](https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/main/tutorials/ros_unity_integration/setup.md)
 	  id:: 66e563ac-54e4-4847-a4ed-8ff236dfaa9f
@@ -60,6 +60,7 @@
 			- ros2_packages 文件夹中的版本是等效的；ROS2 用户可以随意使用或不使用。
 		- 在消息浏览器中，展开 unity_robotics_demo_msgs 子文件夹，然后单击“Build 2 msgs”和“Build 2 srvs”，从 ROS .msg 和 .srv 文件生成 C# 脚本。
 - ## 增加模块
+  id:: 66ef13de-6409-42e9-b603-d1f630dd06be
 	- 在`<workspace>/src/unity_robotics_demo/unity_robotics_demo/`目录下添加新publisher，如`h1_control_publisher.py`
 	- 更改`<workspace>/src/unity_robotics_demo/setup.py`，在`entry_points`字段下以
 	  ```python
@@ -85,31 +86,3 @@
 	  source install/setup.bash
 	  ```
 	  完成编译
-- ## 运行
-	- 运行前需要重新编译工作区，以防有更改在增加模块阶段忘记编译
-	  ```bash
-	  cd <workspace>
-	  ./start_compile.sh
-	  ./start_h1_publisher.sh
-	  ```
-	- 开启三个终端，分别依次执行：
-	  ```bash
-	  # Terminal 1
-	  source install/setup.sh
-	  ./start_ros_tcp_endpoint.sh 
-	  ```
-	  启动并运行Unity项目
-	  开启第二个终端
-	  ```bash
-	  # Terminal 2
-	  source install/setup.sh
-	  ./start_h1_publisher.sh
-	  ```
-	  开启第三个终端
-	  ```bash
-	  # Terminal 3
-	  source install/setup.sh
-	  cd src/unity_robotics_demo/unity_robotics_demo
-	  python3 h1_controller.py
-	  ```
-	- 回到Unity窗口即可看的结果

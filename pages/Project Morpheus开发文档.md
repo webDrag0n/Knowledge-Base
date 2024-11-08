@@ -2,6 +2,9 @@
 - ## 架构
 - ![image.png](../assets/image_1729932532531_0.png){:height 306, :width 401}
 - ## Roadmap
+	- ### 阶段性目标
+	- Demo测试任务：实验者戴Hololens2能看到仿真环境中的Unitree H1机器人和箱子，与机器人各抬一边把箱子搬到目标位置。
+	-
 	- ✅ MuJoCo
 		- Unity端插件部署完成
 	- ✅ [[Unitree MuJoCo]]
@@ -9,23 +12,70 @@
 	- ✅ [[Unitree sdk2]] [[Unitree sdk2 python]]
 	- ✅ ML-Agent
 	- ✅ ROS Plugin：Unity-Robotics-Hub
-		- ROS2（foxy）与Unity通信完成测试，相关过程记录在 [[Unity-Robotics-Hub]]
+		- ROS2（foxy，humble）与Unity通信完成测试，相关过程记录在 [[Unity-Robotics-Hub]]
 	- ▶️ Isaac Sim RL Sim2Sim测试
 		- ✅ 环境部分部署完成
-		- 缺失依赖待解决
+		- ✅ 仿真环境机器人控制指令接收
+		- ▶️ 仿真环境机器人状态回传
+			- ROS2控制信号接收，状态信号发送
 	- ▶️ Hololens 2 连接Unity
 		- ✅ Microsoft-MRTK3.0 OpenXR技术栈部署完成
-		- ▶️ Hololens 2连接Unity（相机输出）
-		- ⏸️ Hololens 2手部输入反控仿真物体
-	- ⏸️ 动捕数据录制模块
-	- ⏸️ Unitree H1仿真数据录制模块
+		- ✅ Hololens 2连接Unity
+		- ⏸️ Hololens 2手部动捕信号回传
+		- ⏸️ Hololens 2相机信号回传
+	- ⏸️ Hololens 2手部输入反控仿真物体
+		- ⏸️ 手部及位置动捕数据
+			- ⏸️ 接收模块
+			- ⏸️ 录制模块
+		- ⏸️ Unity接收动捕+图像回传数据对齐
+	- ⏸️ 仿真数据录制模块
+		- Unitree H1
+		- Unitree Go2
+		- 四旋翼无人机
+	- ⏸️ Robomaster机器人MuJoCo模型
+	- ⏸️ Unity输出语义分割图
+		- ⏸️ SAM2？或者直接仿真直出
+	- ⏸️ 传感器仿真
+		- ⏸️ 相机（自然有，只需要接口）
+		- ⏸️ 激光雷达
+		- ⏸️ IMU（简单，只需要接口）
 - ## 部署
-	- #### 后端
+	- ### 后端
 		- [见Morpheus文档](https://github.com/webDrag0n/Morpheus?tab=readme-ov-file#how-to-build)
-		- Manual Install
-			- [[Unity-Robotics-Hub]]
+		- 核心部件[[Unity-Robotics-Hub]]
+		- 运行
+			- 运行前需要重新编译工作区，以防有更改在增加模块阶段忘记编译
+			  ```bash
+			  cd <workspace>
+			  ./start_compile.sh
+			  ./start_h1_publisher.sh
+			  ```
+			- 开启三个终端，分别依次执行：
+			  ```bash
+			  # Terminal 1
+			  source install/setup.sh
+			  ./start_ros_tcp_endpoint.sh 
+			  ```
+			  启动并运行Unity项目
+			  开启第二个终端
+			  ```bash
+			  # Terminal 2
+			  source install/setup.sh
+			  ./start_h1_publisher.sh
+			  ```
+			  开启第三个终端
+			  ```bash
+			  # Terminal 3
+			  source install/setup.sh
+			  cd src/unity_robotics_demo/unity_robotics_demo
+			  python3 h1_controller.py
+			  ```
+			- 回到Unity窗口即可看的结果
+		- {{embed ((66ef13de-6409-42e9-b603-d1f630dd06be))}}
 	- #### 渲染
 	- #### Hololens2
-	- #### 动作捕捉
+		- 手部动捕
+	- #### 全身动捕
+		-
 	-
 	-

@@ -46,7 +46,6 @@ collapsed:: true
 - ### 配置ssl证书
 	- ((6429768d-04b9-4b12-be66-b3c275cf37e0))
 - ### 升级
-  collapsed:: true
 	- 在`https://www.url.com/updater/`页面检查/进行升级
 	- 如果遇到错误，进入`/var/www/nextcloud`目录执行以下命令，根据报错信息进行处理
 	- ```
@@ -109,7 +108,6 @@ collapsed:: true
 		- 将以上两个文件移动到 /etc/systemd/system 目录下(并修改文件的可执行权限)
 - ## 以下为需要在维护模式下进行的操作
 - ### 进入维护模式
-  collapsed:: true
   id:: 630719d5-e712-4c79-bb3c-8615da494804
 	- ```bash
 	  sudo -u www-data php /var/www/nextcloud/occ maintenance:mode --on
@@ -123,12 +121,10 @@ collapsed:: true
 	  ```
 - ### 关闭维护模式
   id:: 6346328a-6381-4629-9130-442b28ae49a0
-  collapsed:: true
 	- ```bash
 	  sudo -u www-data php /var/www/nextcloud/occ maintenance:mode --off
 	  ```
 - ### 文件被锁定后的修复
-  collapsed:: true
 	- 操作不当，如同时在客户端上传和网页端删除一个文件，或中断上传试图删除时有可能会导致文件被锁定无法删除，此时请按如下步骤操作：
 		- ((630719d5-e712-4c79-bb3c-8615da494804))
 		- 进入Mysql数据库终端
@@ -145,7 +141,6 @@ collapsed:: true
 			  ```
 		- ((6346328a-6381-4629-9130-442b28ae49a0))
 - ### 数据硬盘迁移
-  collapsed:: true
 	- 挂载新硬盘（ [[Linux挂载硬盘]]）
 	- 设置启动时自动挂载
 		- ```bash
@@ -170,16 +165,13 @@ collapsed:: true
 	- 修改 nextcloud 配置文件中的数据存储目录位置，配置文件路径为 */var/www/nextcloud/config* （部分旧版镜像的配置文件路径为：*/var/www/default/nextcloud/config*）
 		- `'datadirectory' => '/CloudStorage'`
 - ### 挂载外部硬盘
-  collapsed:: true
 	- https://www.zywvvd.com/notes/environment/nas/nextcloud/nextcloud-add-disk/
 - ### 自动修复命令
-  collapsed:: true
 	- ((630719d5-e712-4c79-bb3c-8615da494804)) 内执行
 	- ```bash
 	  sudo -u www-data php --define apc.enable_cli=1 /var/www/nextcloud/occ maintenance:repair
 	  ```
 - ### 重新扫描更改
-  collapsed:: true
 	- ```bash
 	  sudo -u www-data php console.php files:scan --all
 	  ```

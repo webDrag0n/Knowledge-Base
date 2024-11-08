@@ -170,7 +170,7 @@
 
  :ref/linked-references-collapsed-threshold 50
  :graph/settings {:journal? false, :orphan-pages? false, :builtin-pages? true}
- :favorites ["project morpheus" "多智能体协同人类完成任务" "Unity-Robotics-Hub" "通用异构多机机器人数字孪生基座" "项目组AI Robotics综述论文" "具身智能训练平台调研综述" "AI Robotics" "灵感" "logseq" "Nextcloud" "markdown-cheat-sheet"]
+ :favorites ["Project Morpheus开发文档" "project morpheus" "多智能体协同人类完成任务" "Unity-Robotics-Hub" "通用异构多机机器人数字孪生基座" "项目组AI Robotics综述论文" "具身智能训练平台调研综述" "AI Robotics" "灵感" "logseq" "Nextcloud" "markdown-cheat-sheet"]
  :feature/enable-journals? false
  :default-home {:page "Contents"}
  :feature/enable-flashcards? false
