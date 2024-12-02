@@ -33,8 +33,9 @@
 		- 机器人通常在以人类安全为重的环境中运行。模拟环境允许研究人员和开发人员测试各种场景，而不会对人类造成身体伤害。在医疗保健、自动驾驶汽车或制造业等机器人与人类一起工作的行业中，全面的测试环境可确保更安全的部署。
 		- 随着机器人越来越融入日常生活，确保互动符合道德规范且为社会所接受至关重要。模拟环境允许在各种社交环境中测试 HRI，包括了解对用户的潜在情感、心理或文化影响。
 	- ### 主要产出
-		- 开源平台，部分开源数据集、平台+数据集论文
+		- 开源平台，部分开源数据集、平台+数据集论文，性能评估工具算法+论文
 	- ### 竞品分析
+	  collapsed:: true
 		- | **Simulation Platform**      | **主要用途**              | **人类模型** | **HRI 重点** | **传感器仿真** | **情感/社交互动** | **AI/ML 集成** | **HRI 场景** | **VR/AR 支持** |
 		  |------------------------------|--------------------------|--------------|--------------|----------------|------------------|----------------|--------------|----------------|
 		  | **Isaac Gym**                 | 强化学习，大规模物理任务      | 2            | 3            | 3              | 1                | 5              | 3            | 1              |
@@ -116,6 +117,8 @@
 	- 9. 多机协作优化
 	- 10. 人机协作优化，基于Hololens2的机器人和场景可视化，以及人体动作捕捉，触觉反馈
 	- 11. 人机协作数据集生产优化
+	- 12. 人体仿真
+	- 13. 人类行为仿真
 - ## 技术难题
 	- **用户友好的图形交互界面**（之前在机器人仿真领域没有人在乎界面）
 	  logseq.order-list-type:: number
@@ -140,6 +143,8 @@
 	- 肌肉 眼镜 质检院-多机协同 具身控制 有结构有观点 算力
 	  logseq.order-list-type:: number
 - ## 相关研究
+	- (Meta, 2019) Habitat 1.0, (Meta, 2023) Habitat 3.0
+	- (Meta, 2024) PARTNR: A Benchmark for Planning and Reasoning in Embodied Multi-agent Tasks
 	- (Tencent, 2024) Lifelike Agility and Play in Quadrupedal Robots using Reinforcement Learning and Generative Pre-trained Models
 	- (Mohammad, 2021) A Scalable Approach to Predict Multi-Agent Motion for Human-Robot Collaboration
 		- 人体动作预测-下个动作帧序列
@@ -147,7 +152,6 @@
 		- 人体动作预测-计算概率分布调整输出功率
 	- 由(Mohammad, 2021)与(Takumi Hara, 2023)可能可开发更好的Human-Aware Control，增加人机协同的安全性
 	- (Tianyuan Dai, 2024) ACDC: Automated Creation of Digital Cousins for Robust Policy Learning
-	- (META, 2023) HABITAT 3.0: A CO-HABITAT FOR HUMANS, AVATARS AND ROBOTS
 	- Multimodal Human-Human-Robot Interactions (MHHRI) Dataset for Studying Personality and Engagement
 	- Gesture-Informed Robot Assistance via Foundation Models
 - ## 技术路径
@@ -227,6 +231,8 @@
 		- 多机协同优化：可以通过进一步优化分布式仿真系统，使多机器人之间的协作更加高效。使用ROS 2的多节点架构结合Ray分布式计算可以更好地管理多机器人的协同工作。
 		- NeRF技术优化：通过优化NeRF算法的渲染效率，进一步加速场景的生成和动态更新。可以参考基于NeRF的最新优化研究，如《Instant Neural Graphics Primitives with a Multiresolution Hash Encoding》【Müller et al., 2022】。可在torch-ngp中找到相关优化实现。
 		- 大语言模型与仿真系统的深度集成：进一步集成最新的大语言模型（如GPT-4或LLaMA），使得系统可以通过更加复杂的自然语言指令生成精确的场景、行为和动作。例如，可以将OpenAI的GPT-4 API与Unity和ROS结合，生成复杂的仿真场景并自动控制机器人行为。
+	- 5. 具身性能评估算法Benchmark
+		- ![image.png](../assets/image_1731812356961_0.png)
 - ## 项目计划
 	- 1. **需求分析和设计**（第1-2个月）：确定平台的功能需求和技术架构。
 	- 2. **平台开发**（第3-6个月）：集成 ROS、Unity 和 MuJoCo，开发核心功能模块。
@@ -250,9 +256,10 @@
 	- 研究生/实习工作推荐机会
 	- 一起创造未来！
 - ## GitHub仓库
-	- [Morpheus](https://github.com/webDrag0n/Morpheus)
-	- [MorpheusROS2EndPoint](https://github.com/webDrag0n/MorpheusROS2EndPoint)
+	- [MorpheusFrontend](https://github.com/webDrag0n/MorpheusFrontend)
+	- [MorpheusBackend](https://github.com/webDrag0n/MorpheusBackend)
 - ## 实现进展
 - ### 架构图
 	- ![image.png](../assets/image_1729360878341_0.png){:height 235, :width 314} ![image.png](../assets/image_1727075194675_0.png){:height 224, :width 512}
 - [[Project Morpheus开发文档]]
+-

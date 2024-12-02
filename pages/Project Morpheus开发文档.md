@@ -36,6 +36,9 @@
 	- ⏸️ Robomaster机器人MuJoCo模型
 	- ⏸️ Unity输出语义分割图
 		- ⏸️ SAM2？或者直接仿真直出
+	- hardware-in-the-loop测试
+	- human-in-the-loop测试、数据采集、持续训练
+	- simulation-in-the-loop
 - ## 部署
 	- ### 后端
 		- [见Morpheus文档](https://github.com/webDrag0n/Morpheus?tab=readme-ov-file#how-to-build)

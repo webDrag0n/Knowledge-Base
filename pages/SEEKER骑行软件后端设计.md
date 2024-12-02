@@ -1,4 +1,5 @@
-## 后端架构设计
+- #SEEKER骑行软件 #后端
+- ## 后端架构设计
 - 1.	微服务划分：
   •	用户服务：处理用户注册、登录、授权、信息管理。
   •	路径管理服务：负责存储、检索和管理用户录制的骑行路径，支持上传路径点的坐标数据、海拔、时间戳等信息。
@@ -286,3 +287,127 @@
 - 5.	第11-12周：集成测试与优化
   •	DevOps工程师配置生产环境，完成服务部署和CI/CD设置。
   •	全员参与集成测试，优化系统性能，并解决潜在的兼容性问题。
+- 要设计这个系统并创建数据库表，我们需要确保表之间的关系正确、索引适当、以及主键和外键的约束合理。以下是对每个表的设计分析及 SQL 创建代码。
+- ## MySQL数据库设计分析
+- #### 1. Users 表
+- **主键**: `user_id` （唯一标识用户）
+- **属性**:
+	- `username`, `email` 都是用户的唯一标识符，因此我们需要为这两个字段设置唯一约束。
+	- `preferences` 是一个 JSON 数据类型字段，用来存储用户的个性化偏好。
+	- `created_at` 和 `last_login` 可以用来存储时间戳。
+- #### 2. Routes 表
+- **主键**: `route_id` （唯一标识路线）
+- **外键**: `user_id` 引用 `Users` 表的 `user_id`，表示哪个用户创建了该路线。
+- **属性**:
+	- `title`, `description`, `distance`, `duration`, `map_url` 是与路线相关的信息。
+	- `created_at` 用来存储路线创建时间。
+- #### 3. RoutePoints 表
+- **主键**: `point_id` （唯一标识每个点）
+- **外键**: `route_id` 引用 `Routes` 表的 `route_id`，每个路线由多个点组成。
+- **属性**:
+	- `latitude`, `longitude`, `altitude` 是地理坐标数据。
+	- `timestamp` 存储该点的时间戳。
+- #### 4. Ratings 表
+- **主键**: `rating_id` （唯一标识每个评分）
+- **外键**:
+	- `route_id` 引用 `Routes` 表的 `route_id`，表示这个评分是针对哪个路线的。
+	- `user_id` 引用 `Users` 表的 `user_id`，表示哪个用户给这个路线打分。
+- **属性**:
+	- `rating` 存储评分，通常是一个整数。
+	- `comment` 用来存储用户对路线的评论。
+- #### 5. Friends 表
+- **主键**: 组合主键 (`user_id`, `friend_id`) 表示用户与好友的关系。
+- **属性**: `created_at` 用来存储好友关系的创建时间。
+- **注意**: 该表实现了用户之间的双向好友关系，`user_id` 和 `friend_id` 都是外键，分别引用 `Users` 表的 `user_id`。
+- #### 6. RouteStatistics 表
+- **主键**: `stat_id` （唯一标识统计记录）
+- **外键**: `user_id` 引用 `Users` 表的 `user_id`，表示该统计信息属于哪个用户。
+- **属性**:
+	- `total_distance`, `total_duration`, `total_routes` 存储用户的统计数据。
+	- `last_active` 存储用户最后活跃的时间。
+- ---
+- ### SQL 创建数据库的代码
+  
+  ```sql
+  -- 创建数据库
+  CREATE DATABASE IF NOT EXISTS RoutesDB;
+  USE RoutesDB;
+  
+  -- 创建 Users 表
+  CREATE TABLE Users (
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(100) NOT NULL UNIQUE,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    password_hash VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    last_login TIMESTAMP NULL DEFAULT NULL,
+    preferences JSON
+  );
+  
+  -- 创建 Routes 表
+  CREATE TABLE Routes (
+    route_id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT,
+    title VARCHAR(255) NOT NULL,
+    description TEXT,
+    distance DECIMAL(10, 2) NOT NULL,
+    duration INT NOT NULL, -- 持续时间，单位秒
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    map_url VARCHAR(255),
+    FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE CASCADE
+  );
+  
+  -- 创建 RoutePoints 表
+  CREATE TABLE RoutePoints (
+    point_id INT AUTO_INCREMENT PRIMARY KEY,
+    route_id INT,
+    latitude DECIMAL(9, 6) NOT NULL,
+    longitude DECIMAL(9, 6) NOT NULL,
+    altitude DECIMAL(10, 2) NULL,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (route_id) REFERENCES Routes(route_id) ON DELETE CASCADE
+  );
+  
+  -- 创建 Ratings 表
+  CREATE TABLE Ratings (
+    rating_id INT AUTO_INCREMENT PRIMARY KEY,
+    route_id INT,
+    user_id INT,
+    rating INT CHECK (rating BETWEEN 1 AND 5),
+    comment TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (route_id) REFERENCES Routes(route_id) ON DELETE CASCADE,
+    FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE CASCADE
+  );
+  
+  -- 创建 Friends 表
+  CREATE TABLE Friends (
+    user_id INT,
+    friend_id INT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (user_id, friend_id),
+    FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE CASCADE,
+    FOREIGN KEY (friend_id) REFERENCES Users(user_id) ON DELETE CASCADE
+  );
+  
+  -- 创建 RouteStatistics 表
+  CREATE TABLE RouteStatistics (
+    stat_id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT,
+    total_distance DECIMAL(10, 2) NOT NULL,
+    total_duration INT NOT NULL, -- 持续时间，单位秒
+    total_routes INT NOT NULL,
+    last_active TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE CASCADE
+  );
+  ```
+- ### 表之间的关联
+  1. **Users ↔ Routes**: 通过 `user_id` 进行关联，一个用户可以创建多个路线。
+  2. **Routes ↔ RoutePoints**: 通过 `route_id` 进行关联，一个路线由多个点组成。
+  3. **Users ↔ Ratings**: 通过 `user_id` 进行关联，一个用户可以给多个路线评分。
+  4. **Routes ↔ Ratings**: 通过 `route_id` 进行关联，一个路线可以有多个评分。
+  5. **Users ↔ Friends**: 通过 `user_id` 和 `friend_id` 进行关联，实现了用户之间的双向好友关系。
+  6. **Users ↔ RouteStatistics**: 通过 `user_id` 进行关联，每个用户有一条统计记录。
+- ### 其他注意事项
+- 外键约束中的 `ON DELETE CASCADE` 保证了当相关数据（如用户或路线）被删除时，相关的记录也会自动删除。
+- 为了优化查询性能，可以考虑在某些表的字段上添加索引，特别是 `user_id`, `route_id` 等经常作为查询条件的字段。
