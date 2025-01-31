@@ -1,2 +1,3 @@
 - #Windows
 - [[重装Windows10系统]]
+- [[Windows KMS激活]]
