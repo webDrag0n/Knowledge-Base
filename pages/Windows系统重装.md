@@ -1,3 +1,5 @@
 - #Windows
 - [[重装Windows10系统]]
 - [[Windows KMS激活]]
+- [[Windows Office激活]]
+- [[WSL2]]

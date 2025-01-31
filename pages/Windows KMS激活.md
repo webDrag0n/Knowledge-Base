@@ -6,3 +6,5 @@
 	  slmgr -skms kms.0t.net.cn
 	  slmgr -ato
 	  ```
+- [[搭建Windows KMS服务器]]
+-
