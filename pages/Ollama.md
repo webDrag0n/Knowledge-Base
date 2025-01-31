@@ -26,13 +26,13 @@
 	  ```
 	- 请注意<model storage path>需要将该目录设为 `ollama:ollama`（用户组:用户） 所有，并将所有父目录设为所有用户可读+执行
 	  ```bash
-	  sudo chown -R <model storage path>
+	  sudo chown ollama:ollama -R <model storage path>
 	  sudo a+rx <all parent folders>
 	  ```
 	- 完成后重启ollama服务
 	  ```bash
-	  systemctl daemon-reload
-	  systemctl restart ollama
+	  sudo systemctl daemon-reload
+	  sudo systemctl restart ollama
 	  ```
 - ## 下载与运行
 	- ollama在找不到目标模型时会自动下载，因此直接运行`run`操作即可，注意模型参数量选择需要用小写`b`
