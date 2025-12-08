@@ -1,0 +1,2 @@
+- #WSL2
+- 把clash的UWP Loopback中去除windows subsystem for linux即可
