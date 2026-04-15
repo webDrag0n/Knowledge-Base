@@ -44,29 +44,35 @@
 		  docker pull <image_name>:<tag>
 		  ```
 	- ### 查看运行中的镜像
+	  collapsed:: true
 		- ```bash
 		  docker ps
 		  ```
 	- ### 传输文件
+	  collapsed:: true
 		- ```bash
 		  docker cp /source container_id:/destination
 		  # vice versa
 		  ```
 	- ### 运行命令
+	  collapsed:: true
 		- ```bash
 		  docker exec -it container_id [command]
 		  ```
 	- ### 退出Docker不关闭
+	  collapsed:: true
 		- ```bash
 		  ctrl+P+Q
 		  ```
 	- ### 进入运行中的Container
+	  collapsed:: true
 		- ```bash
 		  docker exec -it [container_id] /bin/bash
 		  # root
 		  docker exec -it --user root [container_id] /bin/bash
 		  ```
 	- ### 导入导出当前Docker环境为Image
+	  collapsed:: true
 		- ```bash
 		  docker commit [container_id] name:version
 		  docker export [container_id] -o [output_name]
@@ -99,6 +105,7 @@
 		- **[OPTIONS]**: 可选参数，例如`-o`，用于指定输出的文件名。
 		- **CONTAINER**: 指定要导出的容器的ID或名称。
 		- ### 使用场景
+		  collapsed:: true
 			- 容器的文件系统备份。
 			- 从运行中的容器创建镜像。
 		- ### 示例代码
